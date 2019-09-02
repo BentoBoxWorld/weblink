@@ -17,7 +17,7 @@
       "description": "Translated default challenges library!",
       "repository": "default_zh-CN",
       "language": "zh-CN",
-      "slot": 10,
+      "slot": 11,
       "for": "BSkyBlock",
       "author": "Hagb",
       "version": "0.7.0"
