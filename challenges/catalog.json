@@ -1,0 +1,26 @@
+{
+  "challenges": [
+    {
+      "name": "default",
+      "icon": "ENCHANTING_TABLE",
+      "description": "Default challenges library for everyone to use!",
+      "repository": "default",
+      "language": "en",
+      "slot": 10,
+      "for": "BSkyBlock",
+      "author": "BONNe1704"
+      "version": "0.7.0"
+    },
+    {
+      "name": "default zh-CN",
+      "icon": "ENCHANTING_TABLE",
+      "description": "Translated default challenges library!",
+      "repository": "default_zh-CN",
+      "language": "zh-CN",
+      "slot": 10,
+      "for": "BSkyBlock",
+      "author": "Hagb"
+      "version": "0.7.0"
+    }
+  ]
+}
