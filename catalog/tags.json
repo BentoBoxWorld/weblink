@@ -3,24 +3,28 @@
     "en-US": "Popular!",
     "fr-FR": "Populaire !",
     "fr": "Populaire !",
-    "de": "Populär !"
+    "de": "Populär !",
+    "lv": "Populārs!"
   },
   "unique": {
     "en-US": "Unique!",
     "fr-FR": "Unique !",
     "fr": "Unique !",
-    "de": "Einmalig !"
+    "de": "Einmalig !",
+    "lv": "Unikāls!"
   },
   "community_crafted": {
     "en-US": "Community crafted!",
     "fr-FR": "Créé par la communauté !",
     "fr": "Créé par la communauté !",
-    "de": "Von der Gemeinschaft gemacht !"
+    "de": "Von der Gemeinschaft gemacht !",
+    "lv": "Kopienas veidots!"
   },
   "new": {
     "en-US": "New!",
     "fr-FR": "Nouveau !",
     "fr": "Nouveau !",
-    "de": "Neu !"
+    "de": "Neu !",
+    "lv": "Jauns!"
   }
 }
