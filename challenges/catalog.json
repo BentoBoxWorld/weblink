@@ -21,6 +21,17 @@
       "for": "BSkyBlock",
       "author": "Hagb",
       "version": "0.7.0"
+    },
+    {
+      "name": "ASkyBlock",
+      "icon": "DAMAGED_ANVIL",
+      "description": "Challenges exported from ASkyBlock plugin!",
+      "repository": "askyblock-challenges",
+      "language": "en",
+      "slot": 19,
+      "for": "BSkyBlock",
+      "author": "tastybento",
+      "version": "0.8.0"
     }
   ]
 }
