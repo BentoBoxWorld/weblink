@@ -145,6 +145,24 @@
       "slot": 32,
       "topic": "gameplay",
       "tag": "new"
+    },
+        {
+      "name": "Likes",
+      "icon": "DIAMOND",
+      "description": "Let your players to add Likes And Dislikes to other player Islands!",
+      "repository": "BentoBoxWorld/Likes",
+      "slot": 33,
+      "topic": "competition",
+      "tag": "new"
+    },
+    {
+      "name": "ControlPanel",
+      "icon": "COMMAND_BLOCK",
+      "description": "Adds customizable ControlPanel GUI for users!",
+      "repository": "BentoBoxWorld/ControlPanel",
+      "slot": 34,
+      "topic": "tweak",
+      "tag": "new"
     }
   ]
 }
