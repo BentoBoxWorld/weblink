@@ -1,0 +1,2714 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "cobblecollector",
+      "friendlyName": "Обмен Булыжника",
+      "deployed": true,
+      "description": [
+        "Обмен булыжника на некоторые полезные материалы"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n",
+      "order": 1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Небольшое количество гравия всегда пригодится",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAVEL\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Небольшое количество гравия всегда пригодится",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAVEL\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seedcollector",
+      "friendlyName": "Обмен Семен",
+      "deployed": true,
+      "description": [
+        "Поменяйте семена на полезные материалы"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT_SEEDS\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT_SEEDS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Небольшое количество грязи всегда пригодится",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Небольшое количество грязи всегда пригодится",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cactuscollector",
+      "friendlyName": "Обмен Кактусов",
+      "deployed": true,
+      "description": [
+        "Обмен кактуса на некоторые полезные материалы"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Небольшое количество песка всегда пригодится",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Небольшое количество песка всегда пригодится",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treecollector",
+      "friendlyName": "Обмен Бревна",
+      "deployed": true,
+      "description": [
+        "Вырубайте деревья и собирайте бревна"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяйте бревно на глину",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обмен бревна на глиняные шарики",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cobblegenerator",
+      "friendlyName": "Генератор Булыжника",
+      "deployed": true,
+      "description": [
+        "Все начинается с простого генератора булыжника."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "COBBLESTONE": 1,
+            "LAVA": 1,
+            "WATER": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 5,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Эти инструменты помогут вам с добычой ресурсов.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cactusfarm",
+      "friendlyName": "Кактусовая Ферма",
+      "deployed": true,
+      "description": [
+        "Создать простую ферму кактусов"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CACTUS": 10
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительный песок всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "melonfarm",
+      "friendlyName": "Ферма Дыни",
+      "deployed": true,
+      "description": [
+        "Создайте простую ферму по выращиванию дыни"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "MELON_STEM": 8
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mushroomfarm",
+      "friendlyName": "Грибная Ферма",
+      "deployed": true,
+      "description": [
+        "Создать простую грибную ферму"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_MUSHROOM\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "RED_MUSHROOM": 5,
+            "BROWN_MUSHROOM": 5
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Этот мицелий поможет вам быстрее собирать грибы.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MYCELIUM\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pumpkinfarm",
+      "friendlyName": "Тыквенная Ферма",
+      "deployed": true,
+      "description": [
+        "Создайте простую тыквенную ферму"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "PUMPKIN_STEM": 8
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sugarcanefarm",
+      "friendlyName": "Ферма Сахарный Тростника",
+      "deployed": true,
+      "description": [
+        "Создать простую ферму по производству сахарного тростника"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SUGAR_CANE\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "SUGAR_CANE": 32
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Этот песок поможет вам увеличить размер вашей фермы.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treefarm",
+      "friendlyName": "Ферма Деревьев",
+      "deployed": true,
+      "description": [
+        "Создать простую ферму деревьев"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_SAPLING\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "OAK_SAPLING": 10
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "applecollector",
+      "friendlyName": "Сборщик Яблок",
+      "deployed": true,
+      "description": [
+        "Найти и собрать яблоки с деревьев"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: APPLE\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: APPLE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Эти саженцы помогут вам получить больше деревьев",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ACACIA_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DARK_OAK_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Эти саженцы помогут вам получить больше деревьев",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ACACIA_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DARK_OAK_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "melonmaker",
+      "friendlyName": "Коллекционер Дыни",
+      "deployed": true,
+      "description": [
+        "Вырасти, собери и сделай несколько дынь"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратила собранные дыни в глиняные блоки",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратила собранные дыни в несколько глиняных шариков",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "papermaker",
+      "friendlyName": "Производство Бумаги",
+      "deployed": true,
+      "description": [
+        "Собирайте сахарные тростники и делайте немного бумаги"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратит созданную бумагу в красный песок",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_SAND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратит созданную бумагу в красный песок",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_SAND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pumpkinmaker",
+      "friendlyName": "Коллекционер Тыкв",
+      "deployed": true,
+      "description": [
+        "Вырасти и собери несколько тыкв"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратила собранные тыквы в несколько глиняных блоков",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратила собранные тыквы в глиняные шарики",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "chiseledmaker",
+      "friendlyName": "Крафт Резных Кирпичей",
+      "deployed": true,
+      "description": [
+        "Выплавь немного камня и изготовь резные каменные кирпичи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHISELED_STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHISELED_STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратила эти кирпичи в андезит",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ANDESITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратила эти кирпичи в андезит",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ANDESITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "crackedmaker",
+      "friendlyName": "Потрескавшиеся Каменные Кирпичи",
+      "deployed": true,
+      "description": [
+        "Расплавьте некоторые кирпичи, чтобы получить сломанные каменные кирпичи."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CRACKED_STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CRACKED_STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратила эти кирпичи в диорит.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIORITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратила эти кирпичи в диорит.",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIORITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "stonesmelter",
+      "friendlyName": "Производитель Каменного Кирпича",
+      "deployed": true,
+      "description": [
+        "Выплавь немного камня и сделай несколько каменных кирпичей"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Магия превратила эти кирпичи в гранит",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRANITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Магия превратила эти кирпичи в гранит",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRANITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beetrootfarm",
+      "friendlyName": "Свекольная Ферма",
+      "deployed": true,
+      "description": [
+        "Создать простую свекольную ферму"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEETROOT\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEETROOTS": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "carrotfarm",
+      "friendlyName": "Морковная Ферма",
+      "deployed": true,
+      "description": [
+        "Создать простую морковную ферму"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CARROT\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CARROTS": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "potatofarm",
+      "friendlyName": "Картофельная Ферма",
+      "deployed": true,
+      "description": [
+        "Создать простую картофельную ферму"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTATO\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "POTATOES": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Дополнительная грязь всегда будет под рукой",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "animalfarm",
+      "friendlyName": "Ферма Животных",
+      "deployed": true,
+      "description": [
+        "Создайте поле травы и дождитесь появления животных."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRASS_BLOCK\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GRASS_BLOCK": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {
+            "CHICKEN": 2,
+            "SHEEP": 2,
+            "PIG": 2,
+            "COW": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Железо, чтобы сделать несколько инструментов и пару кошек.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mobfarm",
+      "friendlyName": "Ферма Мобов",
+      "deployed": true,
+      "description": [
+        "Создайте темное место и породите несколько враждебных мобов."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SKELETON": 1,
+            "ZOMBIE": 1,
+            "SPIDER": 1,
+            "CREEPER": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Железо для изготовления предметов и некоторых собак.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WOLF_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "visitnether",
+      "friendlyName": "Посетите Ад",
+      "deployed": true,
+      "description": [
+        "Ад - ужасное место, но в нем есть несколько полезных материалов.."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHERRACK\n",
+      "order": 3,
+      "challengeType": "ISLAND",
+      "environment": [
+        "NETHER"
+      ],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHERRACK": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Некоторое железо и ляпис за ваши усилия.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LAPIS_BLOCK\n  amount: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "angler",
+      "friendlyName": "Морской Черт",
+      "deployed": true,
+      "description": [
+        "Поймай лосося"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SALMON\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SALMON\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Некоторые кристаллы призмарина и водоросли",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_CRYSTALS\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: KELP\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Некоторые призмариновые кристаллы",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "fisherman",
+      "friendlyName": "Рыболов",
+      "deployed": true,
+      "description": [
+        "Поймай трески"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COD\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COD\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Некоторые призмариновые осколки и морские соленья",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_SHARD\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SEA_PICKLE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Некоторые осколки",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_SHARD\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grinder",
+      "friendlyName": "Дробилк",
+      "deployed": true,
+      "description": [
+        "Используйте свой мобфарм, чтобы собирать дропы"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ROTTEN_FLESH\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STRING\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ARROW\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GUNPOWDER\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPIDER_EYE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обмен дропа даст некоторые полезные материалы.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: FLINT\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Некоторые призмариновые кристаллы",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "competent",
+      "friendlyName": "Компетентный Остров",
+      "deployed": true,
+      "description": [
+        "Достичь 20-го уровня острова."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_CONCRETE\n",
+      "order": 5,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Теперь вы можете создать нижний портал",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSIDIAN\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "irongolemfarm",
+      "friendlyName": "Ферма Железа",
+      "deployed": true,
+      "description": [
+        "Используйте своих жителей, чтобы порождать свободных железных големов."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 5
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Несколько удобных книг по починке и редстоун руды",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 2\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "slimefarm",
+      "friendlyName": "Ферма Слизи",
+      "deployed": true,
+      "description": [
+        "Создайте ферму слизи, чтобы получить блоки слизи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SLIME": 5
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите немного кварцевой руды и дополнительную починку",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_QUARTZ_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "snowgolemfarm",
+      "friendlyName": "Ферма Снега",
+      "deployed": true,
+      "description": [
+        "Породите снеговика и создайте ферму снега"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SNOW_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "SNOW": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SNOWMAN": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Некоторые починки книг и ляпис-руды",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 2\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LAPIS_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "villagerbreeder",
+      "friendlyName": "Ферма Жителей",
+      "deployed": true,
+      "description": [
+        "Начните создавать сельскую армию."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 10
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Утюг для изготовления инструментов и некоторых кошек.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "eggcollector",
+      "friendlyName": "Сборщик Яиц",
+      "deployed": true,
+      "description": [
+        "Создайте птицеферму и соберите яйца."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EGG\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EGG\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обмен яиц на железо",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 24\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обмен яиц на железо",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "flowercollector",
+      "friendlyName": "Сборщик Цветов",
+      "deployed": true,
+      "description": [
+        "Собери все маленькие цветы."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DANDELION\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DANDELION\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POPPY\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_ORCHID\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ALLIUM\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: AZURE_BLUET\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OXEYE_DAISY\n  amount: 8\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Большие цветы всегда лучше.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COCOA_BEANS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ROSE_BUSH\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PEONY\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LARGE_FERN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LILAC\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SUNFLOWER\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "milkcollector",
+      "friendlyName": "Доить Коров",
+      "deployed": true,
+      "description": [
+        "Создайте несколько ведер и доите своих коров"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n  amount: 9\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обмен молока на грибы",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BUCKET\n  amount: 9\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MOOSHROOM_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обмен молока на немного железа",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BUCKET\n  amount: 9\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_INGOT\n  amount: 5\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "woolcollector",
+      "friendlyName": "Коллекционер Шерсти",
+      "deployed": true,
+      "description": [
+        "Собери все цвета шерсти."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_WOOL\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_WOOL\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите несколько удобных вещей для вашей шерсти",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "slimeballcollector",
+      "friendlyName": "Коллекционер Слизи",
+      "deployed": true,
+      "description": [
+        "Убивать слизьней и собирать их шарики слизи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Немного редстоуна всегда будует полезно!",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 27\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Немного редстоуна всегда будует полезно!",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 9\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ironage",
+      "friendlyName": "Железный Век",
+      "deployed": true,
+      "description": [
+        "Скрафтить железные инструменты и доспехи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_INGOT\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_AXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_HELMET\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяйте железные вещи на алмазы",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяй железо на алмаз",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trader",
+      "friendlyName": "Трейдер",
+      "deployed": true,
+      "description": [
+        "Используйте своих жителей, чтобы получить драгоценные камни"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяй свои изумруды на несколько алмазов",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяй свои изумруды на несколько алмазов",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "expert",
+      "friendlyName": "Остров Эксперт",
+      "deployed": true,
+      "description": [
+        "Достичь 100-го уровня острова."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_CONCRETE\n",
+      "order": 6,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 100,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получить дополнительные алмазы",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "alchemist",
+      "friendlyName": "Алхимик",
+      "deployed": true,
+      "description": [
+        "Brew some potions"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREWING_STAND\n",
+      "order": 1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:fire_resistance\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:leaping\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:night_vision\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slow_falling\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strength\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:regeneration\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:poison\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:weakness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slowness\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Там никогда не бывает слишком много алмазов",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dj",
+      "friendlyName": "DJ",
+      "deployed": true,
+      "description": [
+        "Создай музыкальный блок и собери все музыкальные диски"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CHIRP\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUKEBOX\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_11\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_13\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CHIRP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_FAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MALL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MELLOHI\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STRAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WAIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WARD\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Несколько алмазов и изумрудов для ваших дисков",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Несколько алмазов и изумрудов для ваших дисков",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "icefarmer",
+      "friendlyName": "Ледяной Фермер",
+      "deployed": true,
+      "description": [
+        "Собери немного льда"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера|",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Получить дополнительные алмазы|",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "goldage",
+      "friendlyName": "Золотой Век",
+      "deployed": true,
+      "description": [
+        "Скрафтить золотые инструменты и доспехи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_HELMET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_AXE\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяй свои золотые вещи на алмазы",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяй свои золотые вещи на алмаз",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "witherkiller",
+      "friendlyName": "Убийца Визера",
+      "deployed": true,
+      "description": [
+        "Убей Визера и покажи свое достоинство"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_STAR\n",
+      "order": 5,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_STAR\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BLOCK\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "chef",
+      "friendlyName": "Шеф",
+      "deployed": true,
+      "description": [
+        "Покажите свою способность готовить все виды пищи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+      "order": 6,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RABBIT_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEETROOT_SOUP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_BEEF\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_MUTTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_PORKCHOP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_CHICKEN\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_RABBIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_CARROT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_COD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_SALMON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BAKED_POTATO\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Немного алмазной руды для еды|",
+      "maxTimes": 100,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "zoomaker",
+      "friendlyName": "Зоопарк",
+      "deployed": true,
+      "description": [
+        "Создать зоопарк мирных мобоы"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS_PANE\n",
+      "order": 7,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "BAT": 1,
+            "LLAMA": 1,
+            "SHEEP": 1,
+            "HORSE": 1,
+            "PIG": 1,
+            "DONKEY": 1,
+            "IRON_GOLEM": 1,
+            "COW": 1,
+            "WOLF": 1,
+            "PARROT": 1,
+            "MUSHROOM_COW": 1,
+            "RABBIT": 1,
+            "POLAR_BEAR": 1,
+            "CHICKEN": 1,
+            "SNOWMAN": 1,
+            "MULE": 1,
+            "OCELOT": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "advanced",
+      "friendlyName": "Продвинутый Остров",
+      "deployed": true,
+      "description": [
+        "Добраться до 500 уровня острова."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_CONCRETE\n",
+      "order": 10,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 500,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "visitend",
+      "friendlyName": "Посетить Енд",
+      "deployed": true,
+      "description": [
+        "Есть ли что-то даже после окончания?"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: END_STONE\n",
+      "order": 3,
+      "challengeType": "ISLAND",
+      "environment": [
+        "THE_END"
+      ],
+      "removeWhenCompleted": true,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHERRACK": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Несколько алмазов и элитры за ваши усилия.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ELYTRA\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "diamondage",
+      "friendlyName": "Алмазный Век",
+      "deployed": true,
+      "description": [
+        "Скрафтить алмазные инструменты и доспехи"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_AXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HELMET\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяйте свои алмазные вещи на несколько шалкеров",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяйте свои алмазные вещи на панцирь шалкера",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "glassmaker",
+      "friendlyName": "Производитель Стекла",
+      "deployed": true,
+      "description": [
+        "Изготовить и собрать все цвета стекла"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_STAINED_GLASS\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяйте стекло на шалкер",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяйте стекло на панцирь шалкера",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "terracottamaker",
+      "friendlyName": "Терракотовый Производитель",
+      "deployed": true,
+      "description": [
+        "Влейте немного глины в терракоту"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TERRACOTTA\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_TERRACOTTA\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Обменяйте свою терракоту на шалкер",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Обменяйте свою терракоту на панцирь шалкера",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beaconator",
+      "friendlyName": "Маяковський",
+      "deployed": true,
+      "description": [
+        "Создать маяк на железной основе"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEACON\n",
+      "order": 6,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEACON": 1,
+            "IRON_BLOCK": 164
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "enderkiller",
+      "friendlyName": "Враждебный Зоопарк",
+      "deployed": true,
+      "description": [
+        "Создать враждебный зоопарк"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BARS\n",
+      "order": 6,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SLIME": 1,
+            "SKELETON": 1,
+            "CREEPER": 1,
+            "SPIDER": 1,
+            "DROWNED": 1,
+            "PIG_ZOMBIE": 1,
+            "PHANTOM": 1,
+            "HUSK": 1,
+            "ENDERMAN": 1,
+            "ENDERMITE": 1,
+            "WITHER_SKELETON": 1,
+            "BLAZE": 1,
+            "WITCH": 1,
+            "ZOMBIE": 1,
+            "MAGMA_CUBE": 1,
+            "GHAST": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "engineer",
+      "friendlyName": "Инженер",
+      "deployed": true,
+      "description": [
+        "Создайте несколько машин из красного камня"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSERVER\n",
+      "order": 6,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COMPARATOR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REPEATER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSERVER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE_LAMP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: HOPPER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DROPPER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PISTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STICKY_PISTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DISPENSER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DAYLIGHT_DETECTOR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TRIPWIRE_HOOK\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 100,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "waterzoo",
+      "friendlyName": "Водный Зоопарк",
+      "deployed": true,
+      "description": [
+        "Создать зоопарк водных животных"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_STAINED_GLASS_PANE\n",
+      "order": 7,
+      "challengeType": "ISLAND",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "PUFFERFISH": 2,
+            "TURTLE": 2,
+            "SQUID": 2,
+            "TROPICAL_FISH": 10,
+            "DOLPHIN": 2,
+            "SALMON": 2,
+            "COD": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "elite",
+      "friendlyName": "Элитный Остров",
+      "deployed": true,
+      "description": [
+        "Доберись до 10 000 уровня острова."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_CONCRETE\n",
+      "order": 10,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10000,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Получите дополнительные алмазы и панцирь шалкера",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "novice",
+      "friendlyName": "Новачок",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 1,
+      "waiverAmount": 3,
+      "unlockMessage": "",
+      "rewardText": "Небольшая награда за выполнение всех задач новичка.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRASS_BLOCK\n"
+      ],
+      "rewardExperience": 1395,
+      "rewardMoney": 100,
+      "rewardCommands": [
+        "effect give [player] speed 600",
+        "lp user [player] parent add trade"
+      ],
+      "challenges": [
+        "sugarcanefarm",
+        "cactusfarm",
+        "papermaker",
+        "stonesmelter",
+        "mushroomfarm",
+        "melonfarm",
+        "melonmaker",
+        "chiseledmaker",
+        "crackedmaker",
+        "treefarm",
+        "cobblegenerator",
+        "pumpkinfarm",
+        "applecollector",
+        "pumpkinmaker"
+      ]
+    },
+    {
+      "uniqueId": "competent",
+      "friendlyName": "Компетентный",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 2,
+      "waiverAmount": 2,
+      "unlockMessage": "Поздравляем - вы разблокировали уровень &dКомпетентный!",
+      "rewardText": "Маленькая награда за выполнение всех компетентных задач.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 1395,
+      "rewardMoney": 500,
+      "rewardCommands": [
+        "effect give [player] strength 600",
+        "lp user [player] parent add competent"
+      ],
+      "challenges": [
+        "visitnether",
+        "mobfarm",
+        "carrotfarm",
+        "animalfarm",
+        "grinder",
+        "beetrootfarm",
+        "competent",
+        "angler",
+        "potatofarm",
+        "fisherman"
+      ]
+    },
+    {
+      "uniqueId": "expert",
+      "friendlyName": "Эксперт",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "Поздравляю - вы разблокировали уровень &dЭксперт!",
+      "rewardText": "Небольшая награда за выполнение всех задач эксперта.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 2920,
+      "rewardMoney": 1000,
+      "rewardCommands": [
+        "effect give [player] resistance 600",
+        "lp user [player] parent add expert"
+      ],
+      "challenges": [
+        "slimeballcollector",
+        "flowercollector",
+        "ironage",
+        "eggcollector",
+        "expert",
+        "slimefarm",
+        "trader",
+        "milkcollector",
+        "villagerbreeder",
+        "irongolemfarm",
+        "snowgolemfarm",
+        "woolcollector"
+      ]
+    },
+    {
+      "uniqueId": "advanced",
+      "friendlyName": "Продвинутый",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 4,
+      "waiverAmount": 0,
+      "unlockMessage": "Поздравляю - вы разблокировали уровень &dПродвинутый!",
+      "rewardText": "Небольшая награда за выполнение всех сложных заданий.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HELMET\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_CHESTPLATE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BOOTS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_FALL: 4\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n"
+      ],
+      "rewardExperience": 5345,
+      "rewardMoney": 5000,
+      "rewardCommands": [
+        "effect give [player] regeneration 600",
+        "lp user [player] parent add advanced"
+      ],
+      "challenges": [
+        "zoomaker",
+        "waterzoo",
+        "alchemist",
+        "goldage",
+        "advanced",
+        "dj",
+        "chef",
+        "icefarmer",
+        "witherkiller"
+      ]
+    },
+    {
+      "uniqueId": "elite",
+      "friendlyName": "Элита",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 5,
+      "waiverAmount": 0,
+      "unlockMessage": "Поздравляю - вы разблокировали уровень &dЭлита!",
+      "rewardText": "Небольшая награда за выполнение всех элитных задач.",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SWORD\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DAMAGE_ALL: 5\n      LOOT_BONUS_MOBS: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOW\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      ARROW_DAMAGE: 5\n      ARROW_INFINITE: 1\n      ARROW_FIRE: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ELYTRA\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TRIDENT\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 8670,
+      "rewardMoney": 0,
+      "rewardCommands": [
+        "effect give [player] luck 600",
+        "lp user [player] parent add elitebsb"
+      ],
+      "challenges": [
+        "enderkiller",
+        "elite",
+        "visitend",
+        "terracottamaker",
+        "beaconator",
+        "diamondage",
+        "glassmaker",
+        "engineer"
+      ]
+    }
+  ],
+  "version": "0.8.0"
+}
