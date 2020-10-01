@@ -1,0 +1,2711 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "cobblecollector",
+      "friendlyName": "圆石交换机",
+      "deployed": true,
+      "description": [
+        "使用圆石来交换一些物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n",
+      "order": 1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用圆石来兑换少量的沙砾",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAVEL\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用圆石来兑换少量的沙砾",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAVEL\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seedcollector",
+      "friendlyName": "种子交换机",
+      "deployed": true,
+      "description": [
+        "使用种子来交换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT_SEEDS\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHEAT_SEEDS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用种子来兑换少量的泥土",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用种子来兑换少量的泥土",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cactuscollector",
+      "friendlyName": "仙人掌交换机",
+      "deployed": true,
+      "description": [
+        "使用仙人掌来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用仙人掌来兑换少量的沙子",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用仙人掌来兑换少量的沙子",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treecollector",
+      "friendlyName": "橡木交换机",
+      "deployed": true,
+      "description": [
+        "使用橡木来交换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_LOG\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用橡木来交换少量的粘土快",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用橡木来交换少量的粘土快",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cobblegenerator",
+      "friendlyName": "圆石生成器",
+      "deployed": true,
+      "description": [
+        "建造一个圆石制作机"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COBBLESTONE\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "COBBLESTONE": 1,
+            "LAVA": 1,
+            "WATER": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 5,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个圆石制作机来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cactusfarm",
+      "friendlyName": "仙人掌农场",
+      "deployed": true,
+      "description": [
+        "建造一个仙人掌农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CACTUS\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CACTUS": 10
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些仙人掌来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "melonfarm",
+      "friendlyName": "西瓜农场",
+      "deployed": true,
+      "description": [
+        "建造一个西瓜农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "MELON_STEM": 8
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些西瓜来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mushroomfarm",
+      "friendlyName": "蘑菇农场",
+      "deployed": true,
+      "description": [
+        "建造一个蘑菇农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_MUSHROOM\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "RED_MUSHROOM": 5,
+            "BROWN_MUSHROOM": 5
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些蘑菇来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MYCELIUM\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pumpkinfarm",
+      "friendlyName": "南瓜农场",
+      "deployed": true,
+      "description": [
+        "建造一个南瓜农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "PUMPKIN_STEM": 8
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些南瓜来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sugarcanefarm",
+      "friendlyName": "甘蔗农场",
+      "deployed": true,
+      "description": [
+        "建造一个甘蔗农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SUGAR_CANE\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "SUGAR_CANE": 32
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些甘蔗来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SAND\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treefarm",
+      "friendlyName": "橡树农场",
+      "deployed": true,
+      "description": [
+        "建造一个橡树农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OAK_SAPLING\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "novice",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "OAK_SAPLING": 10
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些橡树来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "applecollector",
+      "friendlyName": "苹果交换机",
+      "deployed": true,
+      "description": [
+        "使用苹果来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: APPLE\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: APPLE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用少量的苹果来兑换物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ACACIA_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DARK_OAK_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "这些树苗能够让你更快的建造你的岛屿",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPRUCE_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ACACIA_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BIRCH_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DARK_OAK_SAPLING\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUNGLE_SAPLING\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "melonmaker",
+      "friendlyName": "西瓜收集者",
+      "deployed": true,
+      "description": [
+        "来收集一些西瓜获取来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MELON\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些西瓜来兑换黏土块",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些西瓜来兑换黏土块",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "papermaker",
+      "friendlyName": "造纸术",
+      "deployed": true,
+      "description": [
+        "学会如何制作纸张"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PAPER\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些纸张来兑换红沙",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_SAND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些纸张来兑换红沙",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_SAND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pumpkinmaker",
+      "friendlyName": "南瓜收集者",
+      "deployed": true,
+      "description": [
+        "收集一些南瓜来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些南瓜来兑换黏土",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些南瓜来兑换黏土",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CLAY_BALL\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "chiseledmaker",
+      "friendlyName": "錾石工匠",
+      "deployed": true,
+      "description": [
+        "制作一些錾石来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHISELED_STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CHISELED_STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些錾石兑换为安山岩",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ANDESITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些錾石兑换为安山岩",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ANDESITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "crackedmaker",
+      "friendlyName": "破裂的石砖",
+      "deployed": true,
+      "description": [
+        "使用裂石砖来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CRACKED_STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CRACKED_STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些裂石砖兑换闪长岩",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIORITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些裂石砖兑换闪长岩",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIORITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "stonesmelter",
+      "friendlyName": "石砖工匠",
+      "deployed": true,
+      "description": [
+        "使用石砖来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_BRICKS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "novice",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE_BRICKS\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一些石砖来兑换花岗岩",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRANITE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一些石砖来兑换花岗岩",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRANITE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beetrootfarm",
+      "friendlyName": "甜菜农场",
+      "deployed": true,
+      "description": [
+        "建造一个甜菜农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEETROOT\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEETROOTS": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个甜菜农场来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "carrotfarm",
+      "friendlyName": "萝卜农场",
+      "deployed": true,
+      "description": [
+        "建造一个萝卜农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CARROT\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CARROTS": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些萝卜来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "potatofarm",
+      "friendlyName": "马铃薯农场",
+      "deployed": true,
+      "description": [
+        "建造一个马铃薯农场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTATO\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "POTATOES": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "种植一些马铃薯来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "animalfarm",
+      "friendlyName": "牧场",
+      "deployed": true,
+      "description": [
+        "建造一个牧场来养殖动物"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRASS_BLOCK\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GRASS_BLOCK": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {
+            "CHICKEN": 2,
+            "SHEEP": 2,
+            "PIG": 2,
+            "COW": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "养殖一些动物来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mobfarm",
+      "friendlyName": "刷怪场",
+      "deployed": true,
+      "description": [
+        "建造一个刷怪的地方."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STONE\n",
+      "order": 2,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SKELETON": 1,
+            "ZOMBIE": 1,
+            "SPIDER": 1,
+            "CREEPER": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个刷怪的地方来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WOLF_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "visitnether",
+      "friendlyName": "挑战 地狱",
+      "deployed": true,
+      "description": [
+        "建造一个通往地狱的门口"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHERRACK\n",
+      "order": 3,
+      "challengeType": "ISLAND",
+      "environment": [
+        "NETHER"
+      ],
+      "removeWhenCompleted": true,
+      "level": "competent",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHERRACK": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个地狱门前往地狱来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LAPIS_BLOCK\n  amount: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "angler",
+      "friendlyName": "生蛙鱼",
+      "deployed": true,
+      "description": [
+        "使用生蛙鱼来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SALMON\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SALMON\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用钓上来的鱼来兑换一些海晶碎片",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_CRYSTALS\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: KELP\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Some prismarine crystals",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "fisherman",
+      "friendlyName": "生鳕鱼",
+      "deployed": true,
+      "description": [
+        "使用生鳕鱼来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COD\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COD\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用钓上来的鱼来兑换一些海泡菜和海晶碎片",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_SHARD\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SEA_PICKLE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Some prismarine shards",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PRISMARINE_SHARD\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grinder",
+      "friendlyName": "怪物猎人",
+      "deployed": true,
+      "description": [
+        "猎杀怪物来收集材料兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ROTTEN_FLESH\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STRING\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ARROW\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BONE\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GUNPOWDER\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SPIDER_EYE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用猎杀怪物得到的材料兑换一些红石和燧石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: FLINT\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用材料来兑换一些红石",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "competent",
+      "friendlyName": "空岛等级奖励",
+      "deployed": true,
+      "description": [
+        "空岛等级达到Lv.20"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_CONCRETE\n",
+      "order": 5,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "competent",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "这下你可以建造一个通往地狱的大门了",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSIDIAN\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "irongolemfarm",
+      "friendlyName": "铁矿场",
+      "deployed": true,
+      "description": [
+        "建造一个铁傀儡"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 5
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个铁傀儡来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 1\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 1\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "slimefarm",
+      "friendlyName": "史莱姆",
+      "deployed": true,
+      "description": [
+        "建造一个史莱姆刷怪场"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SLIME": 5
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个史莱姆刷怪场来获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_QUARTZ_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "snowgolemfarm",
+      "friendlyName": "刷雪场",
+      "deployed": true,
+      "description": [
+        "建造一个雪人来为你刷雪"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SNOW_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "SNOW": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SNOWMAN": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个雪人来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 1\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ENCHANTED_BOOK\n  amount: 1\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LAPIS_ORE\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "villagerbreeder",
+      "friendlyName": "村庄",
+      "deployed": true,
+      "description": [
+        "建造一个村庄让村民入驻"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD_BLOCK\n",
+      "order": 1,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "expert",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 10
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个村庄让村民入驻来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "eggcollector",
+      "friendlyName": "鸡蛋收集者",
+      "deployed": true,
+      "description": [
+        "收集一些鸡蛋来兑换物品"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EGG\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EGG\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用鸡蛋来兑换一些铁矿石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n  amount: 24\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用鸡蛋来兑换一些铁矿石",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "flowercollector",
+      "friendlyName": "护花使者",
+      "deployed": true,
+      "description": [
+        "收集一些花来兑换奖励"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DANDELION\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DANDELION\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POPPY\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_ORCHID\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ALLIUM\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: AZURE_BLUET\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_TULIP\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OXEYE_DAISY\n  amount: 8\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用花来兑换一些物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COCOA_BEANS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ROSE_BUSH\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PEONY\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LARGE_FERN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LILAC\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SUNFLOWER\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "milkcollector",
+      "friendlyName": "挤牛奶",
+      "deployed": true,
+      "description": [
+        "去找几头牛来获得一些牛奶"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n  amount: 9\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用牛奶兑换为一些蘑菇牛",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BUCKET\n  amount: 9\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MOOSHROOM_SPAWN_EGG\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用牛奶兑换为一些铁",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BUCKET\n  amount: 9\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_INGOT\n  amount: 5\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "woolcollector",
+      "friendlyName": "羊毛收集者",
+      "deployed": true,
+      "description": [
+        "收集各种羊毛来兑换奖励."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_WOOL\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_WOOL\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_WOOL\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "收集一些羊毛来兑换奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 1,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "slimeballcollector",
+      "friendlyName": "粘液球收集者",
+      "deployed": true,
+      "description": [
+        "击杀史莱姆来收集粘液球"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SLIME_BALL\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用粘液球来兑换一些红石!",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 27\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用粘液球来兑换一些红石!",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE\n  amount: 9\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ironage",
+      "friendlyName": "铁器时代",
+      "deployed": true,
+      "description": [
+        "制造一批铁质工具"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_INGOT\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_AXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_HELMET\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用铁质工具来兑换一些钻石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用铁质工具来兑换一些钻石",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trader",
+      "friendlyName": "绿宝石收集者",
+      "deployed": true,
+      "description": [
+        "找到你的村民，来获得绿宝石"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用绿宝石来兑换一些钻石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用绿宝石来兑换一些钻石",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "expert",
+      "friendlyName": "空岛等级奖励",
+      "deployed": true,
+      "description": [
+        "空岛等级达到Lv.100"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_CONCRETE\n",
+      "order": 6,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "expert",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 100,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Get some extra diamonds",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 10\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "alchemist",
+      "friendlyName": "药神",
+      "deployed": true,
+      "description": [
+        "制作一些药水"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREWING_STAND\n",
+      "order": 1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:fire_resistance\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:leaping\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:night_vision\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slow_falling\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strength\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:regeneration\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:poison\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:weakness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slowness\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用药水来兑换一些钻石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 4\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dj",
+      "friendlyName": "DJ",
+      "deployed": true,
+      "description": [
+        "制作一个唱片机并去搜集所有唱片"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CHIRP\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: JUKEBOX\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_11\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_13\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_BLOCKS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CAT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_CHIRP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_FAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MALL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_MELLOHI\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STAL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_STRAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WAIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSIC_DISC_WARD\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用收集到的物品来兑换奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用收集到的物品来兑换奖励",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: EMERALD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "icefarmer",
+      "friendlyName": "冰块收集者",
+      "deployed": true,
+      "description": [
+        "去搜集一些冰块"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n",
+      "order": 3,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ICE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用冰块来兑换一些奖励|",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用冰块来兑换一些奖励|",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "goldage",
+      "friendlyName": "金器时代",
+      "deployed": true,
+      "description": [
+        "制作一批金的工具"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLD_INGOT\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_HELMET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_AXE\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用金的工具来兑换一些奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用金的工具来兑换一些奖励",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "witherkiller",
+      "friendlyName": "凋零杀手",
+      "deployed": true,
+      "description": [
+        "击杀凋零，成为岛中王者"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_STAR\n",
+      "order": 5,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: NETHER_STAR\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用下界之星来兑换一些物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BLOCK\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "chef",
+      "friendlyName": "厨师",
+      "deployed": true,
+      "description": [
+        "烹饪各种食物"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+      "order": 6,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PUMPKIN_PIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CAKE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RABBIT_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEETROOT_SOUP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_BEEF\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_MUTTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_PORKCHOP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_CHICKEN\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_RABBIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GOLDEN_CARROT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_COD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKED_SALMON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BREAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BAKED_POTATO\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用各种食物来兑换物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用各种食物来兑换物品|",
+      "maxTimes": 100,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "zoomaker",
+      "friendlyName": "动物园",
+      "deployed": true,
+      "description": [
+        "建造一座动物园"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS_PANE\n",
+      "order": 7,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "BAT": 1,
+            "LLAMA": 1,
+            "SHEEP": 1,
+            "HORSE": 1,
+            "PIG": 1,
+            "DONKEY": 1,
+            "IRON_GOLEM": 1,
+            "COW": 1,
+            "WOLF": 1,
+            "PARROT": 1,
+            "MUSHROOM_COW": 1,
+            "RABBIT": 1,
+            "POLAR_BEAR": 1,
+            "CHICKEN": 1,
+            "SNOWMAN": 1,
+            "MULE": 1,
+            "OCELOT": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一座动物园来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "advanced",
+      "friendlyName": "空岛等级奖励",
+      "deployed": true,
+      "description": [
+        "空岛等级达到Lv.500"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_CONCRETE\n",
+      "order": 10,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 500,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "空岛到达500级",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "visitend",
+      "friendlyName": "前往末地",
+      "deployed": true,
+      "description": [
+        "前往末地尽情探索！"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: END_STONE\n",
+      "order": 3,
+      "challengeType": "ISLAND",
+      "environment": [
+        "THE_END"
+      ],
+      "removeWhenCompleted": true,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHERRACK": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "完成指定条件领取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ELYTRA\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "diamondage",
+      "friendlyName": "钻石时代",
+      "deployed": true,
+      "description": [
+        "制作一套钻石工具"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_AXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HOE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SHOVEL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BOOTS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HELMET\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用一套钻石工具来兑换奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 3\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用一套钻石工具来兑换奖励",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "glassmaker",
+      "friendlyName": "玻璃生产商",
+      "deployed": true,
+      "description": [
+        "制造所有颜色的玻璃"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GLASS\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_STAINED_GLASS\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_STAINED_GLASS\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用各色玻璃兑换奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用各色玻璃兑换奖励",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "terracottamaker",
+      "friendlyName": "陶瓷工艺",
+      "deployed": true,
+      "description": [
+        "烧制各种陶瓷"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TERRACOTTA\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_BLUE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIME_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRAY_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: LIGHT_GRAY_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: CYAN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BROWN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_TERRACOTTA\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLACK_TERRACOTTA\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用各种陶瓷来兑换奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "使用各种陶瓷来兑换奖励",
+      "maxTimes": 100,
+      "repeatExperienceReward": 5,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_SHELL\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beaconator",
+      "friendlyName": "信标",
+      "deployed": true,
+      "description": [
+        "建造一个信标"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BEACON\n",
+      "order": 6,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEACON": 1,
+            "IRON_BLOCK": 164
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个功能全开的信标来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "enderkiller",
+      "friendlyName": "怪物乐园",
+      "deployed": true,
+      "description": [
+        "注意！危险！"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: IRON_BARS\n",
+      "order": 6,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SLIME": 1,
+            "SKELETON": 1,
+            "CREEPER": 1,
+            "SPIDER": 1,
+            "DROWNED": 1,
+            "PIG_ZOMBIE": 1,
+            "PHANTOM": 1,
+            "HUSK": 1,
+            "ENDERMAN": 1,
+            "ENDERMITE": 1,
+            "WITHER_SKELETON": 1,
+            "BLAZE": 1,
+            "WITCH": 1,
+            "ZOMBIE": 1,
+            "MAGMA_CUBE": 1,
+            "GHAST": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个怪物乐园来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "engineer",
+      "friendlyName": "红石工程师",
+      "deployed": true,
+      "description": [
+        "制作一些红石机器"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSERVER\n",
+      "order": 6,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COMPARATOR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REPEATER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OBSERVER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: REDSTONE_LAMP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: HOPPER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DROPPER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PISTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: STICKY_PISTON\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DISPENSER\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DAYLIGHT_DETECTOR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TRIPWIRE_HOOK\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "使用红石机器来兑换物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "",
+      "maxTimes": 100,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "waterzoo",
+      "friendlyName": "水上乐园",
+      "deployed": true,
+      "description": [
+        "建造一个水上乐园"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_STAINED_GLASS_PANE\n",
+      "order": 7,
+      "challengeType": "ISLAND",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "advanced",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "PUFFERFISH": 2,
+            "TURTLE": 2,
+            "SQUID": 2,
+            "TROPICAL_FISH": 10,
+            "DOLPHIN": 2,
+            "SALMON": 2,
+            "COD": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 20,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造一个水上乐园来获取奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 2\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "elite",
+      "friendlyName": "空岛等级奖励",
+      "deployed": true,
+      "description": [
+        "空岛等级达到Lv.10000"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_CONCRETE\n",
+      "order": 10,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "elite",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10000,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "空岛等级奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: SHULKER_BOX\n  amount: 5\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "novice",
+      "friendlyName": "蜻蜓点水",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 1,
+      "waiverAmount": 3,
+      "unlockMessage": "",
+      "rewardText": "完成所有新手任务即可获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GRASS_BLOCK\n"
+      ],
+      "rewardExperience": 1395,
+      "rewardMoney": 100,
+      "rewardCommands": [
+        "effect give [player] speed 600"
+      ],
+      "challenges": [
+        "sugarcanefarm",
+        "cactusfarm",
+        "papermaker",
+        "stonesmelter",
+        "mushroomfarm",
+        "melonfarm",
+        "melonmaker",
+        "chiseledmaker",
+        "crackedmaker",
+        "treefarm",
+        "cobblegenerator",
+        "pumpkinfarm",
+        "applecollector",
+        "pumpkinmaker"
+      ]
+    },
+    {
+      "uniqueId": "competent",
+      "friendlyName": "崭露头角",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 2,
+      "waiverAmount": 2,
+      "unlockMessage": "恭喜 - 您已解锁等级 &d崭露头角!",
+      "rewardText": "完成所有[崭露头角]挑战任务即可获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIRT\n  amount: 16\n"
+      ],
+      "rewardExperience": 1395,
+      "rewardMoney": 500,
+      "rewardCommands": [
+        "effect give [player] strength 600"
+      ],
+      "challenges": [
+        "visitnether",
+        "mobfarm",
+        "carrotfarm",
+        "animalfarm",
+        "grinder",
+        "beetrootfarm",
+        "competent",
+        "angler",
+        "potatofarm",
+        "fisherman"
+      ]
+    },
+    {
+      "uniqueId": "expert",
+      "friendlyName": "融会贯通",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: GREEN_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "恭喜 - 您已解锁等级 &d融会贯通!",
+      "rewardText": "完成所有[融会贯通]挑战任务即可获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DIG_SPEED: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 2920,
+      "rewardMoney": 1000,
+      "rewardCommands": [
+        "effect give [player] resistance 600"
+      ],
+      "challenges": [
+        "slimeballcollector",
+        "flowercollector",
+        "ironage",
+        "eggcollector",
+        "expert",
+        "slimefarm",
+        "trader",
+        "milkcollector",
+        "villagerbreeder",
+        "irongolemfarm",
+        "snowgolemfarm",
+        "woolcollector"
+      ]
+    },
+    {
+      "uniqueId": "advanced",
+      "friendlyName": "才识过人",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BLUE_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 4,
+      "waiverAmount": 0,
+      "unlockMessage": "恭喜 - 您已解锁等级 &d才识过人!",
+      "rewardText": "完成所有[才识过人]挑战任务即可获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_HELMET\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_CHESTPLATE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_BOOTS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_FALL: 4\n      DURABILITY: 3\n      PROTECTION_ENVIRONMENTAL: 4\n"
+      ],
+      "rewardExperience": 5345,
+      "rewardMoney": 5000,
+      "rewardCommands": [
+        "effect give [player] regeneration 600"
+      ],
+      "challenges": [
+        "zoomaker",
+        "waterzoo",
+        "alchemist",
+        "goldage",
+        "advanced",
+        "dj",
+        "chef",
+        "icefarmer",
+        "witherkiller"
+      ]
+    },
+    {
+      "uniqueId": "elite",
+      "friendlyName": "才华横溢",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MAGENTA_CONCRETE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 5,
+      "waiverAmount": 0,
+      "unlockMessage": "恭喜 - 您已解锁等级 &d才识过人!",
+      "rewardText": "完成所有[才识过人]挑战任务即可获得奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND_SWORD\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      DAMAGE_ALL: 5\n      LOOT_BONUS_MOBS: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: BOW\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n      ARROW_DAMAGE: 5\n      ARROW_INFINITE: 1\n      ARROW_FIRE: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ELYTRA\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: TRIDENT\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+      ],
+      "rewardExperience": 8670,
+      "rewardMoney": 0,
+      "rewardCommands": [
+        "effect give [player] luck 600"
+      ],
+      "challenges": [
+        "enderkiller",
+        "elite",
+        "visitend",
+        "terracottamaker",
+        "beaconator",
+        "diamondage",
+        "glassmaker",
+        "engineer"
+      ]
+    }
+  ],
+  "version": "0.8.0"
+}
