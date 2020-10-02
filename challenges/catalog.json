@@ -12,6 +12,28 @@
       "version": "0.8.0"
     },
     {
+      "name": "default (RU)",
+      "icon": "ENCHANTING_TABLE",
+      "description": "Default challenges library for everyone to use!",
+      "repository": "default-ru",
+      "language": "ru",
+      "slot": 11,
+      "for": "BSkyBlock",
+      "author": "GIGABAIT93",
+      "version": "0.8.0"
+    },
+    {
+      "name": "default (ZH-CN)",
+      "icon": "ENCHANTING_TABLE",
+      "description": "Default challenges library for everyone to use!",
+      "repository": "default-zh-CN",
+      "language": "zh-CN",
+      "slot": 12,
+      "for": "BSkyBlock",
+      "author": "r7mc",
+      "version": "0.8.0"
+    },
+    {
       "name": "ASkyBlock",
       "icon": "DAMAGED_ANVIL",
       "description": "Challenges exported from ASkyBlock plugin!",
@@ -20,6 +42,28 @@
       "slot": 19,
       "for": "BSkyBlock",
       "author": "tastybento",
+      "version": "0.8.0"
+    },
+    {
+      "name": "ASkyBlock (DE)",
+      "icon": "DAMAGED_ANVIL",
+      "description": "Challenges exported from ASkyBlock plugin!",
+      "repository": "askyblock-challenges-de",
+      "language": "de",
+      "slot": 19,
+      "for": "BSkyBlock",
+      "author": "R4zzerYT",
+      "version": "0.8.0"
+    },
+    {
+      "name": "ASkyBlock (ZH-CN)",
+      "icon": "DAMAGED_ANVIL",
+      "description": "Challenges exported from ASkyBlock plugin!",
+      "repository": "askyblock-challenges-zh-CN",
+      "language": "zh-CN",
+      "slot": 19,
+      "for": "BSkyBlock",
+      "author": "TONY-All",
       "version": "0.8.0"
     }
   ]
