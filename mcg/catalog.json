@@ -1,0 +1,26 @@
+{
+  "generators": [
+    {
+      "name": "default",
+      "icon": "STONE",
+      "description": "&7Default generators that\n&7comes with addon!",
+      "repository": "default",
+      "language": "en",
+      "slot": 10,
+      "for": "BSkyBlock",
+      "author": "BONNe1704",
+      "version": "2.2.0"
+    },
+    {
+      "name": "Simple Cobblestone Tiers",
+      "icon": "COBBLESTONE",
+      "description": "&7Tier system for cobblestone\n&7generators.\n&7All generators are purchasable,\n&7without requirements.\n&7No treasures.",
+      "repository": "simple-cobblestone-tiers",
+      "language": "en",
+      "slot": 11,
+      "for": "AOneBlock",
+      "author": "Fredthedoggy",
+      "version": "2.2.0"
+    }
+  ]
+}
