@@ -2374,7 +2374,7 @@
             "GHAST": 1
           },
           "removeEntities": false,
-          "searchRadius": 10,
+          "searchRadius": 20,
           "requiredPermissions": []
         }
       },
