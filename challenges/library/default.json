@@ -1491,7 +1491,7 @@
           "requiredItems": [
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: WHITE_WOOL\n  amount: 16\n",
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: YELLOW_WOOL\n  amount: 16\n",
-            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_WOOL\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RED_WOOL\n  amount: 16\n",
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PURPLE_WOOL\n  amount: 16\n",
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: PINK_WOOL\n  amount: 16\n",
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: ORANGE_WOOL\n  amount: 16\n",
@@ -2374,7 +2374,7 @@
             "GHAST": 1
           },
           "removeEntities": false,
-          "searchRadius": 10,
+          "searchRadius": 20,
           "requiredPermissions": []
         }
       },
