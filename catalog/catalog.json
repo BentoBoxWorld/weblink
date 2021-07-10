@@ -5,7 +5,7 @@
       "icon": "OAK_SAPLING",
       "description": "Create your island in the sky!",
       "repository": "BentoBoxWorld/BSkyBlock",
-      "slot": 20,
+      "slot": 12,
       "topic": "survival",
       "tag": "popular"
     },
@@ -14,16 +14,25 @@
       "icon": "OAK_BOAT",
       "description": "Create your island in a sea full of acid!",
       "repository": "BentoBoxWorld/AcidIsland",
-      "slot": 21,
+      "slot": 14,
       "topic": "survival",
       "tag": "unique"
+    },
+    {
+      "name": "AOneBlock",
+      "icon": "GRASS_BLOCK",
+      "description": "You spawn on a block. Just one block. What do you do?",
+      "repository": "BentoBoxWorld/AOneBlock",
+      "slot": 16,
+      "topic": "survival",
+      "tag": "new"
     },
     {
       "name": "SkyGrid",
       "icon": "COBWEB",
       "description": "Try out this interesting game.",
       "repository": "BentoBoxWorld/SkyGrid",
-      "slot": 23,
+      "slot": 29,
       "topic": "survival",
       "tag": null
     },
@@ -32,9 +41,18 @@
       "icon": "STONE_PICKAXE",
       "description": "Try to survive in a world made up of stone!",
       "repository": "BentoBoxWorld/CaveBlock",
-      "slot": 24,
+      "slot": 31,
       "topic": "survival",
       "tag": null
+    },
+    {
+      "name": "Boxed",
+      "icon": "BARRIER",
+      "description": "A game mode where you are boxed into a tiny space that only expands by completing advancements.",
+      "repository": "BentoBoxWorld/Boxed",
+      "slot": 33,
+      "topic": "survival",
+      "tag": "new"
     }
   ],
   "addons": [
