@@ -1,0 +1,100 @@
+{
+  "addons": {
+    "VoidSpawn": {
+      "Author": "tcvs",
+      "AuthorLink": "https://www.spigotmc.org/resources/authors/tcvs.6322/",
+      "Releases": "https://www.spigotmc.org/resources/voidspawn.19350/",
+      "Github": "https://github.com/endercrest/VoidSpawn",
+      "Issues": "https://github.com/endercrest/VoidSpawn/issues",
+      "Description": "This plugin can teleport players to their own island when they enter the void.\n(Requires Configuration)",
+      "Tags": [
+        "plugin",
+        "verified"
+      ]
+    },
+    "RoseStacker Hook": {
+      "Author": "BONNe",
+      "AuthorLink": "https://github.com/BONNePlayground",
+      "Releases": "https://github.com/BONNePlayground/RoseStackerHook/releases",
+      "Github": "https://github.com/BONNePlayground/RoseStackerHook",
+      "Issues": "https://github.com/BONNePlayground/RoseStackerHook/issues",
+      "Description": "This addon adds 5 new flags for islands. There is protection flag for accessing stacked item GUI as well as 4 flags that allows toggling stacking for items, blocks, entities and spawners.",
+      "Tags": [
+        "addon",
+        "verified"
+      ]
+    },
+    "WildStacker Hook": {
+      "Author": "BONNe",
+      "AuthorLink": "https://github.com/BONNePlayground",
+      "Releases": "https://github.com/BONNePlayground/WildStackerHook/releases",
+      "Github": "https://github.com/BONNePlayground/WildStackerHook",
+      "Issues": "https://github.com/BONNePlayground/WildStackerHook/issues",
+      "Description": "This addon adds 5 new flags for islands. There is protection flag for accessing stacked item GUI as well as 4 flags that allows toggling stacking.",
+      "Tags": [
+        "addon",
+        "verified"
+      ]
+    },
+    "DragonFight": {
+      "Author": "BONNe",
+      "AuthorLink": "https://www.spigotmc.org/resources/authors/bonne_lv.640448/",
+      "Releases": "https://www.spigotmc.org/resources/dragonfight.94048/",
+      "Github": "https://github.com/BONNePlayground/DragonFights",
+      "Issues": "https://github.com/BONNePlayground/DragonFights/issues",
+      "Description": "This BentoBox addon changes that and enables the ability to fight ender dragons on each end island. Now every player will be able to have its own dragon to kill.",
+      "Tags": [
+        "addon",
+        "verified"
+      ]
+    },
+    "BoxedEyes": {
+     "Author": "Fredthedoggy",
+      "AuthorLink": "https://github.com/Fredthedoggy",
+      "Releases": "https://github.com/Fredthedoggy/BoxedEyes/releases",
+      "Github": "https://github.com/Fredthedoggy/BoxedEyes",
+      "Issues": "https://github.com/Fredthedoggy/BoxedEyes/issues",
+      "Description": "This plugin allows for custom Ender-Eye Point Locations to be defined per-island for gamemodes like Boxed.\nThis does not add End Portals, just sets the eye point location.",
+      "Tags": [
+        "plugin",
+        "verified"
+      ]
+    },
+    "Holographic Displays": {
+     "Author": "filoghost",
+      "AuthorLink": "https://github.com/filoghost",
+      "Releases": "https://dev.bukkit.org/projects/holographic-displays",
+      "Github": "https://github.com/filoghost/HolographicDisplays",
+      "Issues": "https://github.com/filoghost/HolographicDisplays/issues",
+      "Description": "This plugin allows do display holograms over AOneBlock block.",
+      "Tags": [
+        "plugin"
+      ]
+    },
+    "BentoBoxFAWEHandler": {
+      "Author": "HSGamer",
+      "AuthorLink": "https://github.com/HSGamer",
+      "Releases": "https://github.com/HSGamer/BentoBoxFAWEHandler/releases",
+      "Github": "https://github.com/HSGamer/BentoBoxFAWEHandler",
+      "Issues": "https://github.com/HSGamer/BentoBoxFAWEHandler/issues",
+      "Description": "This BentoBox addon integrates FAWE to chunk & block processors.",
+      "Tags": [
+        "addon"
+      ]
+    }
+  },
+  "tags": {
+    "plugin": {
+      "color": "#fc3003",
+      "description": "A Spigot Plugin That Links to BentoBox"
+    },
+    "addon": {
+      "color": "#03dffc",
+      "description": "A BentoBox Addon"
+    },
+    "verified": {
+      "color": "#03fc03",
+      "description": "Verified by the BentoBox team"
+    }
+  }
+}
