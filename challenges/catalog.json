@@ -65,6 +65,17 @@
       "for": "BSkyBlock",
       "author": "TONY-All",
       "version": "0.8.0"
+    },
+    {
+      "name": "Poseidon",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
+      "repository": "poseidon",
+      "language": "en",
+      "slot": 13,
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     }
   ]
 }
