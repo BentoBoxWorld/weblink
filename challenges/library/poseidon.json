@@ -210,7 +210,7 @@
     {
       "uniqueId": "treasure_hunter",
       "friendlyName": "Sleep With The Fishes",
-      "deployed": false,
+      "deployed": true,
       "description": [
         "Sleep in a bed"
       ],
@@ -401,7 +401,7 @@
     {
       "uniqueId": "realm_builder",
       "friendlyName": "Realm Builder",
-      "deployed": false,
+      "deployed": true,
       "description": [
         "Improve your realm",
         "to level 10",
@@ -549,7 +549,7 @@
     {
       "uniqueId": "paper_maker",
       "friendlyName": "Paper Maker",
-      "deployed": false,
+      "deployed": true,
       "description": [],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PAPER\n",
       "order": -1,
@@ -967,7 +967,7 @@
     {
       "uniqueId": "abyssal_treasure",
       "friendlyName": "Freak Of Nature",
-      "deployed": false,
+      "deployed": true,
       "description": [
         "§7 Have at least 1",
         "§7 block of your",
@@ -1367,7 +1367,7 @@
     {
       "uniqueId": "it_takes_a_village",
       "friendlyName": "It Takes A Village",
-      "deployed": false,
+      "deployed": true,
       "description": [],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
       "order": -1,
@@ -1520,7 +1520,7 @@
     {
       "uniqueId": "sea_potions",
       "friendlyName": "Sea Potions",
-      "deployed": false,
+      "deployed": true,
       "description": [
         "Brew some potions"
       ],
@@ -1757,7 +1757,7 @@
     {
       "uniqueId": "ttt",
       "friendlyName": "Coral GOAT",
-      "deployed": false,
+      "deployed": true,
       "description": [
         "Build a massive coral",
         "reef structure with",
