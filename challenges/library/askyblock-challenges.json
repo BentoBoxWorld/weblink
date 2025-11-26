@@ -892,7 +892,10 @@
       "rewardText": "256 rails, 32 powered rails, 1 ocelot spawn egg, 1 diamond",
       "rewardItems": [
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POWERED_RAIL\n  amount: 32\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 256\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n"
       ],
