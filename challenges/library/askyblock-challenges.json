@@ -405,7 +405,8 @@
         "parameters": {
           "requiredItems": [
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n",
-            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 128\n"
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 64\n"
           ],
           "takeItems": true,
           "requiredPermissions": []
