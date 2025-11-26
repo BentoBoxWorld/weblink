@@ -400,7 +400,8 @@
         "parameters": {
           "requiredItems": [
             "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: MILK_BUCKET\n",
-            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 128\n"
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: COOKIE\n  amount: 64\n"
           ],
           "takeItems": true,
           "requiredPermissions": []
@@ -886,7 +887,10 @@
       "rewardText": "256 铁轨, 32 充能铁轨, 1 豹猫蛋, 1 钻石",
       "rewardItems": [
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: POWERED_RAIL\n  amount: 32\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 256\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: RAIL\n  amount: 64\n",
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: DIAMOND\n",
         "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1976\n  type: OCELOT_SPAWN_EGG\n"
       ],
