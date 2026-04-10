@@ -76,6 +76,17 @@
       "for": "Poseidon",
       "author": "tastybento",
       "version": "1.5.0"
+    },
+    {
+      "name": "Skyblock",
+      "icon": "GRASS_BLOCK",
+      "description": "Modern Skyblock challenges with multiple progression paths for vanilla 1.21+",
+      "repository": "skyblock",
+      "language": "en",
+      "slot": 14,
+      "for": "BSkyBlock",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
