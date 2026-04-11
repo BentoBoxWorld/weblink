@@ -87,6 +87,17 @@
       "for": "BSkyBlock",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "name": "Skyblock (ZH-CN)",
+      "icon": "GRASS_BLOCK",
+      "description": "Modern Skyblock challenges with multiple progression paths for vanilla 1.21+",
+      "repository": "skyblock-zh-CN",
+      "language": "zh-CN",
+      "slot": 15,
+      "for": "BSkyBlock",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
