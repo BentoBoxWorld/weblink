@@ -100,6 +100,17 @@
       "version": "1.0.0"
     },
     {
+      "name": "Skyblock (DE)",
+      "icon": "GRASS_BLOCK",
+      "description": "Modern Skyblock challenges with multiple progression paths for vanilla 1.21+",
+      "repository": "skyblock-de",
+      "language": "de",
+      "slot": 18,
+      "for": "BSkyBlock",
+      "author": "tastybento",
+      "version": "1.0.0"
+    },
+    {
       "name": "AcidIsland",
       "icon": "SLIME_BALL",
       "description": "Nautical challenge progression for AcidIsland: Shipwrecked to Admiral",
@@ -117,6 +128,17 @@
       "repository": "acidisland-zh-CN",
       "language": "zh-CN",
       "slot": 17,
+      "for": "AcidIsland",
+      "author": "tastybento",
+      "version": "1.0.0"
+    },
+    {
+      "name": "AcidIsland (DE)",
+      "icon": "SLIME_BALL",
+      "description": "Nautical challenge progression for AcidIsland: Shipwrecked to Admiral",
+      "repository": "acidisland-de",
+      "language": "de",
+      "slot": 20,
       "for": "AcidIsland",
       "author": "tastybento",
       "version": "1.0.0"
