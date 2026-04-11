@@ -109,6 +109,17 @@
       "for": "AcidIsland",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "name": "AcidIsland (ZH-CN)",
+      "icon": "SLIME_BALL",
+      "description": "Nautical challenge progression for AcidIsland: Shipwrecked to Admiral",
+      "repository": "acidisland-zh-CN",
+      "language": "zh-CN",
+      "slot": 17,
+      "for": "AcidIsland",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
