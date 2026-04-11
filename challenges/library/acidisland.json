@@ -1,0 +1,3613 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "salvager",
+      "friendlyName": "Salvager",
+      "deployed": true,
+      "description": [
+        "Mine 64 cobblestone",
+        "from your generator."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COBBLESTONE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COBBLESTONE\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A fishing rod, water breathing potion, 8 dirt, 4 leather, and 2 each of brown and red mushrooms",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FISHING_ROD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LEATHER\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_MUSHROOM\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_MUSHROOM\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 dirt, 1 leather",
+      "maxTimes": 50,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LEATHER\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "breadmaker",
+      "friendlyName": "Bread Maker",
+      "deployed": true,
+      "description": [
+        "Bake 10 loaves of bread."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREAD\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREAD\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5 dirt, 2 oak and 2 spruce saplings",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPRUCE_SAPLING\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 dirt, 1 oak sapling",
+      "maxTimes": 50,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_SAPLING\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "stewmaker",
+      "friendlyName": "Mushroom Chef",
+      "deployed": true,
+      "description": [
+        "Cook 6 bowls of",
+        "mushroom stew."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n  amount: 6\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "3 mycelium and a brown mushroom block",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MYCELIUM\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_MUSHROOM_BLOCK\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 mycelium",
+      "maxTimes": 30,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MYCELIUM\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "firstcatch",
+      "friendlyName": "First Catch",
+      "deployed": true,
+      "description": [
+        "Catch and cook 10 cod",
+        "from the acid sea."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_COD\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_COD\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5 iron ore, 4 string, 2 ink sacs and a water breathing potion",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: STRING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: INK_SAC\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 iron ore, 2 string",
+      "maxTimes": 50,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: STRING\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beachcomber",
+      "friendlyName": "Beachcomber",
+      "deployed": true,
+      "description": [
+        "Dive for 32 sand and",
+        "16 gravel from the seabed."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SAND\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SAND\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAVEL\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 copper ore, 4 flint and a water breathing potion",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_ORE\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FLINT\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 copper ore, 2 flint",
+      "maxTimes": 30,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_ORE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FLINT\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "glassblower",
+      "friendlyName": "Glass Blower",
+      "deployed": true,
+      "description": [
+        "Smelt 32 glass blocks."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 ice and 8 clay balls",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ICE\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CLAY_BALL\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 ice",
+      "maxTimes": 10,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ICE\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "safehaven",
+      "friendlyName": "Safe Haven",
+      "deployed": true,
+      "description": [
+        "Build a shelter from the",
+        "acid rain with a bed,",
+        "crafting table, furnace and torch."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_BED\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "WHITE_BED": 1,
+            "CRAFTING_TABLE": 1,
+            "FURNACE": 1,
+            "TORCH": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An iron helmet, 8 dirt and a sponge",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_HELMET\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPONGE\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "islandbuilder",
+      "friendlyName": "Island Builder",
+      "deployed": true,
+      "description": [
+        "Reach island level 10.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_PLANKS\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An iron pickaxe, 8 dirt and 4 copper ore",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_ORE\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netmender",
+      "friendlyName": "Net Mender",
+      "deployed": true,
+      "description": [
+        "Catch 10 cooked salmon,",
+        "4 tropical fish and",
+        "1 pufferfish."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_SALMON\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_SALMON\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PUFFERFISH\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Lure I book, 4 prismarine shards and 4 ink sacs",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:lure: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_SHARD\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: INK_SAC\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 redstone, 1 iron ore",
+      "maxTimes": 50,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "farmer",
+      "friendlyName": "Island Farmer",
+      "deployed": true,
+      "description": [
+        "Harvest 32 wheat, 32 sugar,",
+        "16 melon slices, 16 carrots",
+        "and 16 potatoes."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CARROT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHEAT\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SUGAR\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MELON_SLICE\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CARROT\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTATO\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Cocoa beans, farm animal eggs, a bee egg and a composter",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COCOA_BEANS\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PIG_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COW_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHICKEN_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEE_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COMPOSTER\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 cocoa beans, 1 chicken egg",
+      "maxTimes": 20,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COCOA_BEANS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHICKEN_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "drownedslayer",
+      "friendlyName": "Drowned Slayer",
+      "deployed": true,
+      "description": [
+        "Collect 32 rotten flesh",
+        "and 8 copper ingots",
+        "from the drowned."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_INGOT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ROTTEN_FLESH\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_INGOT\n  amount: 8\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An Unbreaking I book, 16 lapis lazuli and a turtle spawn egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:unbreaking: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LAPIS_LAZULI\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 redstone, 1 iron ore, 4 lapis",
+      "maxTimes": 30,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LAPIS_LAZULI\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "boatbuilder",
+      "friendlyName": "Boat Builder",
+      "deployed": true,
+      "description": [
+        "Craft 4 oak boats to",
+        "explore the acid seas."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_BOAT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_BOAT\n  amount: 4\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A compass, a spyglass and a wolf spawn egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COMPASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPYGLASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOLF_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 redstone, 1 iron ore",
+      "maxTimes": 10,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "lumberjack",
+      "friendlyName": "Lumberjack",
+      "deployed": true,
+      "description": [
+        "Collect 16 oak, 16 spruce",
+        "and 16 birch logs."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_LOG\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_LOG\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPRUCE_LOG\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_LOG\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Dark oak, cherry and mangrove saplings and an azalea bush",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DARK_OAK_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHERRY_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MANGROVE_PROPAGULE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: AZALEA\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 redstone, 1 iron ore",
+      "maxTimes": 30,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "cookiemaker",
+      "friendlyName": "Cookie Baker",
+      "deployed": true,
+      "description": [
+        "Bake 64 cookies and",
+        "hand in a bucket of milk."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKIE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKIE\n  amount: 64\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MILK_BUCKET\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A honey block, 4 sweet berries and 4 glow berries",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HONEY_BLOCK\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SWEET_BERRIES\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOW_BERRIES\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 redstone, 1 iron ore",
+      "maxTimes": 20,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seabase",
+      "friendlyName": "Sea Base",
+      "deployed": true,
+      "description": [
+        "Build a proper base with a",
+        "door, bed, bookshelf, crafting",
+        "table, furnace, glass and torch."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_DOOR\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "OAK_DOOR": 1,
+            "WHITE_BED": 1,
+            "BOOKSHELF": 1,
+            "CRAFTING_TABLE": 1,
+            "FURNACE": 1,
+            "GLASS": 1,
+            "TORCH": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A jukebox, the Wait music disc and 10 lapis blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: JUKEBOX\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_WAIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LAPIS_BLOCK\n  amount: 10\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "craftsman",
+      "friendlyName": "Craftsman",
+      "deployed": true,
+      "description": [
+        "Reach island level 50.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRAFTING_TABLE\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 50,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "10 obsidian and 4 acacia saplings",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OBSIDIAN\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ACACIA_SAPLING\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seedbank",
+      "friendlyName": "Seed Collector",
+      "deployed": true,
+      "description": [
+        "Gather 32 each of melon,",
+        "pumpkin and wheat seeds."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHEAT_SEEDS\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MELON_SEEDS\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PUMPKIN_SEEDS\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHEAT_SEEDS\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 dirt, 10 vines and 4 bamboo",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: VINE\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BAMBOO\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 dirt, 4 vines",
+      "maxTimes": 30,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: VINE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "claycollector",
+      "friendlyName": "Clay Collector",
+      "deployed": true,
+      "description": [
+        "Dive for 64 clay balls",
+        "from the acid seabed."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CLAY_BALL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CLAY_BALL\n  amount: 64\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 terracotta, 4 bricks and 4 dead bushes",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICK\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BUSH\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 30.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "4 terracotta",
+      "maxTimes": 30,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TERRACOTTA\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ironsmith",
+      "friendlyName": "Iron Smith",
+      "deployed": true,
+      "description": [
+        "Forge an iron sword,",
+        "pickaxe, axe and shield."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_INGOT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_PICKAXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_AXE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHIELD\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 gold ingots, 8 iron ore and a spyglass",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPYGLASS\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "masterbaker",
+      "friendlyName": "Master Baker",
+      "deployed": true,
+      "description": [
+        "Bake 5 cakes and",
+        "5 pumpkin pies."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAKE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAKE\n  amount: 5\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PUMPKIN_PIE\n  amount: 5\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5 gold, 2 diamonds and 2 mangrove propagules",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MANGROVE_PROPAGULE\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 iron ore",
+      "maxTimes": 20,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "enderhunter",
+      "friendlyName": "Ender Hunter",
+      "deployed": true,
+      "description": [
+        "Collect 10 ender pearls."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENDER_PEARL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENDER_PEARL\n  amount: 10\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5 gold, 2 blaze rods and 4 tuff",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TUFF\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 gold ingot, 1 blaze rod",
+      "maxTimes": 30,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "turtlekeeper",
+      "friendlyName": "Turtle Keeper",
+      "deployed": true,
+      "description": [
+        "Breed and keep 2 turtles",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_EGG\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "TURTLE": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "5 scute, a Respiration II book and 4 sea pickles",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SCUTE\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:respiration: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dyemaster",
+      "friendlyName": "Dye Master",
+      "deployed": true,
+      "description": [
+        "Craft 8 each of red, yellow,",
+        "blue and green dye."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_DYE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_DYE\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: YELLOW_DYE\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLUE_DYE\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_DYE\n  amount: 8\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 glow ink sacs, 2 calcite and 4 deepslate",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOW_INK_SAC\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CALCITE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEEPSLATE\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 80,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 glow ink sacs",
+      "maxTimes": 10,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOW_INK_SAC\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "mason",
+      "friendlyName": "Mason",
+      "deployed": true,
+      "description": [
+        "Reach island level 100.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: STONE_BRICKS\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 100,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2 diamonds, 16 dirt, 2 gold blocks and 2 cherry saplings",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_BLOCK\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHERRY_SAPLING\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "coraldiver",
+      "friendlyName": "Coral Diver",
+      "deployed": true,
+      "description": [
+        "Salvage 4 dead tube,",
+        "4 dead brain and 4 dead",
+        "fire coral blocks."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_TUBE_CORAL_BLOCK\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_TUBE_CORAL_BLOCK\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BRAIN_CORAL_BLOCK\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_FIRE_CORAL_BLOCK\n  amount: 4\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16 prismarine shards, 4 sea lanterns and a fox spawn egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_SHARD\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FOX_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "armorsmith",
+      "friendlyName": "Armored Up",
+      "deployed": true,
+      "description": [
+        "Forge a full set of",
+        "iron armor."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_CHESTPLATE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_HELMET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_BOOTS\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 diamonds, 4 lapis blocks and a Protection III book",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LAPIS_BLOCK\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:protection: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "redstoneengineer",
+      "friendlyName": "Redstone Engineer",
+      "deployed": true,
+      "description": [
+        "Place a piston, repeater,",
+        "comparator and observer",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "PISTON": 1,
+            "REPEATER": 1,
+            "COMPARATOR": 1,
+            "OBSERVER": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16 redstone blocks, 8 iron ore and 4 hoppers",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE_BLOCK\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HOPPER\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "enchanter",
+      "friendlyName": "Enchanter",
+      "deployed": true,
+      "description": [
+        "Craft 15 bookshelves."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BOOKSHELF\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BOOKSHELF\n  amount: 15\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An enchanting table, 4 diamonds and 8 lapis",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTING_TABLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LAPIS_LAZULI\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 120,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netherportal",
+      "friendlyName": "Portal Builder",
+      "deployed": true,
+      "description": [
+        "Build and light a nether",
+        "portal on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OBSIDIAN\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "NETHER_PORTAL": 1,
+            "OBSIDIAN": 10
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A diamond sword, soul sand, nether wart and glowstone dust",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_SWORD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SOUL_SAND\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHER_WART\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOWSTONE_DUST\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netherpioneer",
+      "friendlyName": "Nether Pioneer",
+      "deployed": true,
+      "description": [
+        "Bring back 32 netherrack,",
+        "8 soul sand and 1 ghast tear."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERRACK\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERRACK\n  amount: 32\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SOUL_SAND\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GHAST_TEAR\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "64 rails, 16 powered rails, 2 diamonds and an ocelot egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OCELOT_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 iron ore",
+      "maxTimes": 10,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "alchemist",
+      "friendlyName": "Alchemist",
+      "deployed": true,
+      "description": [
+        "Brew fire resistance,",
+        "swiftness, healing and",
+        "water breathing potions."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREWING_STAND\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:fire_resistance\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Silk Touch book, 2 diamonds and 8 glowstone",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:silk_touch: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOWSTONE\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 diamond, 4 glowstone",
+      "maxTimes": 5,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLOWSTONE\n  amount: 4\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netherbounty",
+      "friendlyName": "Nether Bounty",
+      "deployed": true,
+      "description": [
+        "Collect 16 nether quartz,",
+        "8 magma cream and 4 blaze rods."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: QUARTZ\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: QUARTZ\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MAGMA_CREAM\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n  amount: 4\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 gold ingots, 4 emeralds, an axolotl egg and 4 sculk",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: AXOLOTL_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SCULK\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 120,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 gold ingots, 1 emerald",
+      "maxTimes": 10,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ironguardian",
+      "friendlyName": "Iron Guardian",
+      "deployed": true,
+      "description": [
+        "Build an iron golem",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CARVED_PUMPKIN\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A name tag, anvil, 2 iron blocks and a cauldron",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAME_TAG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ANVIL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_BLOCK\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAULDRON\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "villagecouncil",
+      "friendlyName": "Village Council",
+      "deployed": true,
+      "description": [
+        "Gather 6 villagers",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 6
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "6 emeralds, 2 bookshelves, a bell and a brewing stand",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 6\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BOOKSHELF\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREWING_STAND\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "pearlfarm",
+      "friendlyName": "Pearl Farm",
+      "deployed": true,
+      "description": [
+        "Collect 32 ender pearls."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENDER_PEARL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENDER_PEARL\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 blaze rods, 4 diamonds and an ender chest",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENDER_CHEST\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 blaze rods",
+      "maxTimes": 10,
+      "repeatExperienceReward": 15,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "nautilushunter",
+      "friendlyName": "Nautilus Hunter",
+      "deployed": true,
+      "description": [
+        "Collect 4 nautilus shells",
+        "from fishing or the drowned."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n  amount: 4\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A heart of the sea, 8 prismarine bricks and 4 sea lanterns",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "shepherd",
+      "friendlyName": "Rainbow Shepherd",
+      "deployed": true,
+      "description": [
+        "Collect 4 of every colour",
+        "of wool. All 16 colours!"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_WOOL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ORANGE_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MAGENTA_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: YELLOW_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIME_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PINK_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAY_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_GRAY_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CYAN_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PURPLE_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLUE_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_WOOL\n  amount: 4\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLACK_WOOL\n  amount: 4\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "3 diamonds, 5 emeralds, 2 Cat discs and a frog egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_CAT\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FROG_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "1 emerald, 1 sheep spawn egg",
+      "maxTimes": 5,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "culinaryartist",
+      "friendlyName": "Culinary Artist",
+      "deployed": true,
+      "description": [
+        "Prepare a feast: bread, cake,",
+        "cookie, cod, beef, pork,",
+        "chicken, potato, pie, stew",
+        "and a golden carrot."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_CARROT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREAD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAKE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_COD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_BEEF\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_PORKCHOP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COOKED_CHICKEN\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BAKED_POTATO\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PUMPKIN_PIE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_CARROT\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2 gold blocks, 5 emeralds, a mooshroom egg and 2 Blocks discs",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_BLOCK\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MOOSHROOM_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_BLOCKS\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "5 gold ingots, 1 emerald",
+      "maxTimes": 10,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gemcollector",
+      "friendlyName": "Gem Collector",
+      "deployed": true,
+      "description": [
+        "Collect 32 emeralds."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 32\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 diamonds, a Mending book and 4 amethyst blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:mending: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: AMETHYST_BLOCK\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "2 diamonds",
+      "maxTimes": 5,
+      "repeatExperienceReward": 20,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "conduitbuilder",
+      "friendlyName": "Conduit Builder",
+      "deployed": true,
+      "description": [
+        "Place and activate a",
+        "conduit on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CONDUIT": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Riptide II book, 4 diamonds and 8 dark prismarine",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DARK_PRISMARINE\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grandarchitect",
+      "friendlyName": "Grand Architect",
+      "deployed": true,
+      "description": [
+        "Reach island level 500.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_PICKAXE\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 500,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 diamonds, 32 dirt, packed ice, blue ice and jungle saplings",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIRT\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PACKED_ICE\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLUE_ICE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: JUNGLE_SAPLING\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 250,
+      "rewardMoney": 250.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "terracottamaster",
+      "friendlyName": "Terracotta Master",
+      "deployed": true,
+      "description": [
+        "Craft 16 each of white,",
+        "orange, yellow and light blue",
+        "glazed terracotta."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_GLAZED_TERRACOTTA\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_GLAZED_TERRACOTTA\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ORANGE_GLAZED_TERRACOTTA\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: YELLOW_GLAZED_TERRACOTTA\n  amount: 16\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n  amount: 16\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16 terracotta, 4 prismarine, 2 sea lanterns and a turtle egg",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TERRACOTTA\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "beaconbuilder",
+      "friendlyName": "Beacon Builder",
+      "deployed": true,
+      "description": [
+        "Place an active beacon",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "BEACON": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "20 each of stone brick, mossy, cracked and chiseled variants",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MOSSY_STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRACKED_STONE_BRICKS\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHISELED_STONE_BRICKS\n  amount: 20\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "potionmaster",
+      "friendlyName": "Potion Master",
+      "deployed": true,
+      "description": [
+        "Brew invisibility,",
+        "night vision, slow falling",
+        "and water breathing potions."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BREWING_STAND\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:night_vision\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:slow_falling\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An Unbreaking III book, 4 echo shards and a goat horn",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:unbreaking: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ECHO_SHARD\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOAT_HORN\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "landscaper",
+      "friendlyName": "Landscape Gardener",
+      "deployed": true,
+      "description": [
+        "Grow oak, spruce, birch and",
+        "jungle trees on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_SAPLING\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "OAK_LOG": 4,
+            "SPRUCE_LOG": 4,
+            "BIRCH_LOG": 4,
+            "JUNGLE_LOG": 4
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 cherry saplings, rooted dirt, hanging roots and 8 moss blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CHERRY_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ROOTED_DIRT\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HANGING_ROOTS\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MOSS_BLOCK\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "snowgolem",
+      "friendlyName": "Frosty Friend",
+      "deployed": true,
+      "description": [
+        "Build a snow golem",
+        "on your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CARVED_PUMPKIN\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "captain",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "SNOW_GOLEM": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A diamond shovel, 16 snow blocks and 4 powder snow buckets",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_SHOVEL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW_BLOCK\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWDER_SNOW_BUCKET\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "diamondage",
+      "friendlyName": "Diamond Age",
+      "deployed": true,
+      "description": [
+        "Forge a full set of",
+        "diamond armor."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_CHESTPLATE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_HELMET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_BOOTS\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "An Efficiency V book, 4 netherite scrap, 2 shulker shells and crying obsidian",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:efficiency: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_SCRAP\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHULKER_SHELL\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRYING_OBSIDIAN\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grandlibrarian",
+      "friendlyName": "Grand Librarian",
+      "deployed": true,
+      "description": [
+        "Collect 3 enchanted books",
+        "of any kind."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  amount: 3\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Fortune III book, a Looting III book and 4 brushes",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:fortune: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:looting: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRUSH\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 250,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "leviathanlair",
+      "friendlyName": "Leviathan's Lair",
+      "deployed": true,
+      "description": [
+        "Reach island level 1500.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 1500,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16 diamonds, 2 netherite scrap, a sniffer egg and 8 big dripleaf",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_SCRAP\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNIFFER_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIG_DRIPLEAF\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 400,
+      "rewardMoney": 400.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "witherslayer",
+      "friendlyName": "Wither Slayer",
+      "deployed": true,
+      "description": [
+        "Collect 3 wither skeleton",
+        "skulls."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WITHER_SKELETON_SKULL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WITHER_SKELETON_SKULL\n  amount: 3\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A nether star, 8 diamonds and 4 ancient debris",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHER_STAR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ANCIENT_DEBRIS\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 500,
+      "rewardMoney": 500.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "menagerie",
+      "friendlyName": "Island Menagerie",
+      "deployed": true,
+      "description": [
+        "Have cows, pigs, chickens,",
+        "sheep and turtles all on",
+        "your island."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_EGG\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "COW": 2,
+            "PIG": 2,
+            "CHICKEN": 2,
+            "SHEEP": 2,
+            "TURTLE": 2
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Parrot, axolotl, rabbit and donkey eggs plus 4 hay blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PARROT_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: AXOLOTL_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RABBIT_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DONKEY_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HAY_BLOCK\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "tridentmaster",
+      "friendlyName": "Trident Master",
+      "deployed": true,
+      "description": [
+        "Obtain a trident from",
+        "the drowned."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Channeling book, an Impaling IV book and 8 prismarine bricks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:channeling: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:impaling: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n  amount: 8\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "goldentouch",
+      "friendlyName": "The Golden Touch",
+      "deployed": true,
+      "description": [
+        "Craft 2 golden apples and",
+        "an enchanted golden apple."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_APPLE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_APPLE\n  amount: 2\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_GOLDEN_APPLE\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 diamonds, 4 emerald blocks and a totem of undying",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD_BLOCK\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TOTEM_OF_UNDYING\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ancientartisan",
+      "friendlyName": "Ancient Artisan",
+      "deployed": true,
+      "description": [
+        "Unearth 4 pottery sherds",
+        "of any kind."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DECORATED_POT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ARMS_UP_POTTERY_SHERD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ANGLER_POTTERY_SHERD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ARCHER_POTTERY_SHERD\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLADE_POTTERY_SHERD\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 decorated pots, 8 mud bricks, a sniffer egg and 2 torchflower seeds",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DECORATED_POT\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUD_BRICKS\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNIFFER_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TORCHFLOWER_SEEDS\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netheriteascension",
+      "friendlyName": "Netherite Ascension",
+      "deployed": true,
+      "description": [
+        "Craft a netherite ingot."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_INGOT\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_INGOT\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A netherite upgrade template, 8 diamonds and 2 elytra",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_UPGRADE_SMITHING_TEMPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ELYTRA\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 500,
+      "rewardMoney": 500.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "islandlegend",
+      "friendlyName": "Island Legend",
+      "deployed": true,
+      "description": [
+        "Reach island level 3000.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_BLOCK\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 3000,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "32 diamonds, a beacon, a recovery compass and 16 end stone",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RECOVERY_COMPASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: END_STONE\n  amount: 16\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 1000,
+      "rewardMoney": 1000.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "disccollector",
+      "friendlyName": "Disc Collector",
+      "deployed": true,
+      "description": [
+        "Collect 8 different",
+        "music discs."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_CHIRP\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_CAT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_BLOCKS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_WAIT\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_13\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_CHIRP\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_FAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_MALL\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSIC_DISC_MELLOHI\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 diamonds, 8 emerald blocks, a dragon egg and 4 end stone bricks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD_BLOCK\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRAGON_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: END_STONE_BRICKS\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 500,
+      "rewardMoney": 500.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "netheritechampion",
+      "friendlyName": "Netherite Champion",
+      "deployed": true,
+      "description": [
+        "Show off a full set of",
+        "netherite armor."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_CHESTPLATE\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_HELMET\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_CHESTPLATE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_LEGGINGS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_BOOTS\n"
+          ],
+          "takeItems": false,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Protection IV book, Sharpness V book, 8 shulker shells and wither roses",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:protection: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:sharpness: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHULKER_SHELL\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WITHER_ROSE\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 1000,
+      "rewardMoney": 1000.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "acidislandelite",
+      "friendlyName": "AcidIsland Elite",
+      "deployed": true,
+      "description": [
+        "Reach island level 5000.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 5000,
+          "papiString": "",
+          "advancements": [],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "64 diamonds, an enchanted elytra, netherite scrap and a respawn anchor",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ELYTRA\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      minecraft:unbreaking: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_SCRAP\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RESPAWN_ANCHOR\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 2000,
+      "rewardMoney": 2000.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "grandparty",
+      "friendlyName": "Grand Party",
+      "deployed": true,
+      "description": [
+        "Host four players on your",
+        "island at once."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FIREWORK_ROCKET\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "admiral",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "PLAYER": 4
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 emerald blocks, 16 firework rockets, a Mending book and a dragon head",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD_BLOCK\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FIREWORK_ROCKET\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:mending: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRAGON_HEAD\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 500,
+      "rewardMoney": 500.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "castaway",
+      "friendlyName": "Castaway",
+      "deployed": true,
+      "description": [
+        "Swim 500 metres",
+        "through the acid sea."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SWIM_ONE_CM",
+              "entity": null,
+              "material": null,
+              "amount": 50000,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Depth Strider I book, 2 water breathing potions and 4 kelp",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:depth_strider: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 40,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "firstblood",
+      "friendlyName": "First Blood",
+      "deployed": true,
+      "description": [
+        "Hunt 5 tropical fish",
+        "from the reef."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "shipwrecked",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "TROPICAL_FISH",
+              "material": null,
+              "amount": 5,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A water breathing potion, 4 string and 2 bone meal",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: STRING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BONE_MEAL\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "castnet",
+      "friendlyName": "Cast Net",
+      "deployed": true,
+      "description": [
+        "Reel in 25 catches",
+        "with your fishing rod."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FISHING_ROD\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "FISH_CAUGHT",
+              "entity": null,
+              "material": null,
+              "amount": 25,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Luck of the Sea I book, 2 long water breathing potions and 4 prismarine crystals",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:luck_of_the_sea: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "drownedhunter",
+      "friendlyName": "Drowned Hunter",
+      "deployed": true,
+      "description": [
+        "Put down 10 drowned",
+        "from the deep."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DROWNED_SPAWN_EGG\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "DROWNED",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A nautilus shell, 2 long water breathing potions and 4 copper ingots",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COPPER_INGOT\n  amount: 4\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 60.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "restfulsailor",
+      "friendlyName": "Restful Sailor",
+      "deployed": true,
+      "description": [
+        "Sleep safely through",
+        "5 acid-rain nights."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "survivor",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SLEEP_IN_BED",
+              "entity": null,
+              "material": null,
+              "amount": 5,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Respiration I book and 2 phantom membranes",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:respiration: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PHANTOM_MEMBRANE\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 60,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "deepdiver",
+      "friendlyName": "Deep Diver",
+      "deployed": true,
+      "description": [
+        "Swim 10 kilometres",
+        "in total."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SWIM_ONE_CM",
+              "entity": null,
+              "material": null,
+              "amount": 1000000,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Depth Strider III and Riptide II books, and 4 long water breathing potions",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:depth_strider: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 120.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trawlmaster",
+      "friendlyName": "Trawl Master",
+      "deployed": true,
+      "description": [
+        "Land 100 catches",
+        "over your career."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "mariner",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "FISH_CAUGHT",
+              "entity": null,
+              "material": null,
+              "amount": 100,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A heart of the sea, 2 nautilus shells and 2 long water breathing potions",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 120.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "guardianbane",
+      "friendlyName": "Guardian's Bane",
+      "deployed": true,
+      "description": [
+        "Defeat 20 guardians",
+        "from the deep."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_SHARD\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "navigator",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "GUARDIAN",
+              "material": null,
+              "amount": 20,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 sea lanterns, 16 prismarine shards and 2 splash water breathing potions",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_SHARD\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_water_breathing\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "shipwrecked",
+      "friendlyName": "Shipwrecked",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOODEN_PICKAXE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 0,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "Welcome rewards for surviving the acid",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRASS_BLOCK\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_SAPLING\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log I: Shipwrecked'\n    author: Unknown\n    pages:\n    - '\"I do not remember the ship.\\n\\nI remember the taste of the water — sharp,\n      metal, wrong — and the blisters rising on my hands the instant I tried to\n      wash them.\\n\\nThis is not salt. This is not brine. I do not know what ocean\n      this is, or whether calling it an ocean is a kindness it does not deserve.\\n\\nI\n      have bread and a pickaxe. I will build what I can on this scrap of sand, and\n      hope the world remembers how to be kind.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "challenges": [
+        "salvager",
+        "breadmaker",
+        "stewmaker",
+        "firstcatch",
+        "beachcomber",
+        "glassblower",
+        "safehaven",
+        "islandbuilder",
+        "castaway",
+        "firstblood"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "survivor",
+      "friendlyName": "Survivor",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FISHING_ROD\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 1,
+      "waiverAmount": 2,
+      "unlockMessage": "",
+      "rewardText": "Rewards for adapting to the acid world",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_ORE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: JUNGLE_SAPLING\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log II: Survivor'\n    author: Unknown\n    pages:\n    - '\"The rain is the worst of it.\\n\\nIt falls like any rain should fall — grey,\n      patient, from clouds that look like any clouds I remember — but it hisses\n      when it lands and my wheat curls black where the drops strike. I sheltered\n      under acacia leaves for an hour today and counted the holes it left.\\n\\nRain\n      is supposed to be water. This is not water. I do not know what word to use\n      instead.\\n\\nI have started calling the sky a liar. It feels better than being\n      afraid of it.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 500,
+      "rewardMoney": 250.0,
+      "rewardCommands": [],
+      "challenges": [
+        "netmender",
+        "farmer",
+        "drownedslayer",
+        "boatbuilder",
+        "lumberjack",
+        "cookiemaker",
+        "seabase",
+        "craftsman",
+        "seedbank",
+        "claycollector",
+        "castnet",
+        "drownedhunter",
+        "restfulsailor"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "mariner",
+      "friendlyName": "Mariner",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 2,
+      "waiverAmount": 2,
+      "unlockMessage": "",
+      "rewardText": "The mariner's toolkit",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:aqua_affinity: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log III: Mariner'\n    author: Unknown\n    pages:\n    - '\"I dove today. Long potion, a prayer, a plunge.\\n\\nDown there, in the prismarine\n      canyons, I found something that should not be there: a length of rusted metal\n      pipe, straight as a ruler, bolted at the joints. Not coral. Not stone. Made\n      by hands.\\n\\nSo someone built here. Or will build here. Or did, a very long\n      time ago, before whatever poisoned the sea finished its work.\\n\\nI am not\n      the first castaway on this island. I am only the latest.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 1000,
+      "rewardMoney": 500.0,
+      "rewardCommands": [],
+      "challenges": [
+        "ironsmith",
+        "masterbaker",
+        "enderhunter",
+        "turtlekeeper",
+        "dyemaster",
+        "mason",
+        "coraldiver",
+        "armorsmith",
+        "redstoneengineer",
+        "enchanter",
+        "deepdiver",
+        "trawlmaster"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "navigator",
+      "friendlyName": "Navigator",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COMPASS\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "Tools for the brave navigator",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 12\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:depth_strider: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHER_WART\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log IV: Navigator'\n    author: Unknown\n    pages:\n    - '\"The portal burns purple and the nether burns red and neither of them burns\n      the way the sea burns. There is a lesson in that, if I had the stomach to\n      read it.\\n\\nI have been thinking about the word ACID.\\n\\nAcid is a thing\n      that dissolves other things. Acid is what happens when something has gone\n      wrong at the level of the world itself. Acid is the ash-taste of a chemistry\n      I am not supposed to understand.\\n\\nWas this a garden once? Was the sea\n      blue? Did somebody, somewhere, do this to it — or did the sea do it to\n      itself?\\n\\nThe nether does not have these questions. Maybe that is why I\n      keep going back.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 1500,
+      "rewardMoney": 750.0,
+      "rewardCommands": [],
+      "challenges": [
+        "netherportal",
+        "netherpioneer",
+        "alchemist",
+        "netherbounty",
+        "ironguardian",
+        "villagecouncil",
+        "pearlfarm",
+        "nautilushunter",
+        "guardianbane"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "captain",
+      "friendlyName": "Captain",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND_PICKAXE\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 4,
+      "waiverAmount": 2,
+      "unlockMessage": "",
+      "rewardText": "Rewards fit for a captain",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:loyalty: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MANGROVE_PROPAGULE\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log V: Captain'\n    author: Unknown\n    pages:\n    - '\"I built a conduit today.\\n\\nIt hums at a frequency I know I should not\n      recognise, and yet I do — deep in my teeth, the way an old machine hums\n      when you stand too close to it in a quiet room. I have never stood in a\n      quiet room with an old machine. I would swear to that. And yet.\\n\\nThere\n      is a memory in me that is not mine.\\n\\nI am beginning to think that whatever\n      broke this world broke it long enough ago that the word HISTORY does not\n      apply. There is no before. There is the sea, and the rain the sea exhales,\n      and the silt at the bottom of it all where something very old is still\n      dreaming.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 2500,
+      "rewardMoney": 1500.0,
+      "rewardCommands": [],
+      "challenges": [
+        "shepherd",
+        "culinaryartist",
+        "gemcollector",
+        "conduitbuilder",
+        "grandarchitect",
+        "terracottamaster",
+        "beaconbuilder",
+        "potionmaster",
+        "landscaper",
+        "snowgolem"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "leviathan",
+      "friendlyName": "Leviathan",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 5,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "Treasures from the deep",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 24\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ELYTRA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNIFFER_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log VI: Leviathan'\n    author: Unknown\n    pages:\n    - '\"The elder guardians are not guarding the ruins.\\n\\nThey are guarding\n      something under the ruins. I understand that now. I have been down far\n      enough to feel the shape of it — the way a diver feels a current before\n      the current takes them. A slow turning. A breath so vast it takes seasons\n      to complete.\\n\\nI think the acid is not a wound. I think the acid is a\n      seal. I think it has been holding the thing below the silt inside its own\n      grave, one dissolving century at a time, and nobody built this sea — the\n      sea built itself, around a prisoner, to be a prison.\\n\\nI do not know if\n      I should be trying to break it or thank it.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 4000,
+      "rewardMoney": 2500.0,
+      "rewardCommands": [],
+      "challenges": [
+        "diamondage",
+        "grandlibrarian",
+        "leviathanlair",
+        "witherslayer",
+        "menagerie",
+        "tridentmaster",
+        "goldentouch",
+        "ancientartisan"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "admiral",
+      "friendlyName": "Admiral",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHER_STAR\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 6,
+      "waiverAmount": 0,
+      "unlockMessage": "",
+      "rewardText": "The admiral's treasure",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERITE_INGOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RECOVERY_COMPASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Captain''s Log VII: Admiral'\n    author: Unknown\n    pages:\n    - '\"I will never know what this place is.\\n\\nI have stopped asking. The\n      questions were for the man who woke up on a strip of sand afraid of the\n      rain, and I am not that man any more. I have eaten from this poisoned\n      garden so long that I am part of its chemistry.\\n\\nMaybe this is Earth\n      after everyone is gone. Maybe this is Earth before anyone has arrived.\n      Maybe it is a mirror of a world I was never born into. The sea does not\n      care which. The sea only hisses, and rises, and waits.\\n\\nI leave these\n      logs for the next castaway. If there is one. If there has ever been anyone\n      but me.\\n\\nThe tide is turning. I think I will go out to meet it.\"'\n    generation: 3\n"
+      ],
+      "rewardExperience": 8000,
+      "rewardMoney": 5000.0,
+      "rewardCommands": [],
+      "challenges": [
+        "netheriteascension",
+        "islandlegend",
+        "disccollector",
+        "netheritechampion",
+        "acidislandelite",
+        "grandparty"
+      ],
+      "ignoreRewardMetaData": []
+    }
+  ],
+  "version": "1.0.0"
+}
