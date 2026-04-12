@@ -224,6 +224,14 @@
       "language": "de",
       "slot": 28,
       "for": "Poseidon"
+    },
+    {
+      "repository": "poseidon-es",
+      "name": "Poseidon (Español)",
+      "version": "1.0",
+      "language": "es",
+      "slot": 29,
+      "for": "Poseidon"
     }
   ]
 }
