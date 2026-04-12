@@ -142,6 +142,17 @@
       "for": "AcidIsland",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "name": "Skyblock (ES)",
+      "icon": "GRASS_BLOCK",
+      "description": "Modern Skyblock challenges with multiple progression paths for vanilla 1.21+",
+      "repository": "skyblock-es",
+      "language": "es",
+      "slot": 21,
+      "for": "BSkyBlock",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
