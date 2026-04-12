@@ -212,42 +212,57 @@
     {
       "repository": "poseidon-zh-CN",
       "name": "Poseidon (简体中文)",
-      "version": "1.0",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
       "language": "zh-CN",
       "slot": 27,
-      "for": "Poseidon"
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     },
     {
       "repository": "poseidon-de",
       "name": "Poseidon (Deutsch)",
-      "version": "1.0",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
       "language": "de",
       "slot": 28,
-      "for": "Poseidon"
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     },
     {
       "repository": "poseidon-es",
       "name": "Poseidon (Español)",
-      "version": "1.0",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
       "language": "es",
       "slot": 29,
-      "for": "Poseidon"
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     },
     {
       "repository": "poseidon-ru",
       "name": "Poseidon (Русский)",
-      "version": "1.0",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
       "language": "ru",
       "slot": 30,
-      "for": "Poseidon"
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     },
     {
       "repository": "poseidon-fr",
       "name": "Poseidon (Français)",
-      "version": "1.0",
+      "icon": "TRIDENT",
+      "description": "Default challenges for Poseidon!",
       "language": "fr",
       "slot": 31,
-      "for": "Poseidon"
+      "for": "Poseidon",
+      "author": "tastybento",
+      "version": "1.5.0"
     }
   ]
 }
