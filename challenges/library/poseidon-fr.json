@@ -1,0 +1,1845 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "opportunity_knocks",
+      "friendlyName": "L'occasion se présente",
+      "deployed": true,
+      "description": "Hey ! Un marchand ambulant ! Vite, accomplis ce défi !",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_CARPET\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "WANDERING_TRADER": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LLAMA_SPAWN_EGG\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LEAD\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "adv",
+      "friendlyName": "Jeter",
+      "deployed": true,
+      "description": "Accomplis le progrès \"Jeter\"",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 0,
+          "papiString": "",
+          "advancements": [
+            {
+              "name": "adventure/throw_trident"
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:lure: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 3 : Le secret du naufrage'\n    author: Unknown\n    pages:\n    - 'Entrée #17\\nJe crains que nous soyons suivis. Le capitaine balaie mes inquiétudes, mais l'équipage les a vus aussi — des silhouettes sous les vagues, se déplaçant trop vite, trop précisément. Ils ne nagent pas. Ils glissent.'\n    - 'Entrée #19\\nLa tempête est passée. Nous pensions nous noyer. Mais non.\\n\\nPourtant, quelque chose s'est passé.\\n\\nTous disent avoir ressenti — sous l'eau, lorsque le navire sombrait. Une sensation, un… changement.\\n\\n« Nous changeons. »'\n    - 'Entrée #21\\nLes autres ont disparu. À mon réveil, l'épave était vide.\\n\\nMais je les ai vus dans l'eau — en dessous, observant. Attendant.\\n\\nSuis-je l'un d'eux ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "kelp_jerky",
+      "friendlyName": "Varech séché",
+      "deployed": true,
+      "description": "Fabrique 5 paquets de varech séché",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n  amount: 3\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 2,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "squid_hunter",
+      "friendlyName": "Mer et terre",
+      "deployed": true,
+      "description": "Élimine des calmars et des poissons tropicaux",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "SQUID",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "TROPICAL_FISH",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COW_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 15,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 2,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treasure_hunter",
+      "friendlyName": "Dormir avec les poissons",
+      "deployed": true,
+      "description": "Dors dans un lit",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_BED\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SLEEP_IN_BED",
+              "entity": null,
+              "material": null,
+              "amount": 0,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEETROOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEETROOT_SEEDS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 2 : Échos dans le courant'\n    author: Unknown\n    pages:\n    - 'La mer n'est jamais silencieuse.\\nLa nuit, les courants se déplacent étrangement, formant des motifs, se tordant en formes. Et parfois, dans le calme, je l'entends — des murmures dans l'eau.\\nPas des voix. Pas des mots. Mais quelque chose de plus profond, ressenti plutôt qu'entendu.'\n    - 'Cela commence dans mes pieds. Un bourdonnement sourd qui pénètre jusqu'aux os.\\nJe regarde en bas dans l'obscurité — elles sont là. Des silhouettes. Qui attendent.\\nSont-elles réelles, ou la mer me parle-t-elle à travers mes propres peurs et rêves ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "kelp_harvester",
+      "friendlyName": "Récolteur de varech",
+      "deployed": true,
+      "description": "Récolte 50 varechs",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
+      "order": 1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n  amount: 50\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "La laine a-t-elle besoin d'un nettoyage à sec ?",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 6 : Le royaume oublié'\n    author: Unknown\n    pages:\n    - 'Il fut un temps, avant le déluge, avant le silence, où il y avait une cité sous les vagues.\\nPas des ruines. Pas des débris. Un royaume.\\nOn dit que son peuple ne craignait pas la mer — il l'embrassait, y prospérait, vivait parmi des créatures aujourd'hui disparues.'\n    - 'Désormais les tours s'effondrent, les salles sombrent. Tout ce que cette civilisation savait est scellé dans la pierre qui plonge et dans les ténèbres.\\nMais leur savoir n'a pas disparu. Il attend seulement ceux qui sont assez courageux pour le chercher.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seagrass_farmer",
+      "friendlyName": "Cultivateur d'herbes marines",
+      "deployed": true,
+      "description": "Collecte des herbes marines",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n",
+      "order": 2,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n  amount: 32\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Collecter des herbes marines",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 5 : L'observateur des profondeurs'\n    author: Unknown\n    pages:\n    - 'Il y a des moments où la mer semble… différente. Comme si elle avait une volonté propre.\\nLa pression change. La lumière baisse. L'eau s'épaissit, chargée de quelque chose d'invisible.\\nJe me retourne, mais ne vois rien.\\nJe nage, mais je ne suis pas seul.'\n    - 'Dans les profondeurs, quelque chose attend.\\nPas un poisson. Pas une personne.\\nJuste… une présence. Quelque chose qui nage à côté de moi, qui respire avec moi, qui observe seulement.\\nCela ne s'approche jamais.\\nCela ne part jamais.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 25,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "Collect seagrass",
+      "maxTimes": 1,
+      "repeatExperienceReward": 12,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n"
+      ],
+      "repeatMoneyReward": 7.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "aqua_architect",
+      "friendlyName": "Architecte aquatique",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HORN_CORAL\n",
+      "order": 3,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:coral_blocks": 12
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Absorbe-le bien",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPONGE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 4 : L'avertissement du pêcheur'\n    author: Unknown\n    pages:\n    - 'Il ramait dans sa petite barque grinçante, les yeux ne me quittant pas. Il était vieux, le visage gravé par des années de sel et de soleil.\\n« Tu te déplaces comme eux », dit-il.\\n« Comme qui ? » demandai-je.'\n    - '« Ceux qui ont perdu la terre », dit-il doucement, d'une voix lourde comme du lest.\\nIl sortit un parchemin de sa poche et me le tendit. Une seule phrase :\\n« Méfie-toi des monuments. »'\n    - 'Puis il rama et s'éloigna.\\nIl ne se retourna jamais.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "realm_builder",
+      "friendlyName": "Constructeur de royaume",
+      "deployed": true,
+      "description": "Améliore ton royaume au niveau 10 (/[label] level)",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICKS\n",
+      "order": 4,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10,
+          "papiString": null,
+          "advancements": null,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Vive les gardiens !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 8 : La surface brûle'\n    author: Unknown\n    pages:\n    - 'J'ai essayé.\\n\\nPendant des jours, j'ai observé les îles de loin. Les arbres se balançaient doucement. Le sable semblait doux. Le soleil scintillait sur l'eau comme une invitation.\\n\\nAujourd'hui, j'ai mis le pied sur la terre.'\n    - 'La douleur fut immédiate.\\n\\nMa peau commença à se fissurer. Mes poumons se contractèrent, assoiffés d'eau. Chaque respiration était du feu.\\n\\nJe suis retourné dans la mer.\\n\\nLa terre n'est pas pour moi. Plus maintenant.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 35,
+      "rewardMoney": 30.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_sculptor",
+      "friendlyName": "Cachette",
+      "deployed": true,
+      "description": "Établis une base",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
+      "order": 5,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GLASS": 1,
+            "CRAFTING_TABLE": 1,
+            "FURNACE": 1,
+            "CHEST": 1
+          },
+          "requiredMaterialTags": {
+            "minecraft:doors": 1,
+            "minecraft:beds": 1
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Quelque chose pour les outils",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAW_IRON_BLOCK\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 7 : L'épreuve de l'abîsse'\n    author: Unknown\n    pages:\n    - 'Les sculptures de pierre sont anciennes — plus anciennes que les ruines elles-mêmes. Leur langue est étrangère, mais leur sens est clair.\\nLes monuments ne sont pas des temples.\\nCe sont des épreuves.\\nCeux qui entrent ne reviennent pas toujours. Ceux qui reviennent ne sont plus les mêmes.'\n    - 'Les gardiens protègent ces lieux — mais pas pour nous arrêter.\\nIls gardent quelque chose de plus dangereux.\\nQuand je m'approchais, les sculptures s'illuminèrent. Comme si elles me reconnaissaient.\\nOu m'avertissaient.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 40,
+      "rewardMoney": 35.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "fisher",
+      "friendlyName": "Pêcheur",
+      "deployed": true,
+      "description": "Pêche 10 morues",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
+      "order": 6,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n  amount: 10\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 9 : La malédiction du roi noyé'\n    author: Unknown\n    pages:\n    - 'Ils n'ont pas toujours été ainsi.\\nJadis, c'étaient des marins, des explorateurs, des bâtisseurs des profondeurs. Ils taillaient la pierre et élevaient des tours qui défiaient les marées.\\nPuis vint la malédiction.\\nCertains disent que c'était une punition. D'autres, un cruel accident. Un rituel mal tourné, un marché non respecté.'\n    - 'À présent, ils errent près des ruines, ne se souvenant de rien, ne construisant rien.\\nCertaines nuits, sous la bonne lumière, je peux voir ce qu'ils étaient — dans ces yeux vides.\\nCertaines nuits, ils murmurent. Certaines nuits, ils crient.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 25,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 20.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "paper_maker",
+      "friendlyName": "Fabricant de papier",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PAPER\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PAPER\n  amount: 21\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRYING_OBSIDIAN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'La cicatrice d'obsidienne'\n    author: Unknown\n    pages:\n    - 'J'ai suivi une profonde tranchée, passé des forteresses en ruine, passé des cités englouties par le déluge.\\n\\nÀ son terme, j'ai trouvé la Cicatrice.\\n\\nUne fissure dentelée, si profonde que même la lumière refusait de la suivre. L'eau tourbillonnait vers le bas,'\n    - 'comme si la mer elle-même se déversait dans un endroit encore plus profond.\\n\\nLes murs d'obsidienne étaient couverts de symboles. Pas de la décoration. Pas de l'histoire.\\n\\nDes avertissements.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "shell_harvester",
+      "friendlyName": "Collecteur de coquilles",
+      "deployed": true,
+      "description": "Collecte 5 écailles de carapace de tortue",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_SCUTE\n  amount: 5\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 11 : Le chant du corail'\n    author: Unknown\n    pages:\n    - '\\nLes récifs chantent.\\nPas fort. Pas avec des mots. Mais quand les courants se déplacent et que le soleil frappe le corail juste comme il faut, une mélodie monte des profondeurs.\\nJ'ai posé la main sur un corail ramifié et, un instant — juste un souffle — j'ai vu quelque chose.'\n    - 'Une cité sous les vagues. Des silhouettes construisant, vivant, prospérant.\\nPuis — rien.\\n\\nQuand j'ai retiré ma main, le corail a frissonné, comme si j'avais interrompu quelque chose d'important.\\nIl m'a regardé partir.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 90.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 50,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n"
+      ],
+      "repeatMoneyReward": 45.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "swim_meet",
+      "friendlyName": "Rencontre de natation",
+      "deployed": true,
+      "description": "Fais la fête avec tes nouveaux « amis » !",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PLAYER_HEAD\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "DROWNED": 3
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 10 : Monuments engloutis'\n    author: Unknown\n    pages:\n    - 'Les monuments n'ont jamais été des temples.\\nC'étaient des avertissements.\\nJ'ai nagé à travers les vastes salles, devant des motifs lumineux gravés dans la pierre. Pas d'autels. Pas d'offrandes. Seulement des verrous.\\nJ'ai fait courir mes doigts sur les gravures — des formes, des créatures, quelque chose ressemblant à une porte.'\n    - 'Les gardiens m'observaient.\\nPas comme des protecteurs. Comme des geôliers.\\n« Certaines portes ne devraient jamais être ouvertes. »\\nJe ne sais pas si cette pensée était la mienne ou celle des formes gravées.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 80,
+      "rewardMoney": 70.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "tree_cutter",
+      "friendlyName": "Bûcheron",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_WOOD\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MANGROVE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPRUCE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: JUNGLE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PALE_OAK_LOG\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_LOG\n  amount: 8\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOLF_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOLF_ARMOR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'La lamentation du ghast'\n    author: Unknown\n    pages:\n    - 'J'ai entendu le hurlement longtemps avant de le voir.\\n\\nUn ghast dérivait dans l'eau, sa massive silhouette se balançant comme prise dans une tempête. Il n'attaqua pas. Il ne fuit pas.\\n\\nIl pleurait seulement.'\n    - 'Il dériva vers un temple en ruine et se tut dans les salles brisées.\\n\\nSe souvenait-il de quelque chose ? Pleurait-il quelque chose ?\\n\\nOu était-il simplement perdu dans un monde qui n'était plus tel qu'il le connaissait ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dark_food",
+      "friendlyName": "Nourriture sombre",
+      "deployed": true,
+      "description": "Prépare une soupe aux champignons !",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+      "order": 1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Des diamants !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 12 : Les profondeurs sous -64'\n    author: Unknown\n    pages:\n    - 'J'ai creusé trop profond.\\nLa pierre se fracturait différemment ici. Elle n'était pas lisse comme les grottes au-dessus. Elle semblait… fausse.\\n\\nPuis les tunnels changèrent. Des murs bordés de veines noircies et pulsantes. Des motifs trop symétriques, trop intentionnels.'\n    - 'Puis je l'entendis — un son rythmique. Un battement régulier et délibéré.\\n\\nJe creusai trois blocs de plus. Puis cinq. Puis dix.\\n\\nLe son devint plus fort.\\n\\nQuelque chose vit ici. Ou pire… quelque chose attend.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "guardian_fighter",
+      "friendlyName": "Chasseur de gardiens",
+      "deployed": true,
+      "description": "Défais 3 gardiens",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
+      "order": 2,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "GUARDIAN",
+              "material": null,
+              "amount": 3,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Prismarine",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 13 : L'épreuve de l'eau'\n    author: Unknown\n    pages:\n    - 'Les épreuves n'étaient jamais destinées à être gagnées.\\n\\nC'étaient des rites de passage, des tests de force, d'endurance. Ceux qui réussissaient gagnaient plus que la survie.\\n\\nIls gagnaient une place parmi les nés de l'abîsse.'\n    - 'Des noms sont gravés dans la pierre — ceux qui ont réussi les épreuves.\\n\\nLa plupart sont rayés.\\n\\nOubliés ? Ou effacés ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "underwater_farmer",
+      "friendlyName": "Fermier sous-marin",
+      "deployed": true,
+      "description": "Cultive et récolte des cornichons de mer !",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+      "order": 3,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 14 : La tempête qui approche'\n    author: Unknown\n    pages:\n    - 'L'eau est agitée.\\n\\nLes courants se déplacent sans raison. Les poissons nagent en bancs frénétiques, fuyant des ombres qui n'existent pas.\\n\\nLe ciel s'assombrit trop vite. L'air vibre d'une pression qui s'enfonce dans mes os.'\n    - 'Quelque chose arrive.\\n\\nJe ne sais pas quoi. Je ne sais pas d'où.\\n\\nMais la mer le sait. Et elle a peur.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 60,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 30,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n"
+      ],
+      "repeatMoneyReward": 25.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dryworld_hunter",
+      "friendlyName": "Chasseur du monde sec",
+      "deployed": true,
+      "description": "Tue 10 creepers, zombies et squelettes",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
+      "order": 4,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "CREEPER",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "SKELETON",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "ZOMBIE",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Armure de mineur pour aquanautes !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    display-name: '\"Aqua Leggings\"'\n    enchants:\n      minecraft:aqua_affinity: 1\n    repair-cost: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 15 : Voyageurs perdus'\n    author: Unknown\n    pages:\n    - 'Entrée 3 : Nous les avons vus à nouveau aujourd'hui. Marchant sous les vagues, leurs yeux brillant dans l'obscurité.\\n\\nEntrée 7 : La terre nous brûle, mais la mer nous accueille. Pourquoi ?'\n    - 'Entrée 12 : Il y a un monument devant nous. Nous pensions qu'il était abandonné. Nous avions tort.\\n\\nEntrée 15 : Ils attendent. Ils ont toujours attendu.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 70,
+      "rewardMoney": 60.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "abyssal_treasure",
+      "friendlyName": "Phénomène naturel",
+      "deployed": true,
+      "description": "Fais recouvrir au moins 1 bloc de ton royaume par de la neige !",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:snow": 1
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 22 : La folie du pêcheur'\n    author: Unknown\n    pages:\n    - 'Il était une fois un pêcheur qui se lassa des vagues. Il voulait des racines, un foyer qui ne dérive pas avec la marée.\\nAlors il construisit une cabane sur le rivage, empila pierres et bois, et attendit que la terre l'accueille.'\n    - 'Le premier jour, il dormit bien. Le deuxième, il sentit la traction — l'appel des vagues. Le troisième, il n'y répondit pas.\\n\\nLe quatrième jour, son bateau dériva jusqu'au rivage, vide. La porte était ouverte.\\n\\nUn seul mot était gravé dans le montant : « BRÛLE. »'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "conch_collector",
+      "friendlyName": "Collecteur de conques",
+      "deployed": true,
+      "description": "Trouve et réunis 5 coquilles de nautile",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n  amount: 5\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Boucliers en avant !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 19 : Les calcinés'\n    author: Unknown\n    pages:\n    - 'J'ai trouvé les restes aujourd'hui.\\nPas des os. Pas des corps. Juste des ombres, brûlées dans la pierre. Comme si quelque chose les avait consumés en un instant.\\nIl y avait des motifs dans la terre noircie — des silhouettes aux bras tendus, certaines vers le ciel, d'autres vers l'eau.'\n    - 'Ils ont essayé de rester sur la terre.\\n\\nLa terre ne les a pas laissés.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 70,
+      "rewardMoney": 60.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "conduit_crafter",
+      "friendlyName": "Artisan des conduits",
+      "deployed": true,
+      "description": "Fabrique et active un conduit",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CONDUIT": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Deux vaut mieux qu'un !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 18 : Les îles creuses'\n    author: Unknown\n    pages:\n    - 'Ces îles ne devraient pas être ici.\\nLeur forme est contre-nature — lisse là où la mer aurait dû les tailler en dents de scie. Quand j'ai creusé dans le sable, j'ai trouvé de la pierre, taillée et posée par des mains depuis longtemps disparues.'\n    - 'Elles étaient autrefois les fondations d'une cité. Avant que les vagues arrivent.\\n\\nLa mer n'est pas clémente envers ceux qui construisent au-dessus d'elle.\\n\\nEt pourtant ils construisirent.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_lantern_artisan",
+      "friendlyName": "Artisan des lanternes marines",
+      "deployed": true,
+      "description": "Fabrique 16 lanternes marines",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 16\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Construire un portail ou peut-être une ancre de réapparition ?",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRYING_OBSIDIAN\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 17 : La colère du soleil'\n    author: Unknown\n    pages:\n    - 'Le soleil ne me réchauffe pas. Il me brûle.\\nMa peau se fissure. Mes poumons se contractent, assoiffés d'eau. Chaque respiration est du feu.\\nMais ce n'est pas ainsi que cela devrait être. Je vois les pêcheurs sur leurs bateaux, la peau bronzée par le soleil. Je vois des oiseaux planer, des créatures ramper sur le rivage.'\n    - 'Pourquoi le soleil est-il différent pour moi ?\\n\\nQu'est-ce que la mer m'a donné — et qu'a-t-elle pris ?\\n\\nOu… a-t-elle offert ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 190,
+      "rewardMoney": 190.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "swimmer",
+      "friendlyName": "Le baiser de Poséidon",
+      "deployed": true,
+      "description": "Nage 10 000 blocs",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SWIM_ONE_CM",
+              "entity": null,
+              "material": null,
+              "amount": 1000000,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:depth_strider: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:luck_of_the_sea: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 21 : L'île des cendres'\n    author: Unknown\n    pages:\n    - 'Je l'ai vue au loin. Une île noircie, s'élevant de la mer comme une blessure à l'horizon.\\nRien n'y pousse. Pas d'arbres. Pas de vie. Juste de la pierre carbonisée et des braises fumantes, comme si le feu qui l'avait consumée ne s'était jamais vraiment éteint.'\n    - 'Les pêcheurs n'en parlent jamais.\\n\\nUn avertissement était gravé dans une pierre, presque effacé :\\n\\n« La terre est maudite. Laisse-la enterrée. »'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 160,
+      "rewardMoney": 160.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trawler",
+      "friendlyName": "Chalutier",
+      "deployed": true,
+      "description": "Pêche 50 poissons",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "FISH_CAUGHT",
+              "entity": null,
+              "material": null,
+              "amount": 50,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Objets utiles",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAW_IRON\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 7\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 16 : Messages dans des bouteilles'\n    author: Unknown\n    pages:\n    - 'Une bouteille en verre a dérivé jusqu'à mes mains aujourd'hui.\\nÀ l'intérieur : une lettre, écrite à la hâte.\\n« Je ne suis pas seul. Je vois leurs empreintes dans le sable. Je les entends se déplacer en dessous. Si tu trouves ceci, j'ai besoin de savoir — es-tu comme moi ? T'es-tu réveillé dans l'épave ? »'\n    - 'Au bas de la lettre, un autre message, plus court, l'encre brouillée :\\n\\n« Retrouve-moi aux ruines. À minuit. »\\n\\nLe dernier mot avait été lavé par l'eau de mer.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 180,
+      "rewardMoney": 180.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trial_step",
+      "friendlyName": "Pas d'épreuve",
+      "deployed": true,
+      "description": "Entre dans une chambre d'épreuve",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIAL_KEY\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 0,
+          "papiString": "",
+          "advancements": [
+            {
+              "name": "adventure/minecraft_trials_edition"
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trident_wielder",
+      "friendlyName": "Porteur du trident",
+      "deployed": true,
+      "description": "Élimine 10 noyés de ton royaume",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "DROWNED",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:channeling: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Livre 20 : Feu et eau'\n    author: Unknown\n    pages:\n    - 'Il y en eut un, jadis, qui marchait entre les mondes.\\nLe dernier de son espèce, lui seul pouvait respirer la mer et se tenir sous le soleil. Il parlait d'équilibre, de maintenir la paix entre les profondeurs et la terre.\\nMais le pouvoir a un prix.'\n    - 'Ils disparurent.\\n\\nCertains disent que la mer les réclama. D'autres qu'ils brûlèrent de l'intérieur, consumés par les deux mondes.\\n\\n« Seule la mer demeure. »'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 80,
+      "rewardMoney": 70.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "it_takes_a_village",
+      "friendlyName": "Il faut tout un village",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 10
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HOPPER\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Les profondeurs cramoisies'\n    author: Unknown\n    pages:\n    - '\\nLes lianes poussent sans lumière du soleil, s'enroulant à travers la pierre en ruine, atteignant quelque chose d'invisible.\\nJ'en ai touché une, et elle frissonna — vivante. Sa surface pulsait, comme si elle buvait l'eau.\\nMais alors les murs bougèrent.\\nNon — pas les murs. Les lianes.\\nElles n'ont pas besoin de sol. Elles n'ont pas besoin d'air.\\nElles ont seulement besoin de sang.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "my_precious",
+      "friendlyName": "Mon précieux",
+      "deployed": true,
+      "description": "Quelques objets en fer",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAULDRON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAME_TAG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ANVIL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_BLOCK\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'L'enfer inondé'\n    author: Unknown\n    pages:\n    - 'Le portail scintillait, sa surface ondulant comme la mer elle-même. J'entrai, m'attendant au feu, aux cendres.\\nMais le Nether se noyait.\\nLes lacs de lave s'étaient refroidis en pierre noire, leurs feux éteints par une mer sans fin. L'air, épais et silencieux,'\n    - 'des forteresses à moitié submergées, des lianes rouges à travers les vestiges.\\n\\nCe n'était pas un monde de feu. Plus maintenant.\\n\\nMais quelque chose y vit. Tapi dans l'obscurité, attendant ceux assez imprudents pour entrer.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "nether_swimmer",
+      "friendlyName": "Pionnier",
+      "deployed": true,
+      "description": "Fabrique une boussole et une horloge, voyage dans le Nether et ramasse une larme de ghast et quelques blocs",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GHAST_TEAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CLOCK\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COMPASS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SOUL_SAND\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERRACK\n  amount: 64\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Construire un chemin de fer sous-marin ?",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OCELOT_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MINECART\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Le marcheur'\n    author: Unknown\n    pages:\n    - 'La terre est censée être morte.\\nEt pourtant… j'ai vu des empreintes dans le sable.\\nPas laissées par les pêcheurs. Pas les pas errants de villageois.\\nPieds nus. Des foulées profondes et délibérées. Allant de la mer vers les arbres.\\nPuis disparaissant sans laisser de trace.'\n    - 'J'ai suivi la piste pendant des kilomètres. Aucun signe. Aucun campement. Aucune branche brisée.\\n\\nComme s'ils avaient simplement cessé d'exister.\\n\\nJe ne suis pas le seul à surveiller le rivage.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_potions",
+      "friendlyName": "Potions marines",
+      "deployed": true,
+      "description": "Brasse quelques potions",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:regeneration\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LINGERING_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_strength\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_slowness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_night_vision\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_harming\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTING_TABLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SMITHING_TABLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Marée des âmes'\n    author: Unknown\n    pages:\n    - 'L'eau se déplace étrangement ici. Ce n'est pas le balancement tranquille de l'océan. Ce n'est pas la poussée de la marée.\\nElle se déplace avec intention.\\nJ'ai nagé plus profond, passé des ponts en ruine et des forteresses creuses, et je l'ai ressenti — une attraction. Pas seulement un courant, mais autre chose.'\n    - 'Un souvenir ? Une présence ?\\n\\nOu quelque chose qui essaie de m'entraîner vers les profondeurs ?\\n\\nL'eau tourbillonnait autour de moi, et j'ai compris — je ne suis pas le premier qu'elle a appelé.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "underwater_empire",
+      "friendlyName": "Empire sous-marin",
+      "deployed": true,
+      "description": "Construis un empire sous-marin avec au moins 64 blocs de verre",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GLASS": 64,
+            "WATER": 64
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Terre cuite !",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLACK_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ORANGE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: YELLOW_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIME_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CYAN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PINK_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MAGENTA_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PURPLE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PURPLE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLUE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CYAN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Échos des premiers'\n    author: Unknown\n    pages:\n    - 'Profondément sous une île, dans une grotte jamais touchée par la lumière du soleil, j'ai trouvé des gravures.\\nElles montrent des silhouettes marchant sur la terre, se rassemblant à des monuments semblables à ceux sous les vagues. Des symboles de feu, d'eau, de quelque chose tombant du ciel.'\n    - 'Puis — une grande vague. Le monde englouti.\\n\\nMais pas par accident.\\n\\nLa mer ne régnait pas toujours. Mais quelque chose a décidé qu'elle le devrait.'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 260,
+      "rewardMoney": 260.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "guardian_commander",
+      "friendlyName": "Commandant des gardiens",
+      "deployed": true,
+      "description": "Défais 20 gardiens anciens",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "ELDER_GUARDIAN",
+              "material": null,
+              "amount": 20,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Une bibliothèque magique",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:channeling: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:efficiency: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:frost_walker: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:looting: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:power: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:protection: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:loyalty: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:impaling: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LECTERN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BOOKSHELF\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'La lamentation du ghast'\n    author: Unknown\n    pages:\n    - 'J'ai entendu le hurlement longtemps avant de le voir.\\n\\nUn ghast dérivait dans l'eau, sa massive silhouette se balançant comme prise dans une tempête. Il n'attaqua pas. Il ne fuit pas.\\n\\nIl pleurait seulement.'\n    - 'Il dériva vers un temple en ruine et se tut dans les salles brisées.\\n\\nSe souvenait-il de quelque chose ? Pleurait-il quelque chose ?\\n\\nOu était-il simplement perdu dans un monde qui n'était plus tel qu'il le connaissait ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 560,
+      "rewardMoney": 560.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "statistic_challenge",
+      "friendlyName": "L'héritage de Poséidon",
+      "deployed": true,
+      "description": "Fabrique une balise",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "CRAFT_ITEM",
+              "entity": null,
+              "material": "BEACON",
+              "amount": 1,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Lave et eau'\n    author: Unknown\n    pages:\n    - 'La lave et l'eau ne devraient pas se mélanger ainsi.\\n\\nJ'ai trouvé une fissure où les deux s'étaient jadis rencontrées, m'attendant à de l'obsidienne solide, mais la roche était instead marquée — gravée de quelque chose de contre-nature.'\n    - 'Le déluge n'était pas un accident.\\n\\nQuelqu'un — ou quelque chose — voulait éteindre le feu.\\n\\nLa question est : pourquoi ?'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 600,
+      "rewardMoney": 600.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ttt",
+      "friendlyName": "Légende des coraux",
+      "deployed": true,
+      "description": "Construis une immense structure de récif corallien avec 200 blocs de corail",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:corals": 200
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Des prix pour un gagnant",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_POTTERY_SHERD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_APPLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_BLOCK\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: 'Les bâtisseurs prisonniers'\n    author: Unknown\n    pages:\n    - 'La forteresse n'était pas vide.\\n\\nDes squelettes se tenaient debout, enfermés dans des armures rouillées, des armes dans des mains figées. Leurs crânes inclinés vers le ciel, des orbites vides fixant quelque chose d'invisible.'\n    - 'L'un tenait un livre scellé.\\n\\nJe l'ouvris.\\n\\n« Nous avons essayé de retenir la marée. Nous avons échoué. Le déluge ne peut être arrêté. »'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 580,
+      "rewardMoney": 580.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "tidepool_explorer",
+      "friendlyName": "Explorateur de mares de marée",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TUBE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_TUBE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 1,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "sea_sculptor",
+        "seagrass_farmer",
+        "adv",
+        "realm_builder",
+        "kelp_harvester",
+        "aqua_architect",
+        "treasure_hunter",
+        "fisher"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "coral_wayfinder",
+      "friendlyName": "Navigateur des coraux",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BRAIN_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 2,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "dryworld_hunter",
+        "underwater_farmer",
+        "dark_food",
+        "tree_cutter",
+        "guardian_fighter",
+        "shell_harvester",
+        "swim_meet",
+        "paper_maker"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "deep_sea_hunter",
+      "friendlyName": "Chasseur des abysses",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FIRE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_FIRE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "trial_step",
+        "abyssal_treasure",
+        "conch_collector",
+        "conduit_crafter",
+        "sea_lantern_artisan",
+        "trident_wielder",
+        "swimmer",
+        "trawler"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "abyssal_guardian",
+      "friendlyName": "Gardien de l'abîsse",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HORN_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_FIRE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 4,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "underwater_empire",
+        "my_precious",
+        "nether_swimmer",
+        "sea_potions",
+        "it_takes_a_village"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "leviathan",
+      "friendlyName": "Léviathan",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BUBBLE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BUBBLE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 5,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "guardian_commander",
+        "ttt",
+        "statistic_challenge"
+      ],
+      "ignoreRewardMetaData": []
+    }
+  ],
+  "version": "1.5.0"
+}

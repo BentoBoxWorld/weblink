@@ -240,6 +240,14 @@
       "language": "ru",
       "slot": 30,
       "for": "Poseidon"
+    },
+    {
+      "repository": "poseidon-fr",
+      "name": "Poseidon (Français)",
+      "version": "1.0",
+      "language": "fr",
+      "slot": 31,
+      "for": "Poseidon"
     }
   ]
 }
