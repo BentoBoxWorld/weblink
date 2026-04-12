@@ -208,6 +208,14 @@
       "for": "AcidIsland",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "repository": "poseidon-zh-CN",
+      "name": "Poseidon (简体中文)",
+      "version": "1.0",
+      "language": "zh-CN",
+      "slot": 27,
+      "for": "Poseidon"
     }
   ]
 }

@@ -1,0 +1,1845 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "opportunity_knocks",
+      "friendlyName": "机会来临",
+      "deployed": true,
+      "description": "嘿！一个流浪商人！快完成这个挑战！",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_CARPET\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": true,
+      "level": "",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "WANDERING_TRADER": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LLAMA_SPAWN_EGG\n  amount: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LEAD\n  amount: 2\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "adv",
+      "friendlyName": "随手丢弃",
+      "deployed": true,
+      "description": "完成\"随手丢弃的笑话\"进度",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 0,
+          "papiString": "",
+          "advancements": [
+            {
+              "name": "adventure/throw_trident"
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:lure: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第三册：沉船的秘密'\n    author: Unknown\n    pages:\n    - '第17篇\\n我担心有人在跟踪我们。船长不屑一顾，但船员们也看到了——海浪之下的身影，移动得太快、太精准。他们不是在游泳。他们在滑行。'\n    - '第19篇\\n风暴已经过去。我们以为自己会溺死。然而我们没有。\\n\\n但有些事情发生了。\\n\\n大家都说他们感觉到了它——在水下，当船沉没的时候。一阵感觉，一阵……改变。\\n\\n\"我们正在改变。\"'\n    - '第21篇\\n其他人都走了。当我醒来的时候，残骸空空如也。\\n\\n但我在水中看到了他们——在下面，注视着我。等待着我。\\n\\n我是其中之一吗？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "kelp_jerky",
+      "friendlyName": "海带干",
+      "deployed": true,
+      "description": "制作5包干海带",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n  amount: 3\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 2,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "squid_hunter",
+      "friendlyName": "海陆大餐",
+      "deployed": true,
+      "description": "猎杀鱿鱼和热带鱼",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "SQUID",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "TROPICAL_FISH",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COW_SPAWN_EGG\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 15,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 2,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "treasure_hunter",
+      "friendlyName": "与鱼共眠",
+      "deployed": true,
+      "description": "在床上睡觉",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_BED\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SLEEP_IN_BED",
+              "entity": null,
+              "material": null,
+              "amount": 0,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEETROOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEETROOT_SEEDS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第二册：水流中的回声'\n    author: Unknown\n    pages:\n    - '大海从不沉默。\\n夜晚，水流奇异地移动，形成图案，扭曲成形状。有时，在静谧中，我听到了它——水中的低语。\\n不是声音。不是话语。而是更深层的东西，一种被感知而非被听到的东西。'\n    - '它从我的脚底开始。一种低沉的嗡嗡声，渗入骨髓。\\n我向下看，在黑暗中——它们在那里。身影。等待着。\\n它们是真实的，还是大海在用我自己的恐惧和梦境与我交谈？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "kelp_harvester",
+      "friendlyName": "海带收割者",
+      "deployed": true,
+      "description": "收获50根海带",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
+      "order": 1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n  amount: 50\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "羊毛需要干洗吗？",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第六册：被遗忘的领域'\n    author: Unknown\n    pages:\n    - '曾经，在洪水之前，在沉默之前，海浪之下有一座城市。\\n不是废墟。不是残骸。而是一个王国。\\n据说他们的人民不惧怕大海——他们拥抱它，在其中繁盛，与那些如今已消失的生物共同生活。'\n    - '如今，塔楼正在崩塌，大厅正在沉没。那个文明所知晓的一切，都被封存于下沉的石头与黑暗中。\\n但他们的知识并未消失。它只是在等待，等待那些足够勇敢去寻找的人。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 20,
+      "rewardMoney": 10.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SHEEP_SPAWN_EGG\n"
+      ],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "seagrass_farmer",
+      "friendlyName": "海草农夫",
+      "deployed": true,
+      "description": "收集海草",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n",
+      "order": 2,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n  amount: 32\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "收集海草",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第五册：深渊的守望者'\n    author: Unknown\n    pages:\n    - '有些时刻，大海感觉……不同。仿佛它有自己的想法。\\n压力改变了。光线暗淡下来。水变得浓稠，承载着某种看不见的东西。\\n我转身，却什么也看不见。\\n我游动，却并不孤独。'\n    - '深处有什么东西在等待。\\n不是一条鱼。不是一个人。\\n只是……一种存在。某种与我平行游动、与我一同呼吸、只是观察的东西。\\n它从不靠近。\\n它从不离开。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 25,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "Collect seagrass",
+      "maxTimes": 1,
+      "repeatExperienceReward": 12,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n"
+      ],
+      "repeatMoneyReward": 7.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "aqua_architect",
+      "friendlyName": "水下建筑师",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HORN_CORAL\n",
+      "order": 3,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:coral_blocks": 12
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "尽情吸收吧",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPONGE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第四册：渔夫的警告'\n    author: Unknown\n    pages:\n    - '他划着他那艘吱呀作响的小船靠近，眼睛从未离开我。他很老了，脸上刻满了盐分和阳光的岁月。\\n\"你移动的方式像他们。\"他说。\\n\"像谁？\"我问道。'\n    - '\"那些失去了土地的人。\"他低声说，声音沉重得像压舱石。\\n他从口袋里掏出一张羊皮纸，递给我。就一句话：\\n\"当心那些纪念碑。\"'\n    - '然后他划走了。\\n他从不回头。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 20.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "realm_builder",
+      "friendlyName": "领域建造者",
+      "deployed": true,
+      "description": "将你的领域升至10级 (/[label] level)",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICKS\n",
+      "order": 4,
+      "challengeType": "OTHER_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 10,
+          "papiString": null,
+          "advancements": null,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "叉叉守护者！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第八册：地面燃烧'\n    author: Unknown\n    pages:\n    - '我试过了。\\n\\n好几天，我从远处观察那些岛屿。树木轻轻摇曳。沙子看起来很柔软。阳光在水面上闪烁，像一份邀请。\\n\\n今天，我踏上了陆地。'\n    - '痛苦是立即的。\\n\\n我的皮肤开始裂开。我的肺部收紧，渴望水分。每一次呼吸都像火焰。\\n\\n我回到了海里。\\n\\n这片土地不属于我。不再是了。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 35,
+      "rewardMoney": 30.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_sculptor",
+      "friendlyName": "隐蔽之所",
+      "deployed": true,
+      "description": "建立一个家庭基地",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
+      "order": 5,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GLASS": 1,
+            "CRAFTING_TABLE": 1,
+            "FURNACE": 1,
+            "CHEST": 1
+          },
+          "requiredMaterialTags": {
+            "minecraft:doors": 1,
+            "minecraft:beds": 1
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "工具材料",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAW_IRON_BLOCK\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第七册：深渊的试炼'\n    author: Unknown\n    pages:\n    - '石头雕刻非常古老——比废墟本身还要古老。它们的语言是陌生的，但含义是清晰的。\\n这些纪念碑不是神殿。\\n它们是试炼。\\n进入的人并不总能回来。回来的人也已不再是原来的自己。'\n    - '守卫者保护着这些地方——但不是为了阻止我们。\\n他们在守护某种更危险的东西。\\n当我靠近时，雕刻发光了。仿佛在认出我。\\n或者在警告我。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 40,
+      "rewardMoney": 35.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "fisher",
+      "friendlyName": "渔夫",
+      "deployed": true,
+      "description": "钓取10条鳕鱼",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
+      "order": 6,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "tidepool_explorer",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n  amount: 10\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第九册：溺亡之王的诅咒'\n    author: Unknown\n    pages:\n    - '他们并非一直如此。\\n曾经，他们是水手、探险家、深海的建造者。他们雕琢石头，建造能抵御潮汐的高塔。\\n然后诅咒降临了。\\n有人说这是惩罚。也有人说是残忍的意外。一场出了差错的仪式，一个未履行的契约。'\n    - '如今他们在废墟附近游荡，什么也不记得，什么也不建造。\\n有些夜晚，在正确的光线下，我可以看到他们曾经是什么——在那双空洞的眼睛里。\\n有些夜晚，他们低语。有些夜晚，他们尖叫。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 25,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 2\n"
+      ],
+      "repeatMoneyReward": 20.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "paper_maker",
+      "friendlyName": "造纸者",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PAPER\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PAPER\n  amount: 21\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRYING_OBSIDIAN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '黑曜石疤痕'\n    author: Unknown\n    pages:\n    - '我沿着一条深沟，穿过崩塌的堡垒，穿过被洪水吞没的城市。\\n\\n在它的尽头，我找到了疤痕。\\n\\n一道锯齿状的裂缝，深到连光线都不敢追随。水流在那里旋转，螺旋向下，'\n    - '就好像大海本身在向下倾泻进入某个更深处。\\n\\n黑曜石墙壁上刻满了符号。不是装饰。不是历史。\\n\\n警告。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 30,
+      "rewardMoney": 15.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "shell_harvester",
+      "friendlyName": "贝壳收集者",
+      "deployed": true,
+      "description": "收集5块龟壳碎片",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_SCUTE\n  amount: 5\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十一册：珊瑚之歌'\n    author: Unknown\n    pages:\n    - '\\n珊瑚礁在歌唱。\\n不大声。不用语言。但当水流移动，阳光恰好照射在珊瑚上时，一段旋律从深处升起。\\n我把手放在一株分枝珊瑚上，就那么一瞬间——仅仅一个呼吸——我看到了某些东西。'\n    - '一座城市，在波浪之下。身影在建造，在生活，在繁盛。\\n然后——什么都没有了。\\n\\n当我把手移开时，珊瑚颤抖了一下，就好像我打断了某件重要的事情。\\n当我离开时，它凝视着我。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 100,
+      "rewardMoney": 90.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 50,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n"
+      ],
+      "repeatMoneyReward": 45.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "swim_meet",
+      "friendlyName": "游泳聚会",
+      "deployed": true,
+      "description": "和你的新\"朋友们\"开派对！",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PLAYER_HEAD\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "DROWNED": 3
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: EMERALD\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十册：沉没的纪念碑'\n    author: Unknown\n    pages:\n    - '这些纪念碑从来都不是神殿。\\n它们是警告。\\n我游过宽阔的大厅，经过石头上蚀刻的发光图案。没有祭坛。没有祭品。只有锁。\\n我用手指抚摸着雕刻——形状、生物、某种类似于门的东西。'\n    - '守卫者注视着我。\\n不是作为守护者。是作为看守者。\\n\"有些门永远不应该被打开。\"\\n我不确定这是我的想法，还是那些蚀刻的形状的想法。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 80,
+      "rewardMoney": 70.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "tree_cutter",
+      "friendlyName": "伐木者",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_WOOD\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MANGROVE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPRUCE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OAK_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: JUNGLE_LOG\n  amount: 8\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PALE_OAK_LOG\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BIRCH_LOG\n  amount: 8\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOLF_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WOLF_ARMOR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '恶魂的哀叹'\n    author: Unknown\n    pages:\n    - '我在看见它之前很久就听到了那声哀号。\\n\\n一只恶魂漂浮在水中，它庞大的身躯在风暴中摇曳。它没有攻击。它没有逃跑。\\n\\n它只是哭泣。'\n    - '它漂向一座废弃的神殿，在断裂的大厅中安静下来。\\n\\n它还记得什么吗？它在哀悼什么吗？\\n\\n或者它只是迷失在这个不再是它所知的世界里？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 75,
+      "rewardMoney": 75.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dark_food",
+      "friendlyName": "黑暗食物",
+      "deployed": true,
+      "description": "制作蘑菇炖汤！",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+      "order": 1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "钻石！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十二册：-64以下的深处'\n    author: Unknown\n    pages:\n    - '我挖得太深了。\\n石头在这里有不同的破裂方式。它不像上面的洞穴那样光滑。它感觉……不对劲。\\n\\n然后，隧道改变了。墙壁上排列着黑化的、跳动的纹脉。图案过于对称，过于刻意。'\n    - '然后我听到了它——一种有节奏的声音。稳定的、刻意的心跳。\\n\\n我向下挖了三格。然后是五格。然后是十格。\\n\\n声音变得更响亮了。\\n\\n这里有什么东西活着。或者更糟……有什么东西在等待。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "guardian_fighter",
+      "friendlyName": "守卫战士",
+      "deployed": true,
+      "description": "击败3只守卫者",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
+      "order": 2,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "GUARDIAN",
+              "material": null,
+              "amount": 3,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "海晶石",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n  amount: 20\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十三册：水的试炼'\n    author: Unknown\n    pages:\n    - '这些试炼从来都不是为了赢得而设计的。\\n\\n它们是成年礼，是力量的考验，是耐力的考验。成功者赢得的不仅仅是生存。\\n\\n他们赢得了深渊诞生者中的一席之地。'\n    - '名字刻在石头上——那些通过考验的人。\\n\\n大多数已经被划掉了。\\n\\n被遗忘了？还是被抹去了？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 40.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "underwater_farmer",
+      "friendlyName": "水下农夫",
+      "deployed": true,
+      "description": "种植并收获海泡菜！",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+      "order": 3,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十四册：聚集的风暴'\n    author: Unknown\n    pages:\n    - '水面不安宁。\\n\\n水流无故移动。鱼群疯狂游动，逃离不存在的阴影。\\n\\n天空变暗得太快了。空气中充满了一种压迫感，压迫着我的骨骼。'\n    - '有什么东西要来了。\\n\\n我不知道是什么。我不知道它来自哪里。\\n\\n但大海知道。而它很害怕。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 60,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": true,
+      "timeout": 120000,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 30,
+      "repeatItemReward": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n"
+      ],
+      "repeatMoneyReward": 25.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "dryworld_hunter",
+      "friendlyName": "旱地猎人",
+      "deployed": true,
+      "description": "击杀10只爬行者、僵尸和骷髅",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
+      "order": 4,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "coral_wayfinder",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "CREEPER",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "SKELETON",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            },
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "ZOMBIE",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "水下探险家护甲！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    display-name: '\"Aqua Leggings\"'\n    enchants:\n      minecraft:aqua_affinity: 1\n    repair-cost: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十五册：迷失的航行者'\n    author: Unknown\n    pages:\n    - '第3篇：今天我们又看到了他们。在波浪之下行走，他们的眼睛在黑暗中发光。\\n\\n第7篇：陆地灼伤我们，但大海欢迎我们。为什么？'\n    - '第12篇：前方有一座纪念碑。我们以为它被遗弃了。我们错了。\\n\\n第15篇：他们在等待。他们一直在等待。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 70,
+      "rewardMoney": 60.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "abyssal_treasure",
+      "friendlyName": "自然奇迹",
+      "deployed": true,
+      "description": "让你的领域至少有1格被雪覆盖！",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:snow": 1
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLAZE_ROD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_INGOT\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第二十二册：渔夫的愚蠢'\n    author: Unknown\n    pages:\n    - '曾经有一个渔夫，厌倦了海浪。他想要根，一个不随潮汐漂移的家。\\n所以他在岸边建了一间小屋，堆叠石头和木材，等待着陆地欢迎他。'\n    - '第一天，他睡得很好。第二天，他感到了拉力——海浪的呼唤。第三天，他没有回应。\\n\\n第四天，他的船漂到了岸边，空空如也。门是开着的。\\n\\n只有一个词被刻在门框上：\"燃烧。\"'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "conch_collector",
+      "friendlyName": "海螺收藏家",
+      "deployed": true,
+      "description": "找到并收集5个鹦鹉螺壳",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n  amount: 5\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "盾牌举起！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十九册：焦灼者'\n    author: Unknown\n    pages:\n    - '今天我找到了遗骸。\\n不是骨头。不是尸体。只是影子，被烧入石头中。仿佛某种东西在一瞬间将他们吞噬了。\\n石头上有图案——伸展着手臂的人形，有些向天空伸展，有些向水中伸展。'\n    - '他们试图留在陆地上。\\n\\n陆地没有让他们留下。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 70,
+      "rewardMoney": 60.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "conduit_crafter",
+      "friendlyName": "导管工匠",
+      "deployed": true,
+      "description": "制作并激活一个导管",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CONDUIT": 1
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "二合一更好！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_OF_THE_SEA\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十八册：空洞的岛屿'\n    author: Unknown\n    pages:\n    - '这些岛屿不应该在这里。\\n它们的形状是不自然的——在大海应该将其雕琢成锯齿状的地方却是光滑的。当我挖入沙子时，我发现了石头，被早已逝去的双手切割和放置。'\n    - '它们曾经是城市的地基。在波浪到来之前。\\n\\n大海对那些在其上建造的人并不宽容。\\n\\n然而他们还是建造了。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 150,
+      "rewardMoney": 150.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_lantern_artisan",
+      "friendlyName": "海晶灯工匠",
+      "deployed": true,
+      "description": "制作16个海晶灯",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n  amount: 16\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造传送门或者重生锚？",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CRYING_OBSIDIAN\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十七册：太阳的愤怒'\n    author: Unknown\n    pages:\n    - '太阳不能温暖我。它在燃烧我。\\n我的皮肤裂开了。我的肺部收紧，渴望水分。每一次呼吸都像火焰。\\n但这不应该是这样的。我看到船上的渔夫，皮肤被太阳晒成古铜色。我看到鸟儿翱翔，生物在岸边爬行。'\n    - '为什么太阳对我有所不同？\\n\\n大海给了我什么，却从我这里拿走了什么？\\n\\n或者……它给予了？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 190,
+      "rewardMoney": 190.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "swimmer",
+      "friendlyName": "波塞冬之吻",
+      "deployed": true,
+      "description": "游泳10000格",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "SWIM_ONE_CM",
+              "entity": null,
+              "material": null,
+              "amount": 1000000,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:depth_strider: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:luck_of_the_sea: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第二十一册：灰烬之岛'\n    author: Unknown\n    pages:\n    - '我从远处看到了它。一座焦黑的岛屿，像地平线上的一道伤口从大海中升起。\\n那里什么都没有生长。没有树木。没有生命。只有焦黑的石头和阴燃的余烬，仿佛吞噬它的火焰从未真正熄灭。'\n    - '渔夫们从不谈论它。\\n\\n一块石头上刻着一个警告，几乎被侵蚀殆尽：\\n\\n\"土地被诅咒了。让它沉睡。\"'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 160,
+      "rewardMoney": 160.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trawler",
+      "friendlyName": "拖网渔船",
+      "deployed": true,
+      "description": "钓取50条鱼",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "FISH_CAUGHT",
+              "entity": null,
+              "material": null,
+              "amount": 50,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "实用物品",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: REDSTONE\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAW_IRON\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_CRYSTALS\n  amount: 7\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第十六册：瓶中信'\n    author: Unknown\n    pages:\n    - '今天一个玻璃瓶漂到了我手中。\\n里面：一封信，用匆忙的笔触写就。\\n\"我并不孤单。我看到了他们在沙滩上的脚印。我听到他们在下面移动。如果你找到这个，我需要知道——你和我一样吗？你是在残骸中醒来的吗？\"'\n    - '信的底部，另一条更简短的信息，墨水模糊：\\n\\n\"在废墟处见我。午夜。\"\\n\\n最后的词被海水侵蚀了。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 180,
+      "rewardMoney": 180.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trial_step",
+      "friendlyName": "试炼之步",
+      "deployed": true,
+      "description": "进入一个试炼密室",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIAL_KEY\n",
+      "order": -1,
+      "challengeType": "OTHER_TYPE",
+      "environment": [
+        "NORMAL"
+      ],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 0,
+          "papiString": "",
+          "advancements": [
+            {
+              "name": "adventure/minecraft_trials_edition"
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [],
+      "hideRewardItems": null,
+      "rewardExperience": 50,
+      "rewardMoney": 50.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "trident_wielder",
+      "friendlyName": "三叉戟使者",
+      "deployed": true,
+      "description": "从你的领域中清除10只溺尸",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "deep_sea_hunter",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "DROWNED",
+              "material": null,
+              "amount": 10,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:channeling: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '第二十册：火与水'\n    author: Unknown\n    pages:\n    - '很久以前，有一个人行走于两个世界之间。\\n最后的同类，只有他们能够呼吸大海，也能在阳光下站立。他们谈到平衡，谈到保持深处与陆地之间的和平。\\n但权力是有代价的。'\n    - '他们消失了。\\n\\n有些人说他们被大海宣判了。另一些人说他们从内部被燃烧了，被两个世界所消耗。\\n\\n\"只有大海长存。\"'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 80,
+      "rewardMoney": 70.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "it_takes_a_village",
+      "friendlyName": "众人拾柴",
+      "deployed": true,
+      "description": [],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "VILLAGER": 10
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BELL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HOPPER\n  amount: 4\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '深红色的深处'\n    author: Unknown\n    pages:\n    - '\\n藤蔓在没有阳光的情况下生长，穿过废弃的石头，向某种看不见的东西伸展。\\n我触碰了一根，它颤抖了——活着的。它的表面脉动，仿佛在汲取水分。\\n但随后，墙壁移动了。\\n不——不是墙壁。是藤蔓。\\n它们不需要土壤。它们不需要空气。\\n它们只需要血。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "my_precious",
+      "friendlyName": "我的宝贝",
+      "deployed": true,
+      "description": "一些铁制品",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {
+            "IRON_GOLEM": 1
+          },
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CAULDRON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAME_TAG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ANVIL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_BLOCK\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '被淹没的地狱'\n    author: Unknown\n    pages:\n    - '传送门闪烁着，表面像大海本身一样涟漪。我踏了进去，期待着火，期待着灰烬。\\n但地狱正在溺死。\\n熔岩湖已经冷却成黑石，被无尽的大海所熄灭。空气，浓稠而沉默，'\n    - '堡垒半沉在水下，红色的藤蔓穿过废墟蔓延。\\n\\n这不是一个火焰的世界。不再是了。\\n\\n但这里有什么东西活着。潜伏在黑暗中，等待着那些足够愚蠢踏入这里的人。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 300,
+      "rewardMoney": 300.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "nether_swimmer",
+      "friendlyName": "先驱者",
+      "deployed": true,
+      "description": "制作指南针、时钟，前往地狱并拾取恶魂之泪和一些方块",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GHAST_TEAR\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CLOCK\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COMPASS\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SOUL_SAND\n  amount: 10\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NETHERRACK\n  amount: 64\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "建造水下铁路？",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: OCELOT_SPAWN_EGG\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MINECART\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '行走者'\n    author: Unknown\n    pages:\n    - '这片土地应该是死的。\\n然而……我在沙滩上看到了脚印。\\n不是渔夫留下的。不是流浪村民的步伐。\\n赤脚。深沉、刻意的步伐。从大海走向树林。\\n然后消失得无影无踪。'\n    - '我沿着踪迹走了几英里。没有任何迹象。没有露营地。没有折断的树枝。\\n\\n仿佛他们只是……停止了存在。\\n\\n我不是唯一一个注视着海岸的存在。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 100,
+      "rewardMoney": 100.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "sea_potions",
+      "friendlyName": "海洋药水",
+      "deployed": true,
+      "description": "酿造一些药水",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
+      "order": -1,
+      "challengeType": "INVENTORY_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:regeneration\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:swiftness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:healing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LINGERING_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_strength\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:invisibility\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:water_breathing\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_slowness\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_night_vision\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPLASH_POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_harming\n"
+          ],
+          "ignoreMetaData": [],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTING_TABLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SMITHING_TABLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '灵魂潮汐'\n    author: Unknown\n    pages:\n    - '水在这里移动得很奇怪。这不是大海平静的摇摆。这不是潮汐的推动。\\n它有目的地移动。\\n我游得更深，越过废弃的桥梁和空洞的堡垒，感到了它——一种拉力。不只是水流，而是其他的东西。'\n    - '一种记忆？一种存在？\\n\\n还是某种试图将我拖入更深处的东西？\\n\\n水流在我周围旋转，我意识到——我不是第一个被它召唤来的人。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 200,
+      "rewardMoney": 200.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "underwater_empire",
+      "friendlyName": "水下帝国",
+      "deployed": true,
+      "description": "用至少64块玻璃建造水下帝国",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "abyssal_guardian",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "GLASS": 64,
+            "WATER": 64
+          },
+          "requiredMaterialTags": {},
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "陶瓦！",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLACK_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ORANGE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BROWN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GRAY_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: YELLOW_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIME_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CYAN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WHITE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PINK_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MAGENTA_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PURPLE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PURPLE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BLUE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CYAN_GLAZED_TERRACOTTA\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '先驱者的回声'\n    author: Unknown\n    pages:\n    - '在一座岛屿深处，在一个未被阳光触及的洞穴中，我发现了雕刻。\\n它们展示了在陆地上行走的人物，在纪念碑前聚集，就像海浪之下的那些纪念碑一样。火焰、水、某种从天空坠落的东西的符号。'\n    - '然后——一道巨浪。世界被吞没。\\n\\n但不是偶然。\\n\\n大海并不总是统治一切。但某种东西决定了它应该如此。'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 260,
+      "rewardMoney": 260.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "guardian_commander",
+      "friendlyName": "守卫指挥官",
+      "deployed": true,
+      "description": "击败20只远古守卫者",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "KILL_ENTITY",
+              "entity": "ELDER_GUARDIAN",
+              "material": null,
+              "amount": 20,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "一座魔法图书馆",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:channeling: 1\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:efficiency: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:frost_walker: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:looting: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:power: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:protection: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:riptide: 2\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:loyalty: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      minecraft:impaling: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LECTERN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BOOKSHELF\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '恶魂的哀叹'\n    author: Unknown\n    pages:\n    - '我在看见它之前很久就听到了那声哀号。\\n\\n一只恶魂漂浮在水中，它庞大的身躯在风暴中摇曳。它没有攻击。它没有逃跑。\\n\\n它只是哭泣。'\n    - '它漂向一座废弃的神殿，在断裂的大厅中安静下来。\\n\\n它还记得什么吗？它在哀悼什么吗？\\n\\n或者它只是迷失在这个不再是它所知的世界里？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 560,
+      "rewardMoney": 560.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "statistic_challenge",
+      "friendlyName": "波塞冬的遗产",
+      "deployed": true,
+      "description": "制作一个信标",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
+      "order": -1,
+      "challengeType": "STATISTIC_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "StatisticRequirements",
+        "parameters": {
+          "statistic": null,
+          "entity": null,
+          "material": null,
+          "amount": null,
+          "reduceStatistic": null,
+          "statisticList": [
+            {
+              "statistic": "CRAFT_ITEM",
+              "entity": null,
+              "material": "BEACON",
+              "amount": 1,
+              "reduceStatistic": false
+            }
+          ],
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DIAMOND\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '熔岩与水'\n    author: Unknown\n    pages:\n    - '熔岩和水不应该像这样混合在一起。\\n\\n我发现了一道两者曾经相遇的裂缝，本以为会看到坚实的黑曜石，但岩石却是被侵蚀的——被某种不自然的东西蚀刻着。'\n    - '这次洪水不是偶然的。\\n\\n某人——或某物——想要熄灭火焰。\\n\\n问题是：为什么？'\n    generation: 3\n"
+      ],
+      "hideRewardItems": null,
+      "rewardExperience": 600,
+      "rewardMoney": 600.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "ttt",
+      "friendlyName": "珊瑚传奇",
+      "deployed": true,
+      "description": "用200个珊瑚方块建造一座宏伟的珊瑚礁结构",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
+      "order": -1,
+      "challengeType": "ISLAND_TYPE",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "leviathan",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {},
+          "requiredMaterialTags": {
+            "minecraft:corals": 200
+          },
+          "requiredFluidTags": {},
+          "requiredEntityTypeTags": {},
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "胜利者的奖励",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HEART_POTTERY_SHERD\n  amount: 5\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLDEN_APPLE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GOLD_BLOCK\n  amount: 3\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: WRITTEN_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: BOOK_SIGNED\n    title: '被困的建造者'\n    author: Unknown\n    pages:\n    - '堡垒并不空旷。\\n\\n骷髅站立着，被锁在生锈的盔甲中，冰冻的手中握着武器。他们的头颅向天空倾斜，空洞的眼眶凝视着某种看不见的东西。'\n    - '其中一个手握一本密封的书。\\n\\n我打开了它。\\n\\n\"我们试图阻挡潮汐。我们失败了。洪水无法阻止。\"'\n    generation: 3\n"
+      ],
+      "hideRewardItems": true,
+      "rewardExperience": 580,
+      "rewardMoney": 580.0,
+      "rewardCommands": [],
+      "ignoreRewardMetaData": [],
+      "repeatable": false,
+      "timeout": 0,
+      "repeatRewardText": "",
+      "maxTimes": 1,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0.0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "tidepool_explorer",
+      "friendlyName": "潮池探索者",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TUBE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_TUBE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 1,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "sea_sculptor",
+        "seagrass_farmer",
+        "adv",
+        "realm_builder",
+        "kelp_harvester",
+        "aqua_architect",
+        "treasure_hunter",
+        "fisher"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "coral_wayfinder",
+      "friendlyName": "珊瑚航行者",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BRAIN_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 2,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "dryworld_hunter",
+        "underwater_farmer",
+        "dark_food",
+        "tree_cutter",
+        "guardian_fighter",
+        "shell_harvester",
+        "swim_meet",
+        "paper_maker"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "deep_sea_hunter",
+      "friendlyName": "深海猎手",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: FIRE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_FIRE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 3,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "trial_step",
+        "abyssal_treasure",
+        "conch_collector",
+        "conduit_crafter",
+        "sea_lantern_artisan",
+        "trident_wielder",
+        "swimmer",
+        "trawler"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "abyssal_guardian",
+      "friendlyName": "深渊守护者",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: HORN_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_FIRE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 4,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "underwater_empire",
+        "my_precious",
+        "nether_swimmer",
+        "sea_potions",
+        "it_takes_a_village"
+      ],
+      "ignoreRewardMetaData": []
+    },
+    {
+      "uniqueId": "leviathan",
+      "friendlyName": "利维坦",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BUBBLE_CORAL\n",
+      "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DEAD_BUBBLE_CORAL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    display-name: '{\"text\":\"\",\"extra\":[{\"text\":\"Locked Icon\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":true,\"italic\":false,\"underlined\":false,\"color\":\"white\"}]}'\n    lore:\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to change the locked\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"level icon.\",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"gray\"}]}'\n    - '\"\"'\n    - '{\"text\":\"\",\"extra\":[{\"text\":\"Click \",\"strikethrough\":false,\"obfuscated\":false,\"bold\":false,\"italic\":false,\"underlined\":false,\"color\":\"yellow\"},{\"text\":\"to\n      change.\",\"italic\":false,\"color\":\"gray\"}]}'\n    enchantment-glint-override: false\n",
+      "world": "",
+      "order": 5,
+      "waiverAmount": 1,
+      "unlockMessage": "",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0.0,
+      "rewardCommands": [],
+      "challenges": [
+        "guardian_commander",
+        "ttt",
+        "statistic_challenge"
+      ],
+      "ignoreRewardMetaData": []
+    }
+  ],
+  "version": "1.5.0"
+}
