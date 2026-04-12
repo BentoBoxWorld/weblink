@@ -175,6 +175,17 @@
       "for": "BSkyBlock",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "name": "AcidIsland (ES)",
+      "icon": "SLIME_BALL",
+      "description": "Nautical challenge progression for AcidIsland: Shipwrecked to Admiral",
+      "repository": "acidisland-es",
+      "language": "es",
+      "slot": 24,
+      "for": "AcidIsland",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
