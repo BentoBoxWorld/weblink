@@ -197,6 +197,17 @@
       "for": "AcidIsland",
       "author": "tastybento",
       "version": "1.0.0"
+    },
+    {
+      "name": "AcidIsland (FR)",
+      "icon": "SLIME_BALL",
+      "description": "Nautical challenge progression for AcidIsland: Shipwrecked to Admiral",
+      "repository": "acidisland-fr",
+      "language": "fr",
+      "slot": 26,
+      "for": "AcidIsland",
+      "author": "tastybento",
+      "version": "1.0.0"
     }
   ]
 }
