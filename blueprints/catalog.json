@@ -1,0 +1,84 @@
+{
+  "_comment": "Optional curation overlay for blueprints. Stats, displayName, description and icon are derived from each .blueprint file by the Downloads server; this file only supplies author, links, tags and license metadata.",
+  "blueprints": {
+    "acidisland/island": {
+      "author": "tastybento",
+      "authorLink": "https://github.com/tastybento",
+      "tags": ["starter", "overworld"],
+      "license": "EPL-2.0"
+    },
+    "acidisland/nether-island": {
+      "author": "tastybento",
+      "authorLink": "https://github.com/tastybento",
+      "tags": ["nether"],
+      "license": "EPL-2.0"
+    },
+    "acidisland/end-island": {
+      "author": "tastybento",
+      "authorLink": "https://github.com/tastybento",
+      "tags": ["end"],
+      "license": "EPL-2.0"
+    },
+    "acidisland/cherry-grove": {
+      "author": "tastybento",
+      "authorLink": "https://github.com/tastybento",
+      "tags": ["overworld", "tree"],
+      "license": "EPL-2.0"
+    },
+    "acidisland/temple": {
+      "author": "tastybento",
+      "authorLink": "https://github.com/tastybento",
+      "tags": ["overworld", "structure"],
+      "license": "EPL-2.0"
+    }
+  },
+  "bundles": {},
+  "tags": {
+    "starter": {
+      "color": "#2563eb",
+      "description": "Starting island — the first one a player gets."
+    },
+    "overworld": {
+      "color": "#16a34a",
+      "description": "Overworld environment."
+    },
+    "nether": {
+      "color": "#b91c1c",
+      "description": "Nether environment."
+    },
+    "end": {
+      "color": "#7c3aed",
+      "description": "The End environment."
+    },
+    "tree": {
+      "color": "#65a30d",
+      "description": "Tree or forest themed."
+    },
+    "structure": {
+      "color": "#a16207",
+      "description": "Contains a structure, such as a temple."
+    }
+  },
+  "gameModes": {
+    "acidisland": {
+      "displayName": "AcidIsland",
+      "description": "Survive on an island in an acid sea.",
+      "color": "#16a34a"
+    },
+    "bskyblock": {
+      "displayName": "BSkyBlock",
+      "description": "Classic Skyblock survival.",
+      "color": "#0ea5e9"
+    },
+    "caveblock": {
+      "displayName": "CaveBlock",
+      "description": "Skyblock-style survival underground.",
+      "color": "#57534e"
+    },
+    "poseidon": {
+      "displayName": "Poseidon",
+      "description": "Underwater survival.",
+      "color": "#0891b2"
+    }
+  }
+}
