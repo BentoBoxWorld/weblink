@@ -2,30 +2,40 @@
   "_comment": "Optional curation overlay for blueprints. Stats, displayName, description and icon are derived from each .blueprint file by the Downloads server; this file only supplies author, links, tags and license metadata.",
   "blueprints": {
     "acidisland/island": {
+      "displayName": "Classic Acid Island",
+      "description": ["A small starter island floating in an acid sea."],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
       "tags": ["starter", "overworld"],
       "license": "EPL-2.0"
     },
     "acidisland/nether-island": {
+      "displayName": "Nether Island",
+      "description": ["Nether-environment island for Acid Island."],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
       "tags": ["nether"],
       "license": "EPL-2.0"
     },
     "acidisland/end-island": {
+      "displayName": "End Island",
+      "description": ["The End environment island for Acid Island."],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
       "tags": ["end"],
       "license": "EPL-2.0"
     },
     "acidisland/cherry-grove": {
+      "displayName": "Cherry Grove",
+      "description": ["Pink-blossomed cherry-grove starter island."],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
       "tags": ["overworld", "tree"],
       "license": "EPL-2.0"
     },
     "acidisland/temple": {
+      "displayName": "Ancient Temple",
+      "description": ["An island built around an ancient temple."],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
       "tags": ["overworld", "structure"],
