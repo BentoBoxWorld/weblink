@@ -3,42 +3,77 @@
   "blueprints": {
     "acidisland/island": {
       "displayName": "Classic Acid Island",
-      "description": ["A small starter island floating in an acid sea."],
+      "description": [
+        "A small starter island floating in an acid sea."
+      ],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
-      "tags": ["starter", "overworld"],
+      "tags": [
+        "starter",
+        "overworld"
+      ],
       "license": "EPL-2.0"
     },
     "acidisland/nether-island": {
       "displayName": "Nether Island",
-      "description": ["Nether-environment island for Acid Island."],
+      "description": [
+        "Nether-environment island for Acid Island."
+      ],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
-      "tags": ["nether"],
+      "tags": [
+        "nether"
+      ],
       "license": "EPL-2.0"
     },
     "acidisland/end-island": {
       "displayName": "End Island",
-      "description": ["The End environment island for Acid Island."],
+      "description": [
+        "The End environment island for Acid Island."
+      ],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
-      "tags": ["end"],
+      "tags": [
+        "end"
+      ],
       "license": "EPL-2.0"
     },
     "acidisland/cherry-grove": {
       "displayName": "Cherry Grove",
-      "description": ["Pink-blossomed cherry-grove starter island."],
+      "description": [
+        "Pink-blossomed cherry-grove starter island."
+      ],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
-      "tags": ["overworld", "tree"],
+      "tags": [
+        "overworld",
+        "tree"
+      ],
       "license": "EPL-2.0"
     },
     "acidisland/temple": {
       "displayName": "Ancient Temple",
-      "description": ["An island built around an ancient temple."],
+      "description": [
+        "An island built around an ancient temple."
+      ],
       "author": "tastybento",
       "authorLink": "https://github.com/tastybento",
-      "tags": ["overworld", "structure"],
+      "tags": [
+        "overworld",
+        "structure"
+      ],
+      "license": "EPL-2.0"
+    },
+    "poseidon/ship-test": {
+      "displayName": "ship-test",
+      "description": [
+        "Ship"
+      ],
+      "author": "Discord:272498407971487744",
+      "authorLink": "https://discord.com/users/272498407971487744",
+      "tags": [
+        "underwater"
+      ],
       "license": "EPL-2.0"
     }
   },
