@@ -4,9 +4,7 @@
       "uniqueId": "opportunity_knocks",
       "friendlyName": "机会来临",
       "deployed": true,
-      "description": [
-        "嘿！一个流浪商人！快完成这个挑战！"
-      ],
+      "description": "嘿！一个流浪商人！快完成这个挑战！",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_CARPET\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -52,9 +50,7 @@
       "uniqueId": "adv",
       "friendlyName": "随手丢弃",
       "deployed": true,
-      "description": [
-        "完成\"随手丢弃的笑话\"进度"
-      ],
+      "description": "完成\"随手丢弃的笑话\"进度",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -101,9 +97,7 @@
       "uniqueId": "kelp_jerky",
       "friendlyName": "海带干",
       "deployed": true,
-      "description": [
-        "制作5包干海带"
-      ],
+      "description": "制作5包干海带",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -147,9 +141,7 @@
       "uniqueId": "squid_hunter",
       "friendlyName": "海陆大餐",
       "deployed": true,
-      "description": [
-        "猎杀鱿鱼和热带鱼"
-      ],
+      "description": "猎杀鱿鱼和热带鱼",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -205,9 +197,7 @@
       "uniqueId": "treasure_hunter",
       "friendlyName": "与鱼共眠",
       "deployed": true,
-      "description": [
-        "在床上睡觉"
-      ],
+      "description": "在床上睡觉",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_BED\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -258,9 +248,7 @@
       "uniqueId": "kelp_harvester",
       "friendlyName": "海带收割者",
       "deployed": true,
-      "description": [
-        "收获50根海带"
-      ],
+      "description": "收获50根海带",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -303,9 +291,7 @@
       "uniqueId": "seagrass_farmer",
       "friendlyName": "海草农夫",
       "deployed": true,
-      "description": [
-        "收集海草"
-      ],
+      "description": "收集海草",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n",
       "order": 2,
       "challengeType": "INVENTORY_TYPE",
@@ -396,9 +382,7 @@
       "uniqueId": "realm_builder",
       "friendlyName": "领域建造者",
       "deployed": true,
-      "description": [
-        "将你的领域升至10级 (/[label] level)"
-      ],
+      "description": "将你的领域升至10级 (/[label] level)",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICKS\n",
       "order": 4,
       "challengeType": "OTHER_TYPE",
@@ -441,9 +425,7 @@
       "uniqueId": "sea_sculptor",
       "friendlyName": "隐蔽之所",
       "deployed": true,
-      "description": [
-        "建立一个家庭基地"
-      ],
+      "description": "建立一个家庭基地",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
       "order": 5,
       "challengeType": "ISLAND_TYPE",
@@ -495,9 +477,7 @@
       "uniqueId": "fisher",
       "friendlyName": "渔夫",
       "deployed": true,
-      "description": [
-        "钓取10条鳕鱼"
-      ],
+      "description": "钓取10条鳕鱼",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": 6,
       "challengeType": "INVENTORY_TYPE",
@@ -584,9 +564,7 @@
       "uniqueId": "shell_harvester",
       "friendlyName": "贝壳收集者",
       "deployed": true,
-      "description": [
-        "收集5块龟壳碎片"
-      ],
+      "description": "收集5块龟壳碎片",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -629,9 +607,7 @@
       "uniqueId": "swim_meet",
       "friendlyName": "游泳聚会",
       "deployed": true,
-      "description": [
-        "和你的新\"朋友们\"开派对！"
-      ],
+      "description": "和你的新\"朋友们\"开派对！",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PLAYER_HEAD\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -724,9 +700,7 @@
       "uniqueId": "dark_food",
       "friendlyName": "黑暗食物",
       "deployed": true,
-      "description": [
-        "制作蘑菇炖汤！"
-      ],
+      "description": "制作蘑菇炖汤！",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -784,9 +758,7 @@
       "uniqueId": "guardian_fighter",
       "friendlyName": "守卫战士",
       "deployed": true,
-      "description": [
-        "击败3只守卫者"
-      ],
+      "description": "击败3只守卫者",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
       "order": 2,
       "challengeType": "STATISTIC_TYPE",
@@ -836,9 +808,7 @@
       "uniqueId": "underwater_farmer",
       "friendlyName": "水下农夫",
       "deployed": true,
-      "description": [
-        "种植并收获海泡菜！"
-      ],
+      "description": "种植并收获海泡菜！",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
       "order": 3,
       "challengeType": "INVENTORY_TYPE",
@@ -890,9 +860,7 @@
       "uniqueId": "dryworld_hunter",
       "friendlyName": "旱地猎人",
       "deployed": true,
-      "description": [
-        "击杀10只爬行者、僵尸和骷髅"
-      ],
+      "description": "击杀10只爬行者、僵尸和骷髅",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
       "order": 4,
       "challengeType": "STATISTIC_TYPE",
@@ -956,9 +924,7 @@
       "uniqueId": "abyssal_treasure",
       "friendlyName": "自然奇迹",
       "deployed": true,
-      "description": [
-        "让你的领域至少有1格被雪覆盖！"
-      ],
+      "description": "让你的领域至少有1格被雪覆盖！",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1005,9 +971,7 @@
       "uniqueId": "conch_collector",
       "friendlyName": "海螺收藏家",
       "deployed": true,
-      "description": [
-        "找到并收集5个鹦鹉螺壳"
-      ],
+      "description": "找到并收集5个鹦鹉螺壳",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1048,9 +1012,7 @@
       "uniqueId": "conduit_crafter",
       "friendlyName": "导管工匠",
       "deployed": true,
-      "description": [
-        "制作并激活一个导管"
-      ],
+      "description": "制作并激活一个导管",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1096,9 +1058,7 @@
       "uniqueId": "sea_lantern_artisan",
       "friendlyName": "海晶灯工匠",
       "deployed": true,
-      "description": [
-        "制作16个海晶灯"
-      ],
+      "description": "制作16个海晶灯",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1139,9 +1099,7 @@
       "uniqueId": "swimmer",
       "friendlyName": "波塞冬之吻",
       "deployed": true,
-      "description": [
-        "游泳10000格"
-      ],
+      "description": "游泳10000格",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1193,9 +1151,7 @@
       "uniqueId": "trawler",
       "friendlyName": "拖网渔船",
       "deployed": true,
-      "description": [
-        "钓取50条鱼"
-      ],
+      "description": "钓取50条鱼",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1247,9 +1203,7 @@
       "uniqueId": "trial_step",
       "friendlyName": "试炼之步",
       "deployed": true,
-      "description": [
-        "进入一个试炼密室"
-      ],
+      "description": "进入一个试炼密室",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIAL_KEY\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -1295,9 +1249,7 @@
       "uniqueId": "trident_wielder",
       "friendlyName": "三叉戟使者",
       "deployed": true,
-      "description": [
-        "从你的领域中清除10只溺尸"
-      ],
+      "description": "从你的领域中清除10只溺尸",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1394,9 +1346,7 @@
       "uniqueId": "my_precious",
       "friendlyName": "我的宝贝",
       "deployed": true,
-      "description": [
-        "一些铁制品"
-      ],
+      "description": "一些铁制品",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1446,9 +1396,7 @@
       "uniqueId": "nether_swimmer",
       "friendlyName": "先驱者",
       "deployed": true,
-      "description": [
-        "制作指南针、时钟，前往地狱并拾取恶魂之泪和一些方块"
-      ],
+      "description": "制作指南针、时钟，前往地狱并拾取恶魂之泪和一些方块",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1496,9 +1444,7 @@
       "uniqueId": "sea_potions",
       "friendlyName": "海洋药水",
       "deployed": true,
-      "description": [
-        "酿造一些药水"
-      ],
+      "description": "酿造一些药水",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1548,9 +1494,7 @@
       "uniqueId": "underwater_empire",
       "friendlyName": "水下帝国",
       "deployed": true,
-      "description": [
-        "用至少64块玻璃建造水下帝国"
-      ],
+      "description": "用至少64块玻璃建造水下帝国",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1616,9 +1560,7 @@
       "uniqueId": "guardian_commander",
       "friendlyName": "守卫指挥官",
       "deployed": true,
-      "description": [
-        "击败20只远古守卫者"
-      ],
+      "description": "击败20只远古守卫者",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1678,9 +1620,7 @@
       "uniqueId": "statistic_challenge",
       "friendlyName": "波塞冬的遗产",
       "deployed": true,
-      "description": [
-        "制作一个信标"
-      ],
+      "description": "制作一个信标",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1730,9 +1670,7 @@
       "uniqueId": "ttt",
       "friendlyName": "珊瑚传奇",
       "deployed": true,
-      "description": [
-        "用200个珊瑚方块建造一座宏伟的珊瑚礁结构"
-      ],
+      "description": "用200个珊瑚方块建造一座宏伟的珊瑚礁结构",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",

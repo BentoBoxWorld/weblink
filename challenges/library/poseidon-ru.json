@@ -4,9 +4,7 @@
       "uniqueId": "opportunity_knocks",
       "friendlyName": "Удача стучится в дверь",
       "deployed": true,
-      "description": [
-        "Эй! Странствующий торговец! Быстро выполни это задание!"
-      ],
+      "description": "Эй! Странствующий торговец! Быстро выполни это задание!",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_CARPET\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -52,9 +50,7 @@
       "uniqueId": "adv",
       "friendlyName": "Выбросить",
       "deployed": true,
-      "description": [
-        "Выполни достижение «Выбросить»"
-      ],
+      "description": "Выполни достижение «Выбросить»",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -101,9 +97,7 @@
       "uniqueId": "kelp_jerky",
       "friendlyName": "Вяленая морская капуста",
       "deployed": true,
-      "description": [
-        "Создай 5 пачек сушёной морской капусты"
-      ],
+      "description": "Создай 5 пачек сушёной морской капусты",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -147,9 +141,7 @@
       "uniqueId": "squid_hunter",
       "friendlyName": "Море и суша",
       "deployed": true,
-      "description": [
-        "Уничтожь кальмаров и тропических рыб"
-      ],
+      "description": "Уничтожь кальмаров и тропических рыб",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -205,9 +197,7 @@
       "uniqueId": "treasure_hunter",
       "friendlyName": "Спать с рыбами",
       "deployed": true,
-      "description": [
-        "Поспи в кровати"
-      ],
+      "description": "Поспи в кровати",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_BED\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -258,9 +248,7 @@
       "uniqueId": "kelp_harvester",
       "friendlyName": "Сборщик морской капусты",
       "deployed": true,
-      "description": [
-        "Собери 50 единиц морской капусты"
-      ],
+      "description": "Собери 50 единиц морской капусты",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -303,9 +291,7 @@
       "uniqueId": "seagrass_farmer",
       "friendlyName": "Фермер морской травы",
       "deployed": true,
-      "description": [
-        "Собери морскую траву"
-      ],
+      "description": "Собери морскую траву",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n",
       "order": 2,
       "challengeType": "INVENTORY_TYPE",
@@ -396,9 +382,7 @@
       "uniqueId": "realm_builder",
       "friendlyName": "Строитель королевства",
       "deployed": true,
-      "description": [
-        "Прокачай своё королевство до уровня 10 (/[label] level)"
-      ],
+      "description": "Прокачай своё королевство до уровня 10 (/[label] level)",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICKS\n",
       "order": 4,
       "challengeType": "OTHER_TYPE",
@@ -441,9 +425,7 @@
       "uniqueId": "sea_sculptor",
       "friendlyName": "Укрытие",
       "deployed": true,
-      "description": [
-        "Построй базу"
-      ],
+      "description": "Построй базу",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
       "order": 5,
       "challengeType": "ISLAND_TYPE",
@@ -495,9 +477,7 @@
       "uniqueId": "fisher",
       "friendlyName": "Рыбак",
       "deployed": true,
-      "description": [
-        "Поймай 10 трески"
-      ],
+      "description": "Поймай 10 трески",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": 6,
       "challengeType": "INVENTORY_TYPE",
@@ -584,9 +564,7 @@
       "uniqueId": "shell_harvester",
       "friendlyName": "Сборщик раковин",
       "deployed": true,
-      "description": [
-        "Собери 5 чешуек черепашьего панциря"
-      ],
+      "description": "Собери 5 чешуек черепашьего панциря",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -629,9 +607,7 @@
       "uniqueId": "swim_meet",
       "friendlyName": "Заплыв",
       "deployed": true,
-      "description": [
-        "Устрой вечеринку с новыми «друзьями»!"
-      ],
+      "description": "Устрой вечеринку с новыми «друзьями»!",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PLAYER_HEAD\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -724,9 +700,7 @@
       "uniqueId": "dark_food",
       "friendlyName": "Тёмная еда",
       "deployed": true,
-      "description": [
-        "Приготовь грибной суп!"
-      ],
+      "description": "Приготовь грибной суп!",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -784,9 +758,7 @@
       "uniqueId": "guardian_fighter",
       "friendlyName": "Охотник на стражников",
       "deployed": true,
-      "description": [
-        "Победи 3 стражников"
-      ],
+      "description": "Победи 3 стражников",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
       "order": 2,
       "challengeType": "STATISTIC_TYPE",
@@ -836,9 +808,7 @@
       "uniqueId": "underwater_farmer",
       "friendlyName": "Подводный фермер",
       "deployed": true,
-      "description": [
-        "Выращивай и собирай морские огурцы!"
-      ],
+      "description": "Выращивай и собирай морские огурцы!",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
       "order": 3,
       "challengeType": "INVENTORY_TYPE",
@@ -890,9 +860,7 @@
       "uniqueId": "dryworld_hunter",
       "friendlyName": "Охотник на суше",
       "deployed": true,
-      "description": [
-        "Убей 10 криперов, зомби и скелетов"
-      ],
+      "description": "Убей 10 криперов, зомби и скелетов",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
       "order": 4,
       "challengeType": "STATISTIC_TYPE",
@@ -956,9 +924,7 @@
       "uniqueId": "abyssal_treasure",
       "friendlyName": "Природная аномалия",
       "deployed": true,
-      "description": [
-        "Пусть хотя бы 1 блок твоего королевства будет покрыт снегом!"
-      ],
+      "description": "Пусть хотя бы 1 блок твоего королевства будет покрыт снегом!",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1005,9 +971,7 @@
       "uniqueId": "conch_collector",
       "friendlyName": "Собиратель раковин nautilus",
       "deployed": true,
-      "description": [
-        "Найди и собери 5 раковин наутилуса"
-      ],
+      "description": "Найди и собери 5 раковин наутилуса",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1048,9 +1012,7 @@
       "uniqueId": "conduit_crafter",
       "friendlyName": "Мастер кондуитов",
       "deployed": true,
-      "description": [
-        "Создай и активируй кондуит"
-      ],
+      "description": "Создай и активируй кондуит",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1096,9 +1058,7 @@
       "uniqueId": "sea_lantern_artisan",
       "friendlyName": "Мастер морских фонарей",
       "deployed": true,
-      "description": [
-        "Создай 16 морских фонарей"
-      ],
+      "description": "Создай 16 морских фонарей",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1139,9 +1099,7 @@
       "uniqueId": "swimmer",
       "friendlyName": "Поцелуй Посейдона",
       "deployed": true,
-      "description": [
-        "Проплыви 10 000 блоков"
-      ],
+      "description": "Проплыви 10 000 блоков",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1193,9 +1151,7 @@
       "uniqueId": "trawler",
       "friendlyName": "Траулер",
       "deployed": true,
-      "description": [
-        "Поймай 50 рыб"
-      ],
+      "description": "Поймай 50 рыб",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1247,9 +1203,7 @@
       "uniqueId": "trial_step",
       "friendlyName": "Шаг испытания",
       "deployed": true,
-      "description": [
-        "Войди в Испытательную камеру"
-      ],
+      "description": "Войди в Испытательную камеру",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIAL_KEY\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -1295,9 +1249,7 @@
       "uniqueId": "trident_wielder",
       "friendlyName": "Владелец трезубца",
       "deployed": true,
-      "description": [
-        "Устрани 10 утопленников из своего королевства"
-      ],
+      "description": "Устрани 10 утопленников из своего королевства",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1394,9 +1346,7 @@
       "uniqueId": "my_precious",
       "friendlyName": "Моя прелесть",
       "deployed": true,
-      "description": [
-        "Несколько железных вещей"
-      ],
+      "description": "Несколько железных вещей",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1446,9 +1396,7 @@
       "uniqueId": "nether_swimmer",
       "friendlyName": "Первопроходец",
       "deployed": true,
-      "description": [
-        "Создай компас и часы, отправься в Незер и подбери слезу гаста и несколько блоков"
-      ],
+      "description": "Создай компас и часы, отправься в Незер и подбери слезу гаста и несколько блоков",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1496,9 +1444,7 @@
       "uniqueId": "sea_potions",
       "friendlyName": "Морские зелья",
       "deployed": true,
-      "description": [
-        "Сваривy несколько зелий"
-      ],
+      "description": "Сваривy несколько зелий",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1548,9 +1494,7 @@
       "uniqueId": "underwater_empire",
       "friendlyName": "Подводная империя",
       "deployed": true,
-      "description": [
-        "Построй подводную империю из не менее чем 64 стеклянных блоков"
-      ],
+      "description": "Построй подводную империю из не менее чем 64 стеклянных блоков",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1616,9 +1560,7 @@
       "uniqueId": "guardian_commander",
       "friendlyName": "Командир стражников",
       "deployed": true,
-      "description": [
-        "Победи 20 старших стражников"
-      ],
+      "description": "Победи 20 старших стражников",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1678,9 +1620,7 @@
       "uniqueId": "statistic_challenge",
       "friendlyName": "Наследие Посейдона",
       "deployed": true,
-      "description": [
-        "Создай маяк"
-      ],
+      "description": "Создай маяк",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1730,9 +1670,7 @@
       "uniqueId": "ttt",
       "friendlyName": "Легенда кораллов",
       "deployed": true,
-      "description": [
-        "Построй огромную коралловую конструкцию из 200 коралловых блоков"
-      ],
+      "description": "Построй огромную коралловую конструкцию из 200 коралловых блоков",
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
