@@ -4,7 +4,9 @@
       "uniqueId": "opportunity_knocks",
       "friendlyName": "Llaman a la puerta",
       "deployed": true,
-      "description": "¡Mira! ¡Un comerciante ambulante! ¡Rápido, completa este desafío!",
+      "description": [
+        "¡Mira! ¡Un comerciante ambulante! ¡Rápido, completa este desafío!"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_CARPET\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -50,7 +52,9 @@
       "uniqueId": "adv",
       "friendlyName": "Tirar y olvidar",
       "deployed": true,
-      "description": "Completa el avance \"Tirar y olvidar\"",
+      "description": [
+        "Completa el avance \"Tirar y olvidar\""
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -97,7 +101,9 @@
       "uniqueId": "kelp_jerky",
       "friendlyName": "Kelp seco",
       "deployed": true,
-      "description": "Fabrica 5 paquetes de kelp seco",
+      "description": [
+        "Fabrica 5 paquetes de kelp seco"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: DRIED_KELP_BLOCK\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -141,7 +147,9 @@
       "uniqueId": "squid_hunter",
       "friendlyName": "Mar y tierra",
       "deployed": true,
-      "description": "Elimina calamares y peces tropicales",
+      "description": [
+        "Elimina calamares y peces tropicales"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TROPICAL_FISH\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -197,7 +205,9 @@
       "uniqueId": "treasure_hunter",
       "friendlyName": "Dormir con los peces",
       "deployed": true,
-      "description": "Duerme en una cama",
+      "description": [
+        "Duerme en una cama"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GREEN_BED\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -248,7 +258,9 @@
       "uniqueId": "kelp_harvester",
       "friendlyName": "Recolector de kelp",
       "deployed": true,
-      "description": "Cosecha 50 kelpas",
+      "description": [
+        "Cosecha 50 kelpas"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: KELP\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -291,7 +303,9 @@
       "uniqueId": "seagrass_farmer",
       "friendlyName": "Granjero de algas",
       "deployed": true,
-      "description": "Recoge algas marinas",
+      "description": [
+        "Recoge algas marinas"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEAGRASS\n",
       "order": 2,
       "challengeType": "INVENTORY_TYPE",
@@ -382,7 +396,9 @@
       "uniqueId": "realm_builder",
       "friendlyName": "Constructor de reinos",
       "deployed": true,
-      "description": "Mejora tu reino al nivel 10 (/[label] level)",
+      "description": [
+        "Mejora tu reino al nivel 10 (/[label] level)"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRICKS\n",
       "order": 4,
       "challengeType": "OTHER_TYPE",
@@ -425,7 +441,9 @@
       "uniqueId": "sea_sculptor",
       "friendlyName": "Escondite",
       "deployed": true,
-      "description": "Construye una base de operaciones",
+      "description": [
+        "Construye una base de operaciones"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: RED_BED\n",
       "order": 5,
       "challengeType": "ISLAND_TYPE",
@@ -477,7 +495,9 @@
       "uniqueId": "fisher",
       "friendlyName": "Pescador",
       "deployed": true,
-      "description": "Pesca 10 bacalaos",
+      "description": [
+        "Pesca 10 bacalaos"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": 6,
       "challengeType": "INVENTORY_TYPE",
@@ -564,7 +584,9 @@
       "uniqueId": "shell_harvester",
       "friendlyName": "Recolector de conchas",
       "deployed": true,
-      "description": "Recoge 5 escamas de caparazón de tortuga",
+      "description": [
+        "Recoge 5 escamas de caparazón de tortuga"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TURTLE_HELMET\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -607,7 +629,9 @@
       "uniqueId": "swim_meet",
       "friendlyName": "Encuentro de natación",
       "deployed": true,
-      "description": "¡Celebra una fiesta con tus nuevos \"amigos\"!",
+      "description": [
+        "¡Celebra una fiesta con tus nuevos \"amigos\"!"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PLAYER_HEAD\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -700,7 +724,9 @@
       "uniqueId": "dark_food",
       "friendlyName": "Comida oscura",
       "deployed": true,
-      "description": "¡Prepara un estofado de hongos!",
+      "description": [
+        "¡Prepara un estofado de hongos!"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: MUSHROOM_STEW\n",
       "order": 1,
       "challengeType": "INVENTORY_TYPE",
@@ -758,7 +784,9 @@
       "uniqueId": "guardian_fighter",
       "friendlyName": "Luchador de guardianes",
       "deployed": true,
-      "description": "Derrota a 3 guardianes",
+      "description": [
+        "Derrota a 3 guardianes"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE\n",
       "order": 2,
       "challengeType": "STATISTIC_TYPE",
@@ -808,7 +836,9 @@
       "uniqueId": "underwater_farmer",
       "friendlyName": "Granjero submarino",
       "deployed": true,
-      "description": "¡Cultiva y cosecha pepinillos de mar!",
+      "description": [
+        "¡Cultiva y cosecha pepinillos de mar!"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_PICKLE\n",
       "order": 3,
       "challengeType": "INVENTORY_TYPE",
@@ -860,7 +890,9 @@
       "uniqueId": "dryworld_hunter",
       "friendlyName": "Cazador del mundo seco",
       "deployed": true,
-      "description": "Mata 10 creepers, zombis y esqueletos",
+      "description": [
+        "Mata 10 creepers, zombis y esqueletos"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: IRON_SWORD\n",
       "order": 4,
       "challengeType": "STATISTIC_TYPE",
@@ -924,7 +956,9 @@
       "uniqueId": "abyssal_treasure",
       "friendlyName": "Fenómeno natural",
       "deployed": true,
-      "description": "¡Haz que al menos 1 bloque de tu reino esté cubierto de nieve!",
+      "description": [
+        "¡Haz que al menos 1 bloque de tu reino esté cubierto de nieve!"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SNOW\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -971,7 +1005,9 @@
       "uniqueId": "conch_collector",
       "friendlyName": "Coleccionista de caracolas",
       "deployed": true,
-      "description": "Encuentra y reúne 5 conchas de nautilo",
+      "description": [
+        "Encuentra y reúne 5 conchas de nautilo"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: NAUTILUS_SHELL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1012,7 +1048,9 @@
       "uniqueId": "conduit_crafter",
       "friendlyName": "Artesano de conductos",
       "deployed": true,
-      "description": "Fabrica y activa un conducto",
+      "description": [
+        "Fabrica y activa un conducto"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: CONDUIT\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1058,7 +1096,9 @@
       "uniqueId": "sea_lantern_artisan",
       "friendlyName": "Artesano de linternas marinas",
       "deployed": true,
-      "description": "Fabrica 16 linternas marinas",
+      "description": [
+        "Fabrica 16 linternas marinas"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: SEA_LANTERN\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1099,7 +1139,9 @@
       "uniqueId": "swimmer",
       "friendlyName": "El beso de Poseidón",
       "deployed": true,
-      "description": "Nada 10.000 bloques",
+      "description": [
+        "Nada 10.000 bloques"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: LIGHT_BLUE_GLAZED_TERRACOTTA\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1151,7 +1193,9 @@
       "uniqueId": "trawler",
       "friendlyName": "Arrastrero",
       "deployed": true,
-      "description": "Pesca 50 peces",
+      "description": [
+        "Pesca 50 peces"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: COD\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1203,7 +1247,9 @@
       "uniqueId": "trial_step",
       "friendlyName": "Paso de prueba",
       "deployed": true,
-      "description": "Entra en una cámara de prueba",
+      "description": [
+        "Entra en una cámara de prueba"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIAL_KEY\n",
       "order": -1,
       "challengeType": "OTHER_TYPE",
@@ -1249,7 +1295,9 @@
       "uniqueId": "trident_wielder",
       "friendlyName": "Portador del tridente",
       "deployed": true,
-      "description": "Elimina 10 ahogados de tu reino",
+      "description": [
+        "Elimina 10 ahogados de tu reino"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: TRIDENT\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1346,7 +1394,9 @@
       "uniqueId": "my_precious",
       "friendlyName": "Mi tesoro",
       "deployed": true,
-      "description": "Algunas cosas de hierro",
+      "description": [
+        "Algunas cosas de hierro"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POPPY\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1396,7 +1446,9 @@
       "uniqueId": "nether_swimmer",
       "friendlyName": "Pionero",
       "deployed": true,
-      "description": "Fabrica una brújula y un reloj, viaja al Nether y recoge una lágrima de ghast y algunos bloques",
+      "description": [
+        "Fabrica una brújula y un reloj, viaja al Nether y recoge una lágrima de ghast y algunos bloques"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POWERED_RAIL\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1444,7 +1496,9 @@
       "uniqueId": "sea_potions",
       "friendlyName": "Pociones marinas",
       "deployed": true,
-      "description": "Elabora algunas pociones",
+      "description": [
+        "Elabora algunas pociones"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:harming\n",
       "order": -1,
       "challengeType": "INVENTORY_TYPE",
@@ -1494,7 +1548,9 @@
       "uniqueId": "underwater_empire",
       "friendlyName": "Imperio submarino",
       "deployed": true,
-      "description": "Construye un imperio submarino con al menos 64 bloques de vidrio",
+      "description": [
+        "Construye un imperio submarino con al menos 64 bloques de vidrio"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: GLASS\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
@@ -1560,7 +1616,9 @@
       "uniqueId": "guardian_commander",
       "friendlyName": "Comandante de guardianes",
       "deployed": true,
-      "description": "Derrota a 20 guardianes mayores",
+      "description": [
+        "Derrota a 20 guardianes mayores"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: PRISMARINE_BRICKS\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1620,7 +1678,9 @@
       "uniqueId": "statistic_challenge",
       "friendlyName": "El legado de Poseidón",
       "deployed": true,
-      "description": "Fabrica un baliza",
+      "description": [
+        "Fabrica un baliza"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BEACON\n",
       "order": -1,
       "challengeType": "STATISTIC_TYPE",
@@ -1670,7 +1730,9 @@
       "uniqueId": "ttt",
       "friendlyName": "Leyenda del coral",
       "deployed": true,
-      "description": "Construye una enorme estructura de arrecife de coral con 200 bloques de coral",
+      "description": [
+        "Construye una enorme estructura de arrecife de coral con 200 bloques de coral"
+      ],
       "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 4189\n  type: BRAIN_CORAL\n",
       "order": -1,
       "challengeType": "ISLAND_TYPE",
