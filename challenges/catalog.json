@@ -263,6 +263,17 @@
       "for": "Poseidon",
       "author": "tastybento",
       "version": "1.5.0"
+    },
+    {
+      "repository": "gusher-challenges",
+      "name": "Gusher Challenges",
+      "icon": "MAGMA_CUBE",
+      "description": "Default challenges for Gusher!",
+      "language": "en",
+      "slot": 32,
+      "for": "Gusher",
+      "author": "tastybento",
+      "version": "1.5.0"
     }
   ]
 }
