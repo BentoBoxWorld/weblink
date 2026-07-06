@@ -1,0 +1,767 @@
+{
+  "challengeList": [
+    {
+      "uniqueId": "gusher_first_catch",
+      "friendlyName": "First Catch",
+      "deployed": true,
+      "description": [
+        "Catch loot from your first eruption and bring 1 Sulfur here.",
+        "Tip: stand near the vent and grab loot before it falls into the void."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 1\n  schema_version: 1\n",
+      "order": 1,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fumarole",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 1\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Cobblestone",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:cobblestone\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 20,
+      "rewardMoney": 10,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_stockpile",
+      "friendlyName": "Stockpile",
+      "deployed": true,
+      "description": [
+        "Gather 16 Sulfur from the geyser."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:potent_sulfur\n  count: 1\n  schema_version: 1\n",
+      "order": 2,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fumarole",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 16\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 Cinnabar Bricks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:cinnabar_bricks\n  count: 4\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 40,
+      "rewardMoney": 20,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_catchers_rim",
+      "friendlyName": "Catcher's Rim",
+      "deployed": true,
+      "description": [
+        "Build a rim of 16 Cinnabar Bricks so eruption loot can't roll into the void."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:cinnabar_bricks\n  count: 1\n  schema_version: 1\n",
+      "order": 3,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fumarole",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "CINNABAR_BRICKS": 16
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 8,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Cinnabar Bricks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:cinnabar_bricks\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 40,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_sulfur_trade",
+      "friendlyName": "Sulfur Trade",
+      "deployed": true,
+      "description": [
+        "Trade 32 Sulfur for coin. Repeatable \u2014 a steady income while you learn."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 1\n  schema_version: 1\n",
+      "order": 4,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Fumarole",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 32\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Coin",
+      "rewardItems": [],
+      "rewardExperience": 15,
+      "rewardMoney": 30,
+      "rewardCommands": [],
+      "repeatable": true,
+      "repeatRewardText": "Coin",
+      "maxTimes": 100,
+      "repeatExperienceReward": 10,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 20,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_forester",
+      "friendlyName": "Forester",
+      "deployed": true,
+      "description": [
+        "Feed the cube a log to open the Forestry channel, then gather 16 Oak Logs."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:oak_log\n  count: 1\n  schema_version: 1\n",
+      "order": 5,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "HotSpring",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:oak_log\n  count: 16\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "4 Oak Saplings",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:oak_sapling\n  count: 4\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 30,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_miners_return",
+      "friendlyName": "Miner's Return",
+      "deployed": true,
+      "description": [
+        "The Mineral channel runs deep. Gather 16 Iron Ore."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:iron_ore\n  count: 1\n  schema_version: 1\n",
+      "order": 6,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "HotSpring",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:iron_ore\n  count: 16\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Iron Ingots",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:iron_ingot\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 50,
+      "rewardMoney": 30,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_homestead",
+      "friendlyName": "Homestead",
+      "deployed": true,
+      "description": [
+        "Make the platform a home: place a Furnace, a Chest, a Crafting Table and a Bed."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:white_bed\n  count: 1\n  schema_version: 1\n",
+      "order": 7,
+      "challengeType": "ISLAND",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "HotSpring",
+      "requirements": {
+        "class": "IslandRequirements",
+        "parameters": {
+          "requiredBlocks": {
+            "FURNACE": 1,
+            "CHEST": 1,
+            "CRAFTING_TABLE": 1,
+            "WHITE_BED": 1
+          },
+          "removeBlocks": false,
+          "requiredEntities": {},
+          "removeEntities": false,
+          "searchRadius": 10,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "16 Torches",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:torch\n  count: 16\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_hot_spring_level",
+      "friendlyName": "Rising Steam",
+      "deployed": true,
+      "description": [
+        "Reach island level 50.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:potent_sulfur\n  count: 1\n  schema_version: 1\n",
+      "order": 8,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "HotSpring",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 50,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Coin & XP",
+      "rewardItems": [],
+      "rewardExperience": 75,
+      "rewardMoney": 75,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_nether_key",
+      "friendlyName": "The Nether Key",
+      "deployed": true,
+      "description": [
+        "Obtain 4 Obsidian. You KEEP them \u2014 now feed one to your cube to crack open the Nether!",
+        "Once fed, the geyser starts spitting Nether loot."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:obsidian\n  count: 1\n  schema_version: 1\n",
+      "order": 9,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Geyser",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:obsidian\n  count: 4\n  schema_version: 1\n"
+          ],
+          "takeItems": false,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Flint & Steel",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:flint_and_steel\n  count: 1\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 50,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_deep_digger",
+      "friendlyName": "Deep Digger",
+      "deployed": true,
+      "description": [
+        "With the Nether channel open, gather 16 Netherrack from the geyser."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:netherrack\n  count: 1\n  schema_version: 1\n",
+      "order": 10,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Geyser",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:netherrack\n  count: 16\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Quartz",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:quartz\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 100,
+      "rewardMoney": 60,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_geyser_level",
+      "friendlyName": "Full Plume",
+      "deployed": true,
+      "description": [
+        "Reach island level 150.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:cinnabar_bricks\n  count: 1\n  schema_version: 1\n",
+      "order": 11,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Geyser",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 150,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Coin & XP",
+      "rewardItems": [],
+      "rewardExperience": 150,
+      "rewardMoney": 150,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_nether_trove",
+      "friendlyName": "Nether Trove",
+      "deployed": true,
+      "description": [
+        "Refine the Nether channel: gather 16 Quartz and 4 Blaze Powder."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:quartz\n  count: 1\n  schema_version: 1\n",
+      "order": 12,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Caldera",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:quartz\n  count: 16\n  schema_version: 1\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:blaze_powder\n  count: 4\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Magma Blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:magma_block\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 150,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_end_key",
+      "friendlyName": "The End Key",
+      "deployed": true,
+      "description": [
+        "Obtain 4 Purpur Blocks. You KEEP them \u2014 feed one to your cube to tear open the End!",
+        "Once fed, the geyser starts spitting End loot."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:purpur_block\n  count: 1\n  schema_version: 1\n",
+      "order": 13,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Caldera",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:purpur_block\n  count: 4\n  schema_version: 1\n"
+          ],
+          "takeItems": false,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "2 Ender Pearls",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:ender_pearl\n  count: 2\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 100,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_caldera_level",
+      "friendlyName": "Molten Heart",
+      "deployed": true,
+      "description": [
+        "Reach island level 400.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:magma_block\n  count: 1\n  schema_version: 1\n",
+      "order": 14,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Caldera",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 400,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Coin & XP",
+      "rewardItems": [],
+      "rewardExperience": 300,
+      "rewardMoney": 300,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_end_harvest",
+      "friendlyName": "End Harvest",
+      "deployed": true,
+      "description": [
+        "Reap the End channel: gather 16 End Stone and 8 Chorus Fruit."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:end_stone\n  count: 1\n  schema_version: 1\n",
+      "order": 15,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Supervolcano",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:end_stone\n  count: 16\n  schema_version: 1\n",
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:chorus_fruit\n  count: 8\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "8 Purpur Blocks",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:purpur_block\n  count: 8\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 200,
+      "rewardMoney": 150,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_shulker_hunter",
+      "friendlyName": "Shulker Hunter",
+      "deployed": true,
+      "description": [
+        "The rarest End loot: bring 2 Shulker Shells the geyser has thrown up."
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:shulker_shell\n  count: 1\n  schema_version: 1\n",
+      "order": 16,
+      "challengeType": "INVENTORY",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Supervolcano",
+      "requirements": {
+        "class": "InventoryRequirements",
+        "parameters": {
+          "requiredItems": [
+            "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:shulker_shell\n  count: 2\n  schema_version: 1\n"
+          ],
+          "takeItems": true,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "Coin & XP",
+      "rewardItems": [],
+      "rewardExperience": 250,
+      "rewardMoney": 200,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    },
+    {
+      "uniqueId": "gusher_supervolcano_level",
+      "friendlyName": "Apex Predator",
+      "deployed": true,
+      "description": [
+        "Reach island level 1000.",
+        "(/[label] level)"
+      ],
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:beacon\n  count: 1\n  schema_version: 1\n",
+      "order": 17,
+      "challengeType": "OTHER",
+      "environment": [],
+      "removeWhenCompleted": false,
+      "level": "Supervolcano",
+      "requirements": {
+        "class": "OtherRequirements",
+        "parameters": {
+          "requiredExperience": 0,
+          "takeExperience": false,
+          "requiredMoney": 0.0,
+          "takeMoney": false,
+          "requiredIslandLevel": 1000,
+          "requiredPermissions": []
+        }
+      },
+      "rewardText": "A Beacon",
+      "rewardItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:beacon\n  count: 1\n  schema_version: 1\n"
+      ],
+      "rewardExperience": 500,
+      "rewardMoney": 1000,
+      "rewardCommands": [],
+      "repeatable": false,
+      "repeatRewardText": "",
+      "maxTimes": 0,
+      "repeatExperienceReward": 0,
+      "repeatItemReward": [],
+      "repeatMoneyReward": 0,
+      "repeatRewardCommands": []
+    }
+  ],
+  "challengeLevelList": [
+    {
+      "uniqueId": "Fumarole",
+      "friendlyName": "Fumarole",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:sulfur\n  count: 1\n  schema_version: 1\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 0,
+      "waiverAmount": 2,
+      "unlockMessage": "The vent stirs. Learn its rhythm.",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "gusher_first_catch",
+        "gusher_stockpile",
+        "gusher_catchers_rim",
+        "gusher_sulfur_trade"
+      ]
+    },
+    {
+      "uniqueId": "HotSpring",
+      "friendlyName": "Hot Spring",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:magma_block\n  count: 1\n  schema_version: 1\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 1,
+      "waiverAmount": 2,
+      "unlockMessage": "The pool warms. Feed the cube and shape the loot.",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "gusher_forester",
+        "gusher_miners_return",
+        "gusher_homestead",
+        "gusher_hot_spring_level"
+      ]
+    },
+    {
+      "uniqueId": "Geyser",
+      "friendlyName": "Geyser",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:obsidian\n  count: 1\n  schema_version: 1\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 2,
+      "waiverAmount": 2,
+      "unlockMessage": "The vent roars. Crack the crust and reach the Nether.",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "gusher_nether_key",
+        "gusher_deep_digger",
+        "gusher_geyser_level"
+      ]
+    },
+    {
+      "uniqueId": "Caldera",
+      "friendlyName": "Caldera",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:purpur_block\n  count: 1\n  schema_version: 1\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 3,
+      "waiverAmount": 2,
+      "unlockMessage": "The ground splits. Tear open the End.",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "gusher_nether_trove",
+        "gusher_end_key",
+        "gusher_caldera_level"
+      ]
+    },
+    {
+      "uniqueId": "Supervolcano",
+      "friendlyName": "Supervolcano",
+      "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  DataVersion: 4903\n  id: minecraft:beacon\n  count: 1\n  schema_version: 1\n",
+      "lockedIcon": null,
+      "world": "",
+      "order": 4,
+      "waiverAmount": 3,
+      "unlockMessage": "The apex. The vent gives everything.",
+      "rewardText": "",
+      "rewardItems": [],
+      "rewardExperience": 0,
+      "rewardMoney": 0,
+      "rewardCommands": [],
+      "challenges": [
+        "gusher_end_harvest",
+        "gusher_shulker_hunter",
+        "gusher_supervolcano_level"
+      ]
+    }
+  ],
+  "version": "0.8.0"
+}
